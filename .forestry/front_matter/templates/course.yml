@@ -73,3 +73,15 @@ fields:
     max: 
     labelField: title
   label: Program
+- name: instructor
+  type: select
+  default: []
+  config:
+    required: true
+    options: []
+    source:
+      type: pages
+      section: courses
+      file: 
+      path: 
+  label: Instructor
