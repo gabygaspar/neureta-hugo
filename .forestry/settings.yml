@@ -5,6 +5,11 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: directory
+  path: content
+  label: Pages
+  create: all
+  match: "*"
+- type: directory
   path: content/courses
   label: Courses
   create: documents
@@ -14,10 +19,13 @@ sections:
   templates:
   - course
 - type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
+  path: content/instructors
+  label: Instructors
+  create: documents
+  match: "**/*"
+  new_doc_ext: ".md"
+  templates:
+  - instructor
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
