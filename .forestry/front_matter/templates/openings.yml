@@ -5,7 +5,7 @@ fields:
 - name: openings
   type: field_group_list
   fields:
-  - name: description
+  - name: reference
     type: textarea
     default: ''
     config:
@@ -13,8 +13,8 @@ fields:
       wysiwyg: false
       schema:
         format: markdown
-    label: Description
-    description: A description about this opening date
+    label: Referencia
+    description: A reference about this opening date
   - name: mode
     type: select
     default: face-to-face
