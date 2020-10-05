@@ -4,5 +4,11 @@ openings:
   location: 'Centro Historico #45'
   product: courses/funciones-ejecutivas.md
   price: 4500
+  start_date: 01/01/2021
+  published: true
+- mode: face-to-face
+  location: 'Centro Historico #45'
+  product: courses/funciones-ejecutivas.md
+  price: 4500
   start_date: 12/31/2020
   published: true
