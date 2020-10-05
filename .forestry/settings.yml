@@ -28,14 +28,6 @@ sections:
   new_doc_ext: md
   templates:
   - course
-- type: directory
-  path: content/dates
-  label: Opening Dates
-  create: documents
-  match: "**/*"
-  new_doc_ext: md
-  templates:
-  - openings
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
