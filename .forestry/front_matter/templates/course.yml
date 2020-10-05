@@ -73,5 +73,3 @@ fields:
     max: 
     labelField: title
   label: Program
-pages:
-- content/courses/funciones-ejecutivas.md

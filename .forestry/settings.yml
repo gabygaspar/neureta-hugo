@@ -5,6 +5,15 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: content/courses
+  label: Courses
+  create: documents
+  match: "**/*"
+  exclude: _index.md
+  new_doc_ext: ".md"
+  templates:
+  - course
+- type: directory
   path: content
   label: Pages
   create: all
