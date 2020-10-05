@@ -10,6 +10,16 @@ sections:
   create: all
   match: "*"
 - type: directory
+  path: content/instructors
+  label: Instructors
+  create: documents
+  match: "**/*"
+  new_doc_ext: md
+  templates:
+  - instructor
+- type: heading
+  label: eCommerce
+- type: directory
   path: content/courses
   label: Courses
   create: documents
@@ -19,13 +29,13 @@ sections:
   templates:
   - course
 - type: directory
-  path: content/instructors
-  label: Instructors
+  path: content/dates
+  label: Opening Dates
   create: documents
   match: "**/*"
-  new_doc_ext: md
+  new_doc_ext: ".md"
   templates:
-  - instructor
+  - openings
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
