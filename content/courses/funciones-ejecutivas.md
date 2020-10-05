@@ -2,7 +2,7 @@
 title: Funciones Ejecutivas
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus,
   leo in pellentesque tristique, dolor quam mattis nisl, ac commodo nibh nisl et lectus
-featured_image: "/assets/children.jpg"
+featured_image: "/uploads/children.jpg"
 program:
 - label: Presentación
   lessons:
