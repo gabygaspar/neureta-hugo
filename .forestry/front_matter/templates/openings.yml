@@ -67,7 +67,7 @@ fields:
   config:
     min: 
     max: 
-    labelField: 
+    labelField: product
   label: Openings
 pages:
 - data/opening-dates.yml
