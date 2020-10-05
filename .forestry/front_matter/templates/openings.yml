@@ -2,59 +2,67 @@
 label: Openings
 hide_body: true
 fields:
-- name: product
-  type: select
-  default: []
-  config:
-    required: false
-    options: []
-    source:
-      type: pages
-      section: courses
-      file: 
-      path: 
-  label: Product
-- name: mode
-  type: select
-  default: []
-  config:
-    required: false
-    options:
-    - face-to-face
-    - online
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Mode
-- name: location
-  type: text
-  config:
+- name: openings
+  type: field_group_list
+  fields:
+  - name: mode
+    type: select
+    default: face-to-face
+    config:
+      required: true
+      options:
+      - face-to-face
+      - online
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Mode
+  - name: location
+    type: text
+    config:
+      required: true
+    label: Location
+    showOnly:
+      field: mode
+      value: face-to-face
+  - name: product
+    type: select
+    default: []
+    config:
+      required: true
+      options: []
+      source:
+        type: pages
+        section: courses
+        file: 
+        path: 
+    label: Product
+  - name: price
+    type: number
+    label: Price
+    description: ''
+    default: 0
     required: true
-  label: Location
-  description: 'Ex. Centro historico #45, Morelia, Michoacan'
-  showOnly:
-    field: mode
-    value: face-to-face
-- name: price
-  type: number
-  description: ''
-  default: 0
-  required: true
+    config:
+      min: 
+      max: 
+      step: 
+      required: true
+  - name: start_date
+    type: datetime
+    description: ''
+    config:
+      required: true
+      date_format: MM/DD/YYYY
+      time_format: 
+      display_utc: false
+      export_format: MM/DD/YYYY
+    label: Start Date
+    default: now
   config:
     min: 
     max: 
-    step: 
-  label: Price
-- name: start_date
-  type: datetime
-  label: Start Date
-  description: ''
-  config:
-    required: true
-    date_format: MM/DD/YYYY
-    time_format: 
-    display_utc: false
-    export_format: MM/DD/YYYY
-  default: now
+    labelField: 
+  label: Openings
