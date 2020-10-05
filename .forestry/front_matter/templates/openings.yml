@@ -2,6 +2,18 @@
 label: Openings
 hide_body: true
 fields:
+- name: product
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: courses
+      file: 
+      path: 
+  label: Product
 - name: mode
   type: select
   default: []
