@@ -32,6 +32,7 @@ program:
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut
     arcu feugiat, cursus elit in, vestibulum odio.
   lessons: []
+instructor: instructors/mtra.veronica-gabriela-gaspar.md
 
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut arcu feugiat, cursus elit in, vestibulum odio. Nulla ut purus sed nunc viverra ultricies. Duis rhoncus venenatis ultricies. Aliquam vel venenatis quam. Maecenas convallis augue sed orci luctus ultricies. Nullam ornare dignissim interdum. Vestibulum at leo ac lorem pellentesque auctor ut quis purus. Sed lectus odio, aliquet vel accumsan at, imperdiet ac purus. Aenean eget quam ex. Ut eget cursus nunc, nec cursus sapien. Nullam volutpat nisi ut mi gravida, vitae consectetur metus aliquam. Pellentesque egestas leo eget congue pretium. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
