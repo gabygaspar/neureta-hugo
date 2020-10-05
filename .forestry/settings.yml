@@ -28,6 +28,10 @@ sections:
   new_doc_ext: md
   templates:
   - course
+- type: document
+  path: data/opening-dates.yml
+  label: Opening Dates
+  match: "**/*"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
