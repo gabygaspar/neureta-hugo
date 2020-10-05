@@ -23,6 +23,20 @@ fields:
     max: 320
     min: 90
   label: Description
+- name: type
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - book
+    - materials
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Type of Product
 - name: price
   type: number
   description: ''
