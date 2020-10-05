@@ -29,6 +29,14 @@ sections:
   new_doc_ext: md
   templates:
   - course
+- type: directory
+  path: content/products
+  label: Products
+  create: documents
+  match: "**/*"
+  new_doc_ext: ".md"
+  templates:
+  - product
 - type: document
   path: data/opening-dates.yml
   label: Opening Dates
