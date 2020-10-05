@@ -1,0 +1,10 @@
+# Basic configuration
+languageCode = "es-mx"
+defaultContentLanguage = "es-mx"
+title = "Neureta"
+author = "Javier Diaz"
+
+# Hugo custom configuration
+removePathAccents = true
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+enableGitInfo = true

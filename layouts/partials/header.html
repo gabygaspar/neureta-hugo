@@ -1,0 +1,26 @@
+<header class="bg-transparent py-8 md:py-10">
+  <div class="container mx-auto px-6 md:px-8 lg:px-6 max-w-screen-xl">
+    <div class="flex justify-between md:justify-start lg:justify-between items-center">
+      <div class="relative">
+        <a class="absolute top-0 inline-flex w-40 -mt-4" href="/">
+          <img class="w-40 h-8 inline-block" src="/images/logotype.svg" alt="Neureta Logotype" />
+        </a>
+      </div>
+      {{- partial "navigation.html" . -}}
+      <div class="flex items-center w-auto">
+        <button class="p-2 inline-block ml-auto mr-2 md:mr-0">
+          <svg class="fill-current text-black w-6" viewBox="0 0 20 20">
+            <g>
+              <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+            </g>
+          </svg>
+        </button>
+        <button class="p-2 inline-block ml-auto md:hidden">
+          <svg class="fill-current text-black w-6" viewBox="0 0 20 20">
+            <path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clipRule="evenodd" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>

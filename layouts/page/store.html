@@ -1,0 +1,94 @@
+{{- define "main" -}}
+<section class="pt-20 pb-10">
+  <div class="container mx-auto px-6 md:px-8 lg:px-6 max-w-screen-xl text-center">
+    <span class="inline-block">
+      <svg class="w-10" viewBox="0 0 54 54">
+        <path d="M51.75 54H2.25C1.629 54 1.125 53.496 1.125 52.875C1.125 49.7745 3.6495 47.25 6.75 47.25H47.25C50.3505 47.25 52.875 49.7745 52.875 52.875C52.875 53.496 52.371 54 51.75 54ZM3.56625 51.75H50.4315C49.9657 50.4405 48.7148 49.5 47.2477 49.5H6.75C5.283 49.5 4.032 50.4405 3.56625 51.75Z" fill="black"/>
+        <path d="M42.75 11.25H11.25C10.629 11.25 10.125 10.746 10.125 10.125V5.625C10.125 2.5245 12.6495 0 15.75 0H38.25C41.3505 0 43.875 2.5245 43.875 5.625V10.125C43.875 10.746 43.371 11.25 42.75 11.25ZM12.375 9H41.625V5.625C41.625 3.76425 40.1108 2.25 38.25 2.25H15.75C13.8893 2.25 12.375 3.76425 12.375 5.625V9Z" fill="black"/>
+        <path d="M9 27C5.8995 27 3.375 24.4755 3.375 21.375C3.375 21.1702 3.429 20.97 3.53475 20.7968L10.2847 9.54675C10.4895 9.207 10.854 9 11.25 9H15.75C16.0875 9 16.407 9.15075 16.6208 9.41175C16.8323 9.67275 16.92 10.0148 16.8525 10.3455L14.6025 21.5955C14.625 24.4755 12.1005 27 9 27ZM5.63625 21.6652C5.78475 23.391 7.236 24.75 9 24.75C10.8608 24.75 12.375 23.2358 12.375 21.375L14.3797 11.25H11.8868L5.63625 21.6652Z" fill="black"/>
+        <path d="M27 27C23.8995 27 21.375 24.4755 21.375 21.375V10.125C21.375 9.504 21.879 9 22.5 9H31.5C32.121 9 32.625 9.504 32.625 10.125V21.375C32.625 24.4755 30.1005 27 27 27ZM23.625 11.25V21.375C23.625 23.2358 25.1393 24.75 27 24.75C28.8608 24.75 30.375 23.2358 30.375 21.375V11.25H23.625Z" fill="black"/>
+        <path d="M18 27C14.8995 27 12.375 24.4755 12.375 21.375L14.6475 9.9045C14.7533 9.378 15.2145 9 15.75 9H22.5C23.121 9 23.625 9.504 23.625 10.125V21.375C23.625 24.4755 21.1005 27 18 27ZM16.6725 11.25L14.6025 21.5955C14.625 23.2357 16.1393 24.75 18 24.75C19.8608 24.75 21.375 23.2358 21.375 21.375V11.25H16.6725Z" fill="black"/>
+        <path d="M44.9999 27C41.8994 27 39.3749 24.4755 39.3749 21.375L37.1474 10.3455C37.0821 10.0148 37.1676 9.67275 37.3814 9.41175C37.5929 9.15075 37.9124 9 38.2499 9H42.7499C43.1459 9 43.5104 9.207 43.7151 9.54675L50.4651 20.7968C50.5709 20.97 50.6249 21.1702 50.6249 21.375C50.6249 24.4755 48.1004 27 44.9999 27ZM39.6224 11.25L41.6024 21.1545C41.6249 23.2358 43.1391 24.75 44.9999 24.75C46.7639 24.75 48.2151 23.391 48.3636 21.6652L42.1131 11.25H39.6224Z" fill="black"/>
+        <path d="M36 27C32.8995 27 30.375 24.4755 30.375 21.375V10.125C30.375 9.504 30.879 9 31.5 9H38.25C38.7855 9 39.2468 9.378 39.3525 9.9045L41.6025 21.1545C41.625 24.4755 39.1005 27 36 27ZM32.625 11.25V21.375C32.625 23.2358 34.1393 24.75 36 24.75C37.8608 24.75 39.375 23.2358 39.375 21.375L37.3298 11.25H32.625Z" fill="black"/>
+        <path d="M45 49.5H9C8.379 49.5 7.875 48.996 7.875 48.375V25.875C7.875 25.254 8.379 24.75 9 24.75C9.621 24.75 10.125 25.254 10.125 25.875V47.25H43.875V25.875C43.875 25.254 44.379 24.75 45 24.75C45.621 24.75 46.125 25.254 46.125 25.875V48.375C46.125 48.996 45.621 49.5 45 49.5Z" fill="black"/>
+        <path d="M24.75 42.75H13.5C12.879 42.75 12.375 42.246 12.375 41.625V30.375C12.375 29.754 12.879 29.25 13.5 29.25H24.75C25.371 29.25 25.875 29.754 25.875 30.375V41.625C25.875 42.246 25.371 42.75 24.75 42.75ZM14.625 40.5H23.625V31.5H14.625V40.5Z" fill="black"/>
+        <path d="M40.5 49.5H29.25C28.629 49.5 28.125 48.996 28.125 48.375V30.375C28.125 29.754 28.629 29.25 29.25 29.25H40.5C41.121 29.25 41.625 29.754 41.625 30.375V48.375C41.625 48.996 41.121 49.5 40.5 49.5ZM30.375 47.25H39.375V31.5H30.375V47.25Z" fill="black"/>
+      </svg>
+    </span>
+    <h1 class="text-4xl font-display font-bold">Tienda</h1>
+    <p class="text-xl text-black text-opacity-75 font-bold md:w-77 md:mx-auto mb-10">
+      Explora todos nuestros productos
+    </p>
+    <p>
+      ¿No encontraste el producto que buscabas? <a class="font-bold text-black text-opacity-50 hover:text-opacity-100 border-b-2 border-black border-opacity-50 hover:border-opacity-100" href="/">Escríbenos</a>
+    </p>
+  </div>
+</section>
+<section class="pt-10 pb-20">
+  <div class="container mx-auto px-6 md:px-8 lg:px-6 max-w-screen-xl">
+    <div class="mb-20">
+      <h2 class="text-xl font-display font-bold border-b mb-2 md:mx-3">Libros</h2>
+      <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-0 gap-y-0 md:gap-y-6 xl:gap-6 mb-12 -mx-3 md:mx-0">
+        <article class="bg-white p-3 border-gray-200 rounded flex flex-row md:flex-col border-b last:border-b-0 md:border-none py-6 md:py-3">
+          <div class="relative w-28 h-28 md:w-full md:h-full md:pb-40 mb-4 mr-4 md:mr-0 flex-shrink-0 overflow-hidden">
+            <img loading="lazy" class="relative md:absolute w-full h-full object-cover rounded" src="https://images.unsplash.com/photo-1518210777420-a2f84c71fffc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80&w=280" alt="cover demo" />
+          </div>
+          <div class="w-full">
+            <span class="block text-gray font-display font-bold tracking-wider text-base uppercase mb-1">
+              Libro
+            </span>
+            <p class="text-lg font-bold mb-2">Your soul is a river</p>
+            <div class="mb-4">
+              <p class="flex items-center">
+                <span class="inline-block mr-1 leading-tight">MXN</span>
+                <span class="inline-block text-lg font-bold leading-tight">$4,500</span>
+              </p>
+            </div>
+            <a href="/" class="inline-flex justify-center text-base md:text-normal text-white bg-primary-600 hover:bg-primary-700 px-4 py-3 w-full rounded">
+              <svg class="fill-current w-5 md:w-6 mr-2" viewBox="0 0 20 20">
+                <g>
+                  <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                </g>
+              </svg>
+              Agregar al carrito
+            </a>
+          </div>
+        </article>
+      </div>
+      <p class="text-center">
+        <a class="inline-block text-center text-black hover:bg-gray-100 border-2 border-black px-4 py-3 w-64 rounded" href="/">Ver todos</a>
+      </p>
+    </div>
+    <div>
+      <h2 class="text-xl font-display font-bold border-b mb-2 md:mx-3">Material Didáctico</h2>
+      <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-0 gap-y-0 md:gap-y-6 xl:gap-6 mb-12 -mx-3 md:mx-0">
+        <article class="bg-white p-3 border-gray-200 rounded flex flex-row md:flex-col border-b last:border-b-0 md:border-none py-6 md:py-3">
+          <div class="relative w-28 h-28 md:w-full md:h-full md:pb-40 mb-4 mr-4 md:mr-0 flex-shrink-0">
+            <img loading="lazy" class="relative md:absolute w-full h-full object-cover rounded" src="https://images.unsplash.com/photo-1518210777420-a2f84c71fffc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80&w=280" alt="cover demo" />
+          </div>
+          <div class="w-full">
+            <span class="block text-gray font-display font-bold tracking-wider text-base uppercase mb-1">
+              Libro
+            </span>
+            <p class="text-lg font-bold mb-2">Your soul is a river</p>
+            <div class="mb-4">
+              <p class="flex items-center">
+                <span class="inline-block mr-1 leading-tight">MXN</span>
+                <span class="inline-block text-lg font-bold leading-tight">$4,500</span>
+              </p>
+            </div>
+            <a href="/" class="inline-flex justify-center text-base md:text-normal text-white bg-primary-600 hover:bg-primary-700 px-4 py-3 w-full rounded">
+              <svg class="fill-current w-5 md:w-6 mr-2" viewBox="0 0 20 20">
+                <g>
+                  <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                </g>
+              </svg>
+              Agregar al carrito
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+{{- end -}}

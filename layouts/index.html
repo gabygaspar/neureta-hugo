@@ -1,0 +1,82 @@
+{{- define "main" -}}
+<section class="pt-8 mb-16 md:pb-24">
+  <div class="container mx-auto px-6 md:px-8 lg:px-6 max-w-screen-xl">
+    <div class="grid lg:grid-cols-2 md:gap-5 lg:gap-10">
+      <div class="lg:py-32">
+        <h1 class="text-3xl md:text-4xl xl:text-5xl font-display font-bold leading-tight mb-4">
+          Formación y orientación para optimizar el futuro y autonomía infantil
+        </h1>
+        <p class="text-gray-600 md:text-xl lg:text-lg xl:text-xl leading-relaxed md:w-full lg:w-4/5 mb-6">
+          Promovemos la formación del profesorado para una mejor evaluación e intervención en los efectos del desarrollo infantil.
+        </p>
+        <div class="flex flex-col md:flex-row">
+          <button class="inline-flex items-center justify-center px-8 py-3 md:py-4 md:text-lg md:px-10 bg-primary-600 hover:bg-primary-700 text-white rounded mr-0 md:mr-2 md:w-56 mb-3 md:mb-0">
+            Ir a cursos
+          </button>
+          <button class="inline-flex items-center justify-center px-8 py-3 md:py-4 md:text-lg md:px-10 bg-gray-100 hover:bg-gray-200 rounded">
+            <span class="inline-block">Ponte en contacto</span>
+          </button>
+        </div>
+      </div>
+      <div class="mt-5 pt-70 pb-64 md:py-70 lg:py-10 relative">
+        <ul class="flex">
+          <li class="absolute top-0 right-0 mt-12 md:mt-10">
+            <img class="rounded w-53 md:w-80 lg:w-70 xl:w-77" src="/images/girl-reading.jpg" alt="A las niñas les gusta leer" />
+          </li>
+          <li class="absolute bottom-0 mb-32 md:mb-16 lg:mb-24">
+            <img class="rounded w-70 md:w-124 lg:w-90 xl:w-124" src="/images/children.jpg" alt="A los niños les gusta explorar" />
+          </li>
+          <li class="absolute bottom-0 right-0 -mb-4 md:mb-0 mr-4 md:mr-8">
+            <img class="rounded w-48 md:w-53 lg:w-42 xl:w-53" src="/images/child-learning.jpg" alt="A los niños les gusta aprender" />
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="pt-10 pb-24">
+  <div class="container mx-auto px-6 md:px-8 lg:px-6 max-w-screen-xl">
+    <div class="text-center mb-6">
+      <span class="inline-flex text-lg text-gray-500 font-bold font-display uppercase tracking-wider">
+        Nuestros cursos
+      </span>
+      <h2 class="text-3xl md:text-4xl xl:text-5xl font-bold font-display">Encuentra el curso adecuado para ti</h2>
+    </div>
+    <div class="mb-12"></div>
+    <p class="text-center">
+      <a class="inline-block text-center text-black hover:bg-gray-100 border-2 border-black px-4 py-3 w-64 rounded" href="/">Ver nuestro catálogo</a>
+    </p>
+  </div>
+</section>
+{{- partialCached "sections/offer.html" . -}}
+<section class="pt-10 md:pb-0 lg:pb-20">
+  <div class="container mx-auto px-6 md:px-8 lg:px-6 max-w-screen-xl">
+    <div class="bg-yellow-50 px-6 py-4 md:px-12 md:py-8 xl:px-20 xl:py-12 rounded-lg">
+      <div class="grid lg:grid-cols-2 gap-5 xl:gap-10">
+        <div class="py-4">
+          <span class="block text-black text-opacity-75 font-bold font-display uppercase tracking-wider mb-4">
+            Conecta y aprende
+          </span>
+          <h3 class="text-3xl md:text-4xl lg:text-3.5xl xl:text-4xl font-display font-bold leading-tight mb-4">
+            Promueve la investigación y conecta con profesionales como tú
+          </h3>
+          <p class="text-black text-opacity-75 text-lg xl:text-xl leading-relaxed mb-4">A través de nuestros cursos, podrás conectar con personas de muchas partes del mundo que comparten la misma pasión que tú por investigar, aprender y compartir conocimiento.</p>
+          <p class="text-black text-opacity-75 text-lg xl:text-xl leading-relaxed mb-8">Para lograrlo, promovemos la investigación interdiciplinaria proponiendo e innovando metodologías para posibilitar el optimo desarrollo infantil.</p>
+          <p class="text-black text-opacity-75 text-lg xl:text-xl leading-relaxed mb-4">El cambio es siempre el resultado final de todo verdadero aprendizaje.</p>
+          <p class="text-black text-opacity-75 text-lg xl:text-xl font-bold leading-relaxed">Leo Buscaglia.</p>
+        </div>
+        <div class="relative md:py-90">
+          <ul class="flex flex-col md:flex-row">
+            <li class="relative md:absolute top-0 mb-4 md:mb-0 right-0 md:mt-4 lg:mt-16">
+              <img class="rounded w-full md:w-110 lg:w-90 xl:w-120" src="/images/speaker.png" alt="Nos gusta hablar de Neurociencia y todo sobre el aprendizaje infantil" />
+            </li>
+            <li class="relative md:absolute bottom-0 mb-4 md:mb-8 lg:mb-0 lg:ml-2 xl:ml-5">
+              <img class="rounded w-full lg:w-77 xl:w-80" src="/images/online-calls.png" alt="Y también, compartir el conocimiento con profesionales como tú" />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{- end -}}

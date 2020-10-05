@@ -1,0 +1,9 @@
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+{{- $style := resources.Get "css/styles.css" | postCSS -}}
+{{- if .Site.IsServer -}}
+<style type="text/css">{{ $style.Content | safeCSS }}</style>
+{{- else -}}
+{{- $style := $style | minify | resources.PostProcess -}}
+<style type="text/css">{{ $style.Content | safeCSS }}</style>
+{{- end -}}

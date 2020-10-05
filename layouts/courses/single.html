@@ -1,0 +1,220 @@
+{{- define "main" -}}
+<section class="pb-10 md:py-10 lg:pt-10 lg:pb-20 border-b border-gray-300 border-opacity-50">
+  <div class="container mx-auto px-6 md:px-8 lg:px-6 max-w-screen-xl">
+    <div class="grid lg:grid-cols-10 xl:grid-cols-12 gap-6 md:gap-10">
+      <div class="lg:col-span-6 xl:col-span-8 flex flex-col md:flex-row items-center">
+        <div class="w-full flex mb-4 md:mb-0">
+          <div class="flex-shrink-0 relative w-24 h-24 pb-24 md:w-64 md:h-64 lg:w-56 lg:h-56 md:pb-32 mr-6">
+            <img class="object-cover absolute w-full h-full rounded" src="{{ .Params.featured_image }}" alt="{{ .Params.Title }}" />
+          </div>
+          <div class="flex flex-col w-full justify-center">
+            <span class="inline-block tracking-wider text-base font-bold text-primary-600 uppercase">
+              Curso
+            </span>
+            <h1 class="text-darken text-1.5xl md:text-3xl lg:text-2xl font-bold">{{ .Params.Title }}</h1>
+            <p class="hidden md:flex text-gray-700 leading-relaxed mb-8">{{ .Params.Description }}</p>
+            <div class="hidden md:flex items-center">
+              <img src="https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=56&h=56&q=80" class="w-12 h-12 rounded-full mr-4" alt="Avatar del Instructor" />
+              <div class="flex flex-col">
+                <span class="inline-block text-sm text-primary-600 font-bold tracking-wider uppercase">Impartido por</span>
+                <span class="inline-block font-bold">Mtra. Verónica Gabriela Gaspar</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="block">
+          <p class="flex md:hidden text-gray-700 leading-relaxed mb-4 md:mb-8">{{ .Params.Description }}</p>
+          <div class="flex md:hidden items-center">
+            <img src="https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=56&h=56&q=80" class="w-12 h-12 rounded-full mr-4" alt="Avatar del Instructor" />
+            <div class="flex flex-col">
+              <span class="inline-block text-sm text-primary-600 font-bold tracking-wider uppercase">Impartido por</span>
+              <span class="inline-block font-bold">Mtra. Verónica Gabriela Gaspar</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="lg:col-span-4 xl:col-span-4 bg-primary-600 rounded p-6">
+        <span class="block text-center text-opacity-75 font-bold md:text-xl lg:text-normal xl:text-lg text-white">Únete a nuestro próximo curso</span>
+        <p class="text-center text-white text-2xl md:text-3xl font-bold mb-8">
+          $4,500.00 <span class="text-lg font-normal">MXN</span>
+        </p>
+        <p class="leading-snug mb-6 text-white">
+          <span class="block text-sm leading-5 font-semibold tracking-wider text-white text-opacity-50 uppercase">
+            Ubicación
+          </span>
+          Centro historico #45, Morelia, Michoacán, México
+        </p>
+        <div class="grid grid-cols-2 gap-10 mb-6">
+          <p class="leading-snug text-white">
+            <span class="block text-sm leading-5 font-semibold tracking-wider text-white text-opacity-50 uppercase">
+              Fecha de inicio
+            </span>
+            31/Diciembre/2020
+          </p>
+          <p class="leading-snug text-white">
+            <span class="block text-sm leading-5 font-semibold tracking-wider text-white text-opacity-50 uppercase">
+              Duración
+            </span>
+            4 semanas
+          </p>
+        </div>
+        <div class="flex flex-col lg:flex-row">
+          <a class="inline-flex items-center justify-center px-8 py-3 md:py-4 md:px-8 bg-white hover:shadow-md text-black hover:text-primary-700 rounded w-full mr-3 mb-2 lg:mb-0 transition delay-100 duration-200" href="/">
+            Comprar ahora
+          </a>
+          <a class="inline-flex justify-center w-full lg:w-32 px-8 py-3 md:py-4 md:px-8 bg-white bg-opacity-20 border border-white text-white border-opacity-10 hover:bg-opacity-30 rounded hover:shadow-md transition delay-100 duration-300" href="/" aria-label="Agregar al carrito">
+            <svg class="fill-current text-white w-6 h-6 mr-2 lg:mr-0" viewBox="0 0 20 20">
+              <g>
+                <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+              </g>
+            </svg>
+            <span class="lg:hidden">Agregar al carrito</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="bg-gray-100 bg-opacity-25">
+  <div class="container mx-auto px-6 md:px-8 lg:px-6 max-w-screen-xl">
+    <div class="grid lg:grid-cols-12 xl:gap-10">
+      <div class="lg:col-span-8 py-10 lg:pr-10 lg:pt-12 lg:pb-40">
+        <div class="mb-8">
+          <span class="inline-block font-bold tracking-wider uppercase text-base mb-4">Contenido del curso</span>
+          <div class="text-gray-600 leading-relaxed mb-4">{{ .Content }}</div>
+        </div>
+        <div class="mb-4">
+          <span class="inline-block font-bold tracking-wider uppercase text-base mb-4">Programa</span>
+          <ul></ul>
+        </div>
+        <p class="leading-relaxed">
+          ¿Tienes dudas sobre el contenido del curso? <a class="font-bold underline" href="/">Escríbenos</a>
+        </p>
+      </div>
+      <aside class="lg:col-span-4 pt-4 pb-10 lg:px-8 lg:py-12 lg:border-l border-gray-300 border-opacity-50">
+        <span class="inline-block text-lg font-bold mb-4">Información Adicional</span>
+        <div class="mb-5 md:mb-10 lg:mb-20 flex flex-col md:flex-row lg:flex-col">
+          <div class="mb-4 mr-16 lg:mr-0">
+            <p class="inline-flex items-center font-bold">
+              <svg class="fill-current w-6 mr-2" viewBox="0 0 24 24">
+                <g>
+                  <path
+                    fill="#000"
+                    fill-rule="evenodd"
+                    d="M8.558 11.823c-.97.51-1.477 1.097-1.61 1.493a1 1 0 01-1.897-.632c.368-1.104 1.403-2.016 2.578-2.632C8.843 9.416 10.377 9 12 9c1.624 0 3.158.416 4.371 1.052 1.175.616 2.21 1.528 2.578 2.632a1 1 0 01-1.897.632c-.132-.396-.638-.984-1.61-1.493C14.51 11.334 13.294 11 12 11c-1.294 0-2.51.334-3.442.823z"
+                    clip-rule="evenodd"
+                    ></path>
+                  <path
+                    fill="#000"
+                    fill-rule="evenodd"
+                    d="M12 4a2 2 0 100 4 2 2 0 000-4zM8 6a4 4 0 118 0 4 4 0 01-8 0zM2.245 12.345A1 1 0 013 12h18a1 1 0 01.99 1.141l-1 7a1 1 0 01-1.98-.282L19.847 14H4.153l.837 5.859a1 1 0 01-1.98.282l-1-7a1 1 0 01.235-.796z"
+                    clip-rule="evenodd"
+                    ></path>
+                </g>
+              </svg>
+              Modalidad
+            </p>
+            <p class="ml-8 leading-none">Presencial o en línea</p>
+          </div>
+          <div class="mb-4">
+            <p class="inline-flex items-center font-bold">
+              <svg class="fill-current w-6 mr-2" viewBox="0 0 24 24">
+                <g>
+                  <path
+                    stroke="#000"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    fill="none"
+                    d="M12 8v4l3 3-3-7zm9 4a9 9 0 11-18 0 9 9 0 0118 0z"
+                  ></path>
+                </g>
+              </svg>
+              Duración del curso
+            </p>
+            <p class="ml-8 leading-none mb-2">4 semanas (En línea)</p>
+            <p class="ml-8 leading-none">1 día (Presencial)</p>
+          </div>
+        </div>
+        <span class="inline-block text-lg font-bold mb-4">Que incluye el curso</span>
+        <div class="mb-10 lg:mb-20">
+          <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1">
+            <li class="inline-flex items-center md:items-start lg:items-center mr-4 last:mr-0 mb-3 last:mb-0">
+              <svg class="fill-current w-4 md:mt-1 lg:mt-0 mr-2" viewBox="0 0 16 16">
+                <path
+                  fill="#2DA960"
+                  fill-rule="evenodd"
+                  d="M8 16A8 8 0 108-.001 8 8 0 008 16zm3.707-9.293a1 1 0 00-1.414-1.414L7 8.586 5.707 7.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <span class="leading-tight">Prácticas Garantizadas</span>
+            </li>
+            <li class="inline-flex items-start lg:items-center mr-4 last:mr-0 mb-3 last:mb-0">
+              <svg class="fill-current text-white w-4 md:mt-1 lg:mt-0 mr-2" viewBox="0 0 16 16">
+                <path
+                  fill="#2DA960"
+                  fill-rule="evenodd"
+                  d="M8 16A8 8 0 108-.001 8 8 0 008 16zm3.707-9.293a1 1 0 00-1.414-1.414L7 8.586 5.707 7.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <span class="leading-tight">Certificado de terminación</span>
+            </li>
+            <li class="inline-flex items-start lg:items-center mr-4 last:mr-0 mb-3 last:mb-0">
+              <svg class="fill-current w-4 md:mt-1 lg:mt-0 mr-2" viewBox="0 0 16 16">
+                <path
+                  fill="#2DA960"
+                  fill-rule="evenodd"
+                  d="M8 16A8 8 0 108-.001 8 8 0 008 16zm3.707-9.293a1 1 0 00-1.414-1.414L7 8.586 5.707 7.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <span class="leading-tight">Videos e imágenes</span>
+            </li>
+            <li class="inline-flex items-start lg:items-center mr-4 last:mr-0 mb-3 last:mb-0">
+              <svg class="fill-current w-4 md:mt-1 lg:mt-0 mr-2" viewBox="0 0 16 16">
+                <path
+                  fill="#2DA960"
+                  fill-rule="evenodd"
+                  d="M8 16A8 8 0 108-.001 8 8 0 008 16zm3.707-9.293a1 1 0 00-1.414-1.414L7 8.586 5.707 7.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <span class="leading-tight">Esquemas de aprendizaje</span>
+            </li>
+          </ul>
+        </div>
+        <span class="inline-block text-lg font-bold mb-4">Próximas fechas</span>
+        <div class="mb-10">
+          <table class="m-0 w-full">
+            <thead class="border-b">
+              <tr class="text-base text-gray-600">
+                <th class="text-left font-medium">Fecha</th>
+                <th class="text-left font-medium">Modalidad</th>
+                <th aria-label="Inscripción"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="text-base">
+                <td class="py-2 pr-3">31/Ene/2021</td>
+                <td class="py-2 pr-3">Online</td>
+                <td class="py-2 ">
+                  <button class="text-white w-full px-4 py-2 text-base rounded bg-primary-600">Inscribirme</button>
+                </td>
+              </tr>
+              <tr class="text-base">
+                <td class="py-2 pr-3">31/Ago/2021</td>
+                <td class="py-2 pr-3">Presencial</td>
+                <td class="py-2 ">
+                  <button class="text-white w-full px-4 py-2 text-base rounded bg-primary-600">Inscribirme</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+{{- end -}}

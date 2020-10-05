@@ -1,0 +1,93 @@
+{{- define "main" -}}
+<section class="pt-6 md:pt-12 pb-0 mb-4 md:mb-10 overflow-hidden">
+  <div class="container mx-auto px-6 md:px-8 lg:px-6 max-w-screen-xl">
+    <div class="px-8 md:px-12 py-8 grid md:grid-cols-2 bg-red-100 rounded-lg">
+      <div class="mb-6 md:mb-0">
+        <h1 class="text-3xl font-display font-bold">Nuestros cursos</h1>
+        <p class="text-black text-opacity-50 text-lg font-display font-bold mb-6 md:mb-20">Explora a través de nuestro catálogo y encuentra el curso adecuado para tí</p>
+        <p>¿No encontraste el curso que buscabas? <a class="font-bold text-black text-opacity-50 hover:text-opacity-100 border-b-2 border-black border-opacity-50 hover:border-opacity-100" href="/">Escríbenos</a></p>
+      </div>
+      <div class="relative py-32 md:py-0">
+        <ul class="absolute flex top-0 right-0 md:-mr-18 lg:-mr-10 md:-mt-16 lg:-mt-2 xl:-mt-18">
+          <li class="hidden lg:block">
+            <img class="w-full" src="/images/person-man.svg" alt="El aprendizaje en línea es una de las fuentes de aprendizaje más adoptadas por estudiantes" />
+          </li>
+          <li>
+            <img class="w-full" src="/images/person-woman.svg" alt="La incursión de las mujeres en tecnología ha ayudado al crecimiento en igualdad de oportunidades" />
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="pb-10">
+  <div class="container mx-auto px-6 md:px-8 lg:px-6 max-w-screen-xl">
+    <div class="grid md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
+      <!-- <aside class="hidden md:block col-span-1 relative">
+        <div class="sticky top-0 pt-4">
+          <span class="inline-block text-lg font-display font-bold mb-4">Categorías</span>
+          <ul class="flex">
+            <li>
+              <a class="inline-flex items-center w-full px-4 py-2 bg-primary-100 bg-opacity-50 hover:bg-primary-50 hover:bg-opacity-100 rounded mb-2 last:mb-0" href="/">
+                <span class="w-2 h-2 bg-black rounded mr-2"></span>
+                Todos
+              </a>
+              <a class="inline-flex items-center w-full px-4 py-2 hover:bg-gray-50 rounded mb-2 last:mb-0" href="/">
+                <span class="w-2 h-2 bg-primary-300 rounded mr-2"></span>
+                Psicología
+              </a>
+              <a class="inline-flex items-center w-full px-4 py-2 hover:bg-gray-50 rounded mb-2 last:mb-0" href="/">
+                <span class="w-2 h-2 bg-secondary-300 rounded mr-2"></span>
+                Neurociencia
+              </a>
+              <a class="inline-flex items-center w-full px-4 py-2 hover:bg-gray-50 rounded mb-2 last:mb-0" href="/">
+                <span class="w-2 h-2 bg-yellow-300 rounded mr-2"></span>
+                Logopedia
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside> -->
+      <div class="md:col-span-4 xl:col-span-6 pt-4">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-2 gap-4 gap-y-5">
+          <article class="bg-white border border-gray-200 rounded p-4 md:p-3 flex md:flex-col xl:flex-row">
+            <div class="hidden md:block relative w-24 md:w-full md:pb-32 xl:pb-0 mb-4 xl:mb-0 xl:w-48 xl:h-auto flex-shrink-0 rounded mr-3">
+              <img class="absolute object-cover w-full h-full rounded" src="https://images.unsplash.com/photo-1586178825095-b1ddca26f9d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&f=jpg&fit=crop&w=450&h=320&q=80" alt="Imagen del curso"></img>
+            </div>
+            <div>
+              <span class="inline-block text-lg font-display font-bold mb-2 leading-snug">
+                Gestión del aula: Orientaciones prácticas
+              </span>
+              <p class="text-gray-600 mb-4">Aprende a cómo gestionar el aula de forma eficaz.</p>
+              <ul class="flex mb-4">
+                <li class="mr-1">
+                  <span class="inline-flex py-1 px-2 text-sm rounded bg-pink-100">psicología</span>
+                </li>
+                <li>
+                  <span class="inline-flex py-1 px-2 text-sm rounded bg-secondary-100">educación</span>
+                </li>
+              </ul>
+              <p class="flex items-center mb-4">
+                <span class="inline-block mr-1 leading-tight">MXN</span>
+                <span class="inline-block text-lg font-bold leading-tight">$4,500</span>
+              </p>
+              <div class="flex">
+                <a href="/" class="w-2/3 inline-flex items-center justify-center text-white bg-primary-600 hover:bg-primary-700 px-4 py-3 rounded mr-2">
+                  Ver más
+                </a>
+                <a href="/" class="inline-flex items-center justify-center text-white bg-gray-50 hover:bg-gray-200 px-4 py-3 w-1/3 rounded">
+                  <svg type="cart" class="fill-current text-black w-6" viewBox="0 0 20 20">
+                    <g>
+                      <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                    </g>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{- end -}}
