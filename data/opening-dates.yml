@@ -1,6 +1,12 @@
 ---
 openings:
 - mode: face-to-face
+  location: Centro Historico
+  product: courses/funciones-ejecutivas.md
+  price: 3500
+  start_date: 10/15/2020
+  published: true
+- mode: face-to-face
   location: 'Centro Historico #45'
   product: courses/funciones-ejecutivas.md
   price: 4500
