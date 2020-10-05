@@ -69,3 +69,5 @@ fields:
     max: 
     labelField: 
   label: Openings
+pages:
+- data/opening-dates.yml
