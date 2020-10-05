@@ -14,6 +14,7 @@ sections:
   label: Instructors
   create: documents
   match: "**/*"
+  exclude: index.md
   new_doc_ext: md
   templates:
   - instructor
