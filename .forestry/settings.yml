@@ -33,7 +33,7 @@ sections:
   label: Opening Dates
   create: documents
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - openings
 upload_dir: static/uploads
