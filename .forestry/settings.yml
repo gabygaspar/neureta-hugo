@@ -23,7 +23,7 @@ sections:
   label: Instructors
   create: documents
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - instructor
 upload_dir: static/uploads

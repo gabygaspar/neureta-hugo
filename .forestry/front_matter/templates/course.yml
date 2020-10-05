@@ -81,7 +81,7 @@ fields:
     options: []
     source:
       type: pages
-      section: courses
+      section: instructors
       file: 
       path: 
   label: Instructor
