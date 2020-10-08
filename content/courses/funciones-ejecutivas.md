@@ -7,7 +7,7 @@ program:
   lessons:
   - title: Las funciones Ejecuitvas y sus derivados.
   - title: Las diferentes caracteristucas de las funciones ejecutivas
-  - title: 'Lección 2: Organización del curso'
+  - title: interveción neurospicologica
   title: esperemos que todos se encuentren bien con los temas
   description: Los diferentes temas analiados ayudarana  que todos los participantes
     puedan comprender la estructura cerebral de la funciones ejecutuvas.
