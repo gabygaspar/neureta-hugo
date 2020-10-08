@@ -6,7 +6,7 @@ program:
 - label: 'Daremos seguimiento a todas las '
   lessons:
   - title: Las funciones Ejecuitvas y sus derivados.
-  - title: 'Lección 1: Presentación del curso'
+  - title: Las diferentes caracteristucas de las funciones ejecutivas
   - title: 'Lección 2: Organización del curso'
   title: esperemos que todos se encuentren bien con los temas
   description: Los diferentes temas analiados ayudarana  que todos los participantes
