@@ -9,27 +9,27 @@ description = "descripción"
 label = "label"
 title = "MÓDULO 1.- ATENCIÓN EN EL APRENDIZAJE."
 [[program.lessons]]
-title = "Lección 11.- Atención y Planificación."
-[[program.lessons]]
-title = "Lección 10.- Atención y Flexibilidad Cognitiva."
-[[program.lessons]]
-title = "Lección 9.- Atención e Inhibición o control de la interferencia."
-[[program.lessons]]
-title = "Lección 8.- Atención y Memoria de Trabajo."
-[[program.lessons]]
-title = "Lección 7.- Atención y Velocidad de Procesamiento."
-[[program.lessons]]
 title = "Lección1.- Concepto."
 [[program.lessons]]
 title = "Lección 2.- Características de la Atención."
 [[program.lessons]]
 title = "Lección 3.- Desarrollo de la Atención"
 [[program.lessons]]
-title = "Lección 5.- Atención, Memoria y Aprendizaje."
-[[program.lessons]]
 title = "Lección 4.- Componentes de la Atención."
 [[program.lessons]]
+title = "Lección 5.- Atención, Memoria y Aprendizaje."
+[[program.lessons]]
 title = "Lección 6.- Atención y Funciones Ejecutivas."
+[[program.lessons]]
+title = "Lección 7.- Atención y Velocidad de Procesamiento."
+[[program.lessons]]
+title = "Lección 8.- Atención y Memoria de Trabajo."
+[[program.lessons]]
+title = "Lección 9.- Atención e Inhibición o control de la interferencia."
+[[program.lessons]]
+title = "Lección 10.- Atención y Flexibilidad Cognitiva."
+[[program.lessons]]
+title = "Lección 11.- Atención y Planificación."
 [[program]]
 description = "descripción"
 label = "label"
