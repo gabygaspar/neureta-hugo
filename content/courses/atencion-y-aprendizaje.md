@@ -49,6 +49,8 @@ description = "DESCRIPCION"
 label = "LABEL"
 title = "MÓDULO 3.- EVALUACIÓN DE LA ATENCIÓN."
 [[program.lessons]]
+title = "Lección 5.- Evaluación Test de Atención D2."
+[[program.lessons]]
 title = "Lección 4.- Pruebas de evaluación Neuropsicológica."
 [[program.lessons]]
 title = "Lección 1.- Fundamentos de la evaluación Neuropsicológica."
