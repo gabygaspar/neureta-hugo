@@ -33,6 +33,8 @@ description = "descripción"
 label = "label"
 title = "MÓDULO 2: CONCIENCIA FONOLÓGICA"
 [[program.lessons]]
+title = "Lección 7.- Conciencia Silábica."
+[[program.lessons]]
 title = "Lección 6.- Niveles de la Conciencia Fonológica."
 [[program.lessons]]
 title = "Lección 5.- Niveles de Conciencia Fonológica."
