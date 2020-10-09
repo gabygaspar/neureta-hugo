@@ -9,6 +9,8 @@ description = "descripción"
 label = "label"
 title = "MÓDULO 1: DESARROLLO DE LA LECTURA Y ESCRITURA."
 [[program.lessons]]
+title = "Lección 5.- Circuitos cerebrales del habla."
+[[program.lessons]]
 title = "Lección 4.- Lenguaje VS Lectura y Escritura."
 [[program.lessons]]
 title = "Lección 3.- Acceso a la lectura."
