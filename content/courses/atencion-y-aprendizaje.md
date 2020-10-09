@@ -7,8 +7,9 @@ title = "ATENCIÓN Y APRENDIZAJE"
 [[program]]
 description = "descripción"
 label = "label"
-lessons = []
 title = "MÓDULO 1.- ATENCIÓN EN EL APRENDIZAJE."
+[[program.lessons]]
+title = "Lección1.- Concepto."
 [[program]]
 description = "descripción"
 label = "label"
