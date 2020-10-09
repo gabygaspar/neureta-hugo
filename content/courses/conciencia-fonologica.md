@@ -7,8 +7,9 @@ title = "CONCIENCIA FONOLÓGICA"
 [[program]]
 description = "descrpción"
 label = "label"
-lessons = []
 title = "MÓDULO 3.- EVALUACÓN DE LA CONCIENCIA FONOLÓGICA."
+[[program.lessons]]
+title = "Lección 1.- Evaluación de la Conciencia Fonológica."
 [[program]]
 description = "descripción"
 label = "label"
