@@ -1,5 +1,5 @@
 +++
-description = "\"La atención es la entrada de la información\""
+description = "\"La atención es el foco del aprendizaje\""
 draft = true
 featured_image = ""
 instructor = "instructors/mtra.veronica-gabriela-gaspar.md"
