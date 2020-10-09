@@ -35,6 +35,8 @@ description = "descripción"
 label = "label"
 title = "MÓDULO 2.- BASES NEUROANATÓMICAS DE LA ATENCIÓN."
 [[program.lessons]]
+title = "Lección 5.- Atención y TDAH."
+[[program.lessons]]
 title = "Lección 4.-Diferencia Hemisférica en la Atención."
 [[program.lessons]]
 title = "Lección 1.- Estructuras corticales y subcorticales."
