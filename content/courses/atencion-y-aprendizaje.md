@@ -9,6 +9,8 @@ description = "descripción"
 label = "label"
 title = "MÓDULO 1.- ATENCIÓN EN EL APRENDIZAJE."
 [[program.lessons]]
+title = "Lección 6.- Atención y Funciones Ejecutivas."
+[[program.lessons]]
 title = "Lección 5.- Atención, Memoria y Aprendizaje."
 [[program.lessons]]
 title = "Lección 4.- Componentes de la Atención."
