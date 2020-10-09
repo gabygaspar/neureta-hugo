@@ -9,6 +9,8 @@ description = "descrpción"
 label = "label"
 title = "MÓDULO 3.- EVALUACÓN DE LA CONCIENCIA FONOLÓGICA."
 [[program.lessons]]
+title = "Lección 6.- Otras pruebas."
+[[program.lessons]]
 title = "Lección 5.- Prueba ProLec"
 [[program.lessons]]
 title = "Lección 4.- Actividades más utilizadas para la Conciencia Fonémica."
