@@ -69,6 +69,8 @@ description = "DESCRIPCION"
 label = "LABEL"
 title = "MÓDULO 4.- REHABILITACIÓN NEUROPSICOLÓGICA DE LA ATENCIÓN."
 [[program.lessons]]
+title = "LECCIÓN 8.-Flexibilidad Cognitiva."
+[[program.lessons]]
 title = "LECCIÓN 7.-Planificación"
 [[program.lessons]]
 title = "LECCIÓN 6.-Velocidad de Procesamiento."
