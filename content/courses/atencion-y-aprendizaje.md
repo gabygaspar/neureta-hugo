@@ -2,7 +2,7 @@
 description = "\"La atención es la entrada de la información\""
 draft = true
 featured_image = ""
-instructor = []
+instructor = "instructors/mtra.veronica-gabriela-gaspar.md"
 title = "ATENCIÓN Y APRENDIZAJE"
 [[program]]
 description = "descripción"
