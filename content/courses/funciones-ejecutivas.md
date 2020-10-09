@@ -3,9 +3,9 @@ title: FUNCIONES EJECUTIVAS
 description: '"Las Funciones Ejecutivas la orquesta de la Cognición"'
 featured_image: "/uploads/children.jpg"
 program:
-- label: lobel
+- label: label
   title: MÓDULO INTRODUCTORIO AL CURSO
-  description: descripción
+  description: descripcion
 - label: Labe
   title: MÓDULO 1.- FUNCIONES EJECUTIVAS.
   description: Descripción
