@@ -35,6 +35,8 @@ description = "descripción"
 label = "label"
 title = "MÓDULO 2.- BASES NEUROANATÓMICAS DE LA ATENCIÓN."
 [[program.lessons]]
+title = "Lección 2.- Estructuras extracorticales."
+[[program.lessons]]
 title = "Lección 1.- Estructuras corticales y subcorticales."
 [[program]]
 description = "DESCRIPCION"
