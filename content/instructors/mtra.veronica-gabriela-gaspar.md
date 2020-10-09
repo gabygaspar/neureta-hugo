@@ -1,5 +1,5 @@
 +++
 avatar = "/uploads/children.jpg"
-title = "Mtra. Verónica Gabriela Gaspar"
+title = "Mtra. Verónica Gabriela Gaspar Villegas"
 
 +++
