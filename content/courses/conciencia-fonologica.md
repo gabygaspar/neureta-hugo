@@ -2,7 +2,7 @@
 description = "\"La Conciencia Fonológica es el estudio de los fonemas del habla\""
 draft = true
 featured_image = ""
-instructor = []
+instructor = "instructors/mtra.veronica-gabriela-gaspar.md"
 title = "CONCIENCIA FONOLÓGICA"
 [[program]]
 description = "descripción"
