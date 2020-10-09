@@ -85,3 +85,5 @@ fields:
       file: 
       path: 
   label: Instructor
+pages:
+- content/courses/atencion-y-aprendizaje.md
