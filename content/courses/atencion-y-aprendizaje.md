@@ -49,6 +49,8 @@ description = "DESCRIPCION"
 label = "LABEL"
 title = "MÓDULO 3.- EVALUACIÓN DE LA ATENCIÓN."
 [[program.lessons]]
+title = "Lección 3.-Esado del paciente antes de la evaluación."
+[[program.lessons]]
 title = "Lección 2.- Elección de un modelo y protocolo de evaluación."
 [[program.lessons]]
 title = "Lección 1.- Fundamentos de la evaluación Neuropsicológica."
