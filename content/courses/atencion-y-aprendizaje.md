@@ -11,3 +11,10 @@ lessons = []
 title = "MÓDULO 1.- ATENCIÓN EN EL APRENDIZAJE."
 
 +++
+La atención es una función neuropsicológica compleja y por ello difícil de definir. Una de las acciones más relevantes es seleccionar los estímulos del entorno que son relevantes para el estado cognitivo en curso y que sirve para llevar a cabo una acción y alcanzar unos objetivos. La atención debe considerarse como un sistema complejo de subprocesos específicos, a través de los cuales dirigimos la orientación, el procesamiento de la información, la toma de decisiones y la conducta.
+
+En este taller se analizarán los diferentes conceptos de atención, así como sus características y componentes. Uno de los aspectos más importantes es el analizar y comprender las diferentes relaciones que tienen con otros procesos cognitivos como: Funciones ejecutivas, Memoria de trabajo, Velocidad de Procesamiento, Inhibición, Flexibilidad Cognitiva y Planificación.
+
+En la Neuropsicología, el conocer las **PARTES NEUROANATÓMICAS** que participan es fundamental para poder detectar específicamente estructuras que presenten alguna deficiencia, esto ayudará a intervenir de forma directa en la alteración que se tenga con actividades específicas y funcionales. Por esta razón, se dan a conocer las estructuras neuroanatómicas que rige la atención.
+
+Así mismo, se dará a conocer la **EVALUACIÓN** que se debe realizar ejemplificando algunas evaluaciones más utilizadas. Por último, analizaremos la **REHABILITACIÓN NEUROPSICOLÓGICA** (**intervención)** por medio de actividades trabajando la atención de forma clínica, observando las estructuras de las diferentes actividades y cómo deben ser trabajadas para obtener resultados funcionales a nivel cerebral del alumno.
