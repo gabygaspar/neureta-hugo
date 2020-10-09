@@ -33,27 +33,27 @@ description = "descripción"
 label = "label"
 title = "MÓDULO 2: CONCIENCIA FONOLÓGICA"
 [[program.lessons]]
-title = "Lección 11.- Conciencia Fonémica."
-[[program.lessons]]
-title = "Lección 10.- Conciencia Intrasilábica."
-[[program.lessons]]
-title = "Lección 9.- Conciencia Fonémica."
-[[program.lessons]]
-title = "Lección 8.- Conciencia Intrasilábica."
-[[program.lessons]]
-title = "Lección 7.- Conciencia Silábica."
-[[program.lessons]]
-title = "Lección 6.- Niveles de la Conciencia Fonológica."
-[[program.lessons]]
-title = "Lección 5.- Niveles de Conciencia Fonológica."
-[[program.lessons]]
-title = "Lección 4.- Hipótesis entre lectura y Conciencia Fonológica."
-[[program.lessons]]
-title = "Lección 3.- ¿Qué es la Fonología?"
+title = "Lección 1.- Concepto."
 [[program.lessons]]
 title = "Lección 2.- Evolución de la Conciencia Fonológica."
 [[program.lessons]]
-title = "Lección 1.- Concepto."
+title = "Lección 3.- ¿Qué es la Fonología?"
+[[program.lessons]]
+title = "Lección 4.- Hipótesis entre lectura y Conciencia Fonológica."
+[[program.lessons]]
+title = "Lección 5.- Niveles de Conciencia Fonológica."
+[[program.lessons]]
+title = "Lección 6.- Niveles de la Conciencia Fonológica."
+[[program.lessons]]
+title = "Lección 7.- Conciencia Silábica."
+[[program.lessons]]
+title = "Lección 8.- Conciencia Intrasilábica."
+[[program.lessons]]
+title = "Lección 9.- Conciencia Fonémica."
+[[program.lessons]]
+title = "Lección 10.- Conciencia Intrasilábica."
+[[program.lessons]]
+title = "Lección 11.- Conciencia Fonémica."
 
 +++
 Una buena habilidad de lectura y escritura es fundamental para el desarrollo educativo, personal, social y profesional. Por esta razón es de suma importancia que todos los profesores garanticen a todos los niños la oportunidad de trabajar, potencializar y desarrollar dicha habilidad. En un sistema alfabético como es el castellano, hablar del acceso al lenguaje escrito va ligado a hablar de la decodificación fonológica.
