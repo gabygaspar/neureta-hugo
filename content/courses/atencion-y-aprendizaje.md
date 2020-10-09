@@ -49,21 +49,21 @@ description = "DESCRIPCION"
 label = "LABEL"
 title = "MÓDULO 3.- EVALUACIÓN DE LA ATENCIÓN."
 [[program.lessons]]
-title = "Lección 8.- Evaluación de Anillas."
+title = "Lección 1.- Fundamentos de la evaluación Neuropsicológica."
 [[program.lessons]]
-title = "Lección 7.- Evaluación Test de los cinco dígitos."
+title = "Lección 3.- Especificidad de las pruebas."
 [[program.lessons]]
-title = "Lección 6.- Evaluación STROOP."
+title = "Lección 2.- Elección de un modelo y protocolo de evaluación."
 [[program.lessons]]
 title = "Lección 5.- Evaluación Test de Atención D2."
 [[program.lessons]]
 title = "Lección 4.- Pruebas de evaluación Neuropsicológica."
 [[program.lessons]]
-title = "Lección 1.- Fundamentos de la evaluación Neuropsicológica."
+title = "Lección 6.- Evaluación STROOP."
 [[program.lessons]]
-title = "Lección 2.- Elección de un modelo y protocolo de evaluación."
+title = "Lección 7.- Evaluación Test de los cinco dígitos."
 [[program.lessons]]
-title = "Lección 3.- Especificidad de las pruebas."
+title = "Lección 8.- Evaluación de Anillas."
 [[program]]
 description = "DESCRIPCION"
 label = "LABEL"
