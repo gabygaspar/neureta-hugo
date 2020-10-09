@@ -77,10 +77,6 @@ title = "MÓDULO 4: ENTRENAMIENTO DE LA CONCIENCIA FONOLÓGICA."
 [[program.lessons]]
 title = "Lección 8.- Entrenamiento PROMELEC."
 [[program.lessons]]
-title = "Lección 7.- Entrenamiento en Conciencia Fonológica."
-[[program.lessons]]
-title = "Lección 6.- Programa Conciencia Fonológica y Aprendizaje de la Lectura."
-[[program.lessons]]
 title = "Lección 1.- Entrenamiento de la Conciencia Silábica."
 [[program.lessons]]
 title = "Lección 2.-Entrenamiento de la Conciencia Intrasilábica."
@@ -90,6 +86,10 @@ title = "Lección 3.- Entrenamiento de la Conciencia Fonémica."
 title = "Lección 4.- Programas de entrenamiento."
 [[program.lessons]]
 title = "Lección 5.- Programa LOLE"
+[[program.lessons]]
+title = "Lección 6.- Programa Conciencia Fonológica y Aprendizaje de la Lectura."
+[[program.lessons]]
+title = "Lección 7.- Entrenamiento en Conciencia Fonológica."
 
 +++
 Una buena habilidad de lectura y escritura es fundamental para el desarrollo educativo, personal, social y profesional. Por esta razón es de suma importancia que todos los profesores garanticen a todos los niños la oportunidad de trabajar, potencializar y desarrollar dicha habilidad. En un sistema alfabético como es el castellano, hablar del acceso al lenguaje escrito va ligado a hablar de la decodificación fonológica.
