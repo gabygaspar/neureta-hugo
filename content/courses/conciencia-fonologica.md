@@ -31,8 +31,9 @@ title = "Lección 1.- Lectura y escritura."
 [[program]]
 description = "descripción"
 label = "label"
-lessons = []
 title = "MÓDULO 2: CONCIENCIA FONOLÓGICA"
+[[program.lessons]]
+title = "Lección 1.- Concepto."
 
 +++
 Una buena habilidad de lectura y escritura es fundamental para el desarrollo educativo, personal, social y profesional. Por esta razón es de suma importancia que todos los profesores garanticen a todos los niños la oportunidad de trabajar, potencializar y desarrollar dicha habilidad. En un sistema alfabético como es el castellano, hablar del acceso al lenguaje escrito va ligado a hablar de la decodificación fonológica.
