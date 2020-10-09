@@ -1,6 +1,6 @@
 ---
 title: FUNCIONES EJECUTIVAS
-description: '"Las Funciones Ejecutivas la orquesta de la Cognición"'
+description: '"Las Funciones Ejecutivas son la orquesta de la Cognición"'
 featured_image: "/uploads/children.jpg"
 program:
 - label: label
