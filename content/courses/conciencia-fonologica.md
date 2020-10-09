@@ -75,6 +75,12 @@ description = "descripcion"
 label = "label"
 title = "MÓDULO 4: ENTRENAMIENTO DE LA CONCIENCIA FONOLÓGICA."
 [[program.lessons]]
+title = "Lección 8.- Entrenamiento PROMELEC."
+[[program.lessons]]
+title = "Lección 7.- Entrenamiento en Conciencia Fonológica."
+[[program.lessons]]
+title = "Lección 6.- Programa Conciencia Fonológica y Aprendizaje de la Lectura."
+[[program.lessons]]
 title = "Lección 1.- Entrenamiento de la Conciencia Silábica."
 [[program.lessons]]
 title = "Lección 2.-Entrenamiento de la Conciencia Intrasilábica."
