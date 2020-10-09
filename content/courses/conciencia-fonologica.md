@@ -9,6 +9,8 @@ description = "descripción"
 label = "label"
 title = "MÓDULO 1: DESARROLLO DE LA LECTURA Y ESCRITURA."
 [[program.lessons]]
+title = "Lección 10.- Etapas de aprendizaje de la lectura."
+[[program.lessons]]
 title = "Lección 9.- Rutas Lectoras Fonológica y Léxica."
 [[program.lessons]]
 title = "Lección 8.- Modelo Lingüístico de la doble ruta Hickok y Peple (2007)."
