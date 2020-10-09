@@ -8,6 +8,11 @@ title = "ATENCIÓN Y APRENDIZAJE"
 description = "descripción"
 label = "label"
 lessons = []
+title = "MÓDULO 2.- BASES NEUROANATÓMICAS DE LA ATENCIÓN."
+[[program]]
+description = "descripción"
+label = "label"
+lessons = []
 title = "MÓDULO 1.- ATENCIÓN EN EL APRENDIZAJE."
 
 +++
