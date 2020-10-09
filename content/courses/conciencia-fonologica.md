@@ -5,6 +5,12 @@ featured_image = ""
 instructor = []
 title = "CONCIENCIA FONOLÓGICA"
 [[program]]
+description = "descripcion"
+label = "label"
+title = "MÓDULO 4: ENTRENAMIENTO DE LA CONCIENCIA FONOLÓGICA."
+[[program.lessons]]
+title = "Lección 1.- Entrenamiento de la Conciencia Silábica."
+[[program]]
 description = "descripción"
 label = "label"
 title = "MÓDULO 1: DESARROLLO DE LA LECTURA Y ESCRITURA."
@@ -59,17 +65,17 @@ description = "descrpción"
 label = "label"
 title = "MÓDULO 3.- EVALUACÓN DE LA CONCIENCIA FONOLÓGICA."
 [[program.lessons]]
-title = "Lección 6.- Otras pruebas."
-[[program.lessons]]
-title = "Lección 5.- Prueba ProLec"
-[[program.lessons]]
-title = "Lección 4.- Actividades más utilizadas para la Conciencia Fonémica."
-[[program.lessons]]
-title = "Lección 3.- Actividades más utilizadas en la Conciencia Silábica."
+title = "Lección 1.- Evaluación de la Conciencia Fonológica."
 [[program.lessons]]
 title = "Lección 2.-Actividades más utilizadas en la evaluación de la Conciencia Fonológica."
 [[program.lessons]]
-title = "Lección 1.- Evaluación de la Conciencia Fonológica."
+title = "Lección 3.- Actividades más utilizadas en la Conciencia Silábica."
+[[program.lessons]]
+title = "Lección 4.- Actividades más utilizadas para la Conciencia Fonémica."
+[[program.lessons]]
+title = "Lección 5.- Prueba ProLec"
+[[program.lessons]]
+title = "Lección 6.- Otras pruebas."
 
 +++
 Una buena habilidad de lectura y escritura es fundamental para el desarrollo educativo, personal, social y profesional. Por esta razón es de suma importancia que todos los profesores garanticen a todos los niños la oportunidad de trabajar, potencializar y desarrollar dicha habilidad. En un sistema alfabético como es el castellano, hablar del acceso al lenguaje escrito va ligado a hablar de la decodificación fonológica.
