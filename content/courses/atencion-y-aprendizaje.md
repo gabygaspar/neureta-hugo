@@ -9,17 +9,19 @@ description = "descripción"
 label = "label"
 title = "MÓDULO 1.- ATENCIÓN EN EL APRENDIZAJE."
 [[program.lessons]]
-title = "Lección 6.- Atención y Funciones Ejecutivas."
+title = "Lección 7.- Atención y Velocidad de Procesamiento."
+[[program.lessons]]
+title = "Lección1.- Concepto."
+[[program.lessons]]
+title = "Lección 2.- Características de la Atención."
+[[program.lessons]]
+title = "Lección 3.- Desarrollo de la Atención"
 [[program.lessons]]
 title = "Lección 5.- Atención, Memoria y Aprendizaje."
 [[program.lessons]]
 title = "Lección 4.- Componentes de la Atención."
 [[program.lessons]]
-title = "Lección 3.- Desarrollo de la Atención"
-[[program.lessons]]
-title = "Lección1.- Concepto."
-[[program.lessons]]
-title = "Lección 2.- Características de la Atención."
+title = "Lección 6.- Atención y Funciones Ejecutivas."
 [[program]]
 description = "descripción"
 label = "label"
