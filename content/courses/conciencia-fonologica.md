@@ -5,7 +5,7 @@ featured_image = ""
 instructor = []
 title = "CONCIENCIA FONOLÓGICA"
 [[program]]
-description = "comprensión"
+description = "descrpción"
 label = "label"
 lessons = []
 title = "MÓDULO 3.- EVALUACÓN DE LA CONCIENCIA FONOLÓGICA."
