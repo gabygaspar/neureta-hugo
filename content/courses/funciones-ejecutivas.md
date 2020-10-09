@@ -1,6 +1,6 @@
 ---
-title: Funciones Ejecutivas
-description: En el siguiente trabajo estaremos analizando
+title: FUNCIONES EJECUTIVAS
+description: '"Las Funciones Ejecutivas la orquesta de la Cognición"'
 featured_image: "/uploads/children.jpg"
 program:
 - label: "1"
