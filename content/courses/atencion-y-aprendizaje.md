@@ -69,25 +69,25 @@ description = "DESCRIPCION"
 label = "LABEL"
 title = "MÓDULO 4.- REHABILITACIÓN NEUROPSICOLÓGICA DE LA ATENCIÓN."
 [[program.lessons]]
-title = "LECCIÓN 10.-Autoregulación Emocional."
-[[program.lessons]]
-title = "LECCIÓN 9.-Resolución de Problemas."
-[[program.lessons]]
-title = "LECCIÓN 8.-Flexibilidad Cognitiva."
-[[program.lessons]]
-title = "LECCIÓN 7.-Planificación"
-[[program.lessons]]
-title = "LECCIÓN 6.-Velocidad de Procesamiento."
-[[program.lessons]]
-title = "LECCIÓN 5.- Memoria de Trabajo."
-[[program.lessons]]
-title = "LECCIÓN 4.-Inhibición."
-[[program.lessons]]
-title = "LECCIÓN 3.-Atención."
+title = "LECCIÓN 1.-Características de un entrenamiento en Funciones Ejecutivas."
 [[program.lessons]]
 title = "LECCIÓN 2.-Capacidades que se tienen que trabajar en Funciones Ejecutivas."
 [[program.lessons]]
-title = "LECCIÓN 1.-Características de un entrenamiento en Funciones Ejecutivas."
+title = "LECCIÓN 3.-Atención."
+[[program.lessons]]
+title = "LECCIÓN 4.-Inhibición."
+[[program.lessons]]
+title = "LECCIÓN 5.- Memoria de Trabajo."
+[[program.lessons]]
+title = "LECCIÓN 6.-Velocidad de Procesamiento."
+[[program.lessons]]
+title = "LECCIÓN 7.-Planificación"
+[[program.lessons]]
+title = "LECCIÓN 8.-Flexibilidad Cognitiva."
+[[program.lessons]]
+title = "LECCIÓN 9.-Resolución de Problemas."
+[[program.lessons]]
+title = "LECCIÓN 10.-Autoregulación Emocional."
 
 +++
 La atención es una función neuropsicológica compleja y por ello difícil de definir. Una de las acciones más relevantes es seleccionar los estímulos del entorno que son relevantes para el estado cognitivo en curso y que sirve para llevar a cabo una acción y alcanzar unos objetivos. La atención debe considerarse como un sistema complejo de subprocesos específicos, a través de los cuales dirigimos la orientación, el procesamiento de la información, la toma de decisiones y la conducta.
