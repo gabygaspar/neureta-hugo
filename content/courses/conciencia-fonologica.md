@@ -9,15 +9,15 @@ description = "descripcion"
 label = "label"
 title = "MÓDULO 4: ENTRENAMIENTO DE LA CONCIENCIA FONOLÓGICA."
 [[program.lessons]]
-title = "Lección 5.- Programa LOLE"
-[[program.lessons]]
-title = "Lección 4.- Programas de entrenamiento."
-[[program.lessons]]
-title = "Lección 3.- Entrenamiento de la Conciencia Fonémica."
+title = "Lección 1.- Entrenamiento de la Conciencia Silábica."
 [[program.lessons]]
 title = "Lección 2.-Entrenamiento de la Conciencia Intrasilábica."
 [[program.lessons]]
-title = "Lección 1.- Entrenamiento de la Conciencia Silábica."
+title = "Lección 3.- Entrenamiento de la Conciencia Fonémica."
+[[program.lessons]]
+title = "Lección 4.- Programas de entrenamiento."
+[[program.lessons]]
+title = "Lección 5.- Programa LOLE"
 [[program]]
 description = "descripción"
 label = "label"
