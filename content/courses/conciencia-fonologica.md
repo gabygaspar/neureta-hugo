@@ -7,3 +7,10 @@ program = []
 title = "CONCIENCIA FONOLÓGICA"
 
 +++
+Una buena habilidad de lectura y escritura es fundamental para el desarrollo educativo, personal, social y profesional. Por esta razón es de suma importancia que todos los profesores garanticen a todos los niños la oportunidad de trabajar, potencializar y desarrollar dicha habilidad. En un sistema alfabético como es el castellano, hablar del acceso al lenguaje escrito va ligado a hablar de la decodificación fonológica.
+
+Una de las causas más habituales de los problemas de comprensión lectora es la dificultad para decodificar de forma ágil y eficaz. Por esta razón en este taller de Conciencia Fonológica trabajaremos todo el proceso que se tiene que seguir para que os alumnos codifiquen de una forma eficaz los diferentes fonemas del habla.
+
+Presentaremos una evaluación donde los profesores se pueden basar para evaluar si el alumno no logra cumplir con los objetivos planeados (de la Conciencia Fonológica) y así analizar la probable existencia de una deficiencia lectora o posible dislexia.
+
+Por último, trabajaremos la intervención que se tiene que hacer para tratar la Conciencia Fonológica, trabajaremos actividades y observaremos videos donde pueden identificar la forma en la que se debe trabajar.
