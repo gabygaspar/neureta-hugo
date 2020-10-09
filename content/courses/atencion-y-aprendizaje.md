@@ -49,6 +49,8 @@ description = "DESCRIPCION"
 label = "LABEL"
 title = "MÓDULO 3.- EVALUACIÓN DE LA ATENCIÓN."
 [[program.lessons]]
+title = "Lección 8.- Evaluación de Anillas."
+[[program.lessons]]
 title = "Lección 7.- Evaluación Test de los cinco dígitos."
 [[program.lessons]]
 title = "Lección 6.- Evaluación STROOP."
