@@ -3,7 +3,7 @@ description = "**Nº de páginas:** 72\n\n**Editorial:** GRUPO GESFOMEDIA\n\n**I
 draft = true
 featured_image = ""
 price = 550
-title = "Estimular la Velocidad de Procesamiento"
+title = "Velocidad de Procesamiento 2"
 type = "book"
 
 +++
