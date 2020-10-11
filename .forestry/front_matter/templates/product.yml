@@ -48,3 +48,5 @@ fields:
     step: 
     required: true
   label: Price
+pages:
+- content/products/neuroeducacion-y-lectura.md
