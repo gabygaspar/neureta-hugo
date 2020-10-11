@@ -49,4 +49,5 @@ fields:
     required: true
   label: Price
 pages:
+- content/products/estimular-la-velocidad-de-procesamiento.md
 - content/products/neuroeducacion-y-lectura.md
