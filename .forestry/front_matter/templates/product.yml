@@ -49,6 +49,7 @@ fields:
     required: true
   label: Price
 pages:
+- content/products/comprender-mejor-la-dislexia.md
 - content/products/crear-escuela-creando-puentes-entre-la-neurociencia-y-el-aula.md
 - content/products/cuentos-para-portarse-bien-en-el-cole.md
 - content/products/ejercicios-para-la-recuperacion-de-la-dislexia-1.md
