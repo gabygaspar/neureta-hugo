@@ -49,6 +49,7 @@ fields:
     required: true
   label: Price
 pages:
+- content/products/cuentos-para-portarse-bien-en-el-cole.md
 - content/products/ejercicios-para-la-recuperacion-de-la-dislexia-1.md
 - content/products/ejercicios-para-la-recuperacion-de-la-dislexia-2.md
 - content/products/ejercicios-para-la-recuperacion-de-la-dislexia.md
