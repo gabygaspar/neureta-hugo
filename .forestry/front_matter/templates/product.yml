@@ -49,6 +49,7 @@ fields:
     required: true
   label: Price
 pages:
+- content/products/ejercicios-para-la-recuperacion-de-la-dislexia.md
 - content/products/estimular-la-velocidad-de-procesamiento.md
 - content/products/neuroeducacion-y-funciones-ejecutivas.md
 - content/products/neuroeducacion-y-lectura.md
