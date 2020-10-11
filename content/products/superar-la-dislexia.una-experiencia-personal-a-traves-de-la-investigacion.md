@@ -3,7 +3,7 @@ description = "**Nº de páginas:** 408\n\n**Editorial:** PAIDOS IBERICA\n\n**Id
 draft = true
 featured_image = "/uploads/121366009_3435847246461224_3273789396302415354_n.jpg"
 price = 700
-title = "Superar la dislexia. Una experiencia personal a través de la investigación."
+title = "SUPERAR LA DISLEXIA. UNA EXPERIENCIA PERSONAL A TRAVÉS DE LA INVESTIGACIÓN."
 type = "book"
 
 +++
