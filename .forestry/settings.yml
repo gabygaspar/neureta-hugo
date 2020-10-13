@@ -25,7 +25,7 @@ sections:
   templates:
   - course
 - type: directory
-  path: content/products
+  path: content/store
   label: Tienda
   create: documents
   match: "**/*"
