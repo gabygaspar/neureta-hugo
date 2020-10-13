@@ -1,4 +1,58 @@
 ---
 label: About Page
 hide_body: true
-fields: []
+fields:
+- name: layout
+  type: text
+  config:
+    required: true
+  label: Layout
+  default: about
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+  default: Nosotros
+- name: training
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: true
+    label: Title
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description
+  label: Training
+- name: experience
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: true
+    label: Title
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description
+  label: Experience
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: Gallery
