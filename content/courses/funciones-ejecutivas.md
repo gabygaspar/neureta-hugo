@@ -1,5 +1,5 @@
 ---
-title: FUNCIONES EJECUTIVAS
+title: Funciones Ejecutivas
 description: '"Las Funciones Ejecutivas son la orquesta de la Cognición"'
 featured_image: "/uploads/children.jpg"
 program:
@@ -10,10 +10,10 @@ program:
   - title: 'Lección 1: Ejemplo de lección'
   - title: 'Lección 2: Ejemplo lección 2'
 - label: Labe
-  title: MÓDULO 1.- FUNCIONES EJECUTIVAS.
+  title: Módulo 1.-  Funciones Ejecutivas
   description: Descripción
 - label: label
-  title: MÓDULO 2.- BASES ANATÓMICAS DE LAS FUNCIONES EJECUTIVAS.
+  title: Módulo 2.- Bases anatómicas de las Funciones Ejecutivas.
   description: descripción
 - label: label
   title: MÓDULO 3.- EVALUACIÓN DE LAS FUNCIONES EJECUTIVAS.
