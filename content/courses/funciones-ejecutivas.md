@@ -21,6 +21,24 @@ program:
   title: MÓDULO 4.- REHABILITACIÓN DE LAS FUNCIONES EJECUTIVAS.
   description: descripcion
 instructor: instructors/mtra.veronica-gabriela-gaspar.md
+extra:
+  approximate_price: 4500
+  modality_info: Presencial o en línea
+  duration_info: 4 semanas (en línea) y 1 día (presencial)
+whats_include:
+- title: Prácticas Garantizadas
+- title: Certificado de terminación
+- title: Videos e imágenes
+- title: Esquema de aprendizaje
+next_dates:
+- description: Apertura del 30 de Octubre
+  price: 4500
+  is_online: true
+  duration:
+    time: 4
+    type: week
+  start_date: 10/30/2020
+  stripe_id: price_1HbqxNKerLxqwoyW9uTx5FVk
 
 ---
 El presente curso está dedicado al trabajo y análisis de las Funciones Ejecutivas, se encuentra dividido en 4 módulos donde en cada uno de ellos analizaremos contenidos necesarios para comprender diferentes aspectos que lo integran. Abordaremos este tema desde la parte neuropsicológica ubicando y nombrando partes cerebrales que participan, esto nos ayudará a comprender mejor el tema, por ende, podremos realizar una mejor evaluación e intervención en la práctica docente.
