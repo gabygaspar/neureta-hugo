@@ -18,7 +18,6 @@ sections:
 - type: document
   path: content/nosotros.md
   label: About us
-  match: "**/*"
 - type: heading
   label: eCommerce
 - type: directory
