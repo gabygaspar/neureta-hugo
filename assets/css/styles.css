@@ -13,3 +13,16 @@
   .image-3 { grid-area: 2 / 5 / 6 / 9; }
   .image-4 { grid-area: 6 / 5 / 13 / 13; }
 }
+
+/* Prose */
+.prose {
+  line-height: theme('lineHeight.relaxed');
+}
+
+.prose p {
+  margin-bottom: theme('margin.4');
+}
+
+.prose b {
+  font-weight: theme('fontWeight.bold');
+}

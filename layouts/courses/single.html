@@ -44,8 +44,8 @@
           </div>
         </div>
       </div>
+      {{- with $dates -}}
       <div class="lg:col-span-4 xl:col-span-4 bg-primary-600 rounded p-6">
-        {{- with $dates -}}
         {{- range first 1 . -}}
         <span class="block text-center text-opacity-75 font-bold md:text-xl lg:text-normal xl:text-lg text-white">Únete a nuestro próximo curso</span>
         <p class="text-center text-white text-2xl md:text-3xl font-semibold mb-8">
@@ -85,8 +85,8 @@
           </a>
         </div>
         {{- end -}}
-        {{- end -}}
       </div>
+      {{- end -}}
     </div>
   </div>
 </section>
@@ -96,7 +96,7 @@
       <div class="lg:col-span-8 py-10 lg:pr-10 lg:pt-12 lg:pb-40">
         <div class="mb-8">
           <span class="inline-block font-bold tracking-wider uppercase text-base mb-4">Contenido del curso</span>
-          <div class="text-gray-600 leading-relaxed mb-4">{{ .Content }}</div>
+          <div class="text-gray-600 leading-relaxed prose mb-4">{{ .Content }}</div>
         </div>
         <div class="mb-4">
           <span class="inline-block font-bold tracking-wider uppercase text-base mb-4">Programa</span>
@@ -105,11 +105,12 @@
             {{- range . -}}
             <li class="border-2 border-primary-700 rounded px-8 py-4 mb-4 last:mb-0 shadow-md">
               <div class="flex flex-col">
-                <p class="flex justify-between">
+                <div class="flex justify-between">
                   <span class="inline-block text-gray-500 font-bold text-base tracking-wider uppercase">
                     {{ .label }}
                   </span>
-                  <span class="inline-flex items-center text-gray-500 font-bold text-base tracking-wider uppercase">
+                  {{- with .lessons -}} 
+                  <p class="inline-flex items-center text-gray-500 font-bold text-base tracking-wider uppercase">
                     <svg class="fill-current w-4 h-4 mr-2" viewBox="0 0 18 18">
                       <path
                         stroke="#868686"
@@ -120,10 +121,10 @@
                         d="M5.25 5.25h7.5m1.5 3H3.75h10.5zm0 0a1.5 1.5 0 011.5 1.5v4.5a1.5 1.5 0 01-1.5 1.5H3.75a1.5 1.5 0 01-1.5-1.5v-4.5a1.5 1.5 0 011.5-1.5h10.5zm0 0v-1.5a1.5 1.5 0 00-1.5-1.5l1.5 3zm-10.5 0v-1.5a1.5 1.5 0 011.5-1.5l-1.5 3zm1.5-3v-1.5a1.5 1.5 0 011.5-1.5h4.5a1.5 1.5 0 011.5 1.5v1.5h-7.5z"
                       ></path>
                     </svg>
-                    
-                    {{- with .lessons -}} {{ len . }} {{- end -}} Lecciones
-                  </span>
-                </p>
+                    <span class="mr-2">{{ len . }} Lecciones</span> 
+                  </p>
+                  {{- end -}}
+                </div>
                 <span class="block text-primary-700 text-lg font-bold mb-1">{{ .title }}</span>
                 <p class="text-gray-600 leading-relaxed lg:mr-14 xl:mr-40 mb-6">{{ .description }}</p>
                 <ul>
