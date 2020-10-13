@@ -31,9 +31,10 @@ sections:
   - course
 - type: directory
   path: content/products
-  label: Products
+  label: Tienda
   create: documents
   match: "**/*"
+  exclude: _index.md
   new_doc_ext: md
   templates:
   - product
