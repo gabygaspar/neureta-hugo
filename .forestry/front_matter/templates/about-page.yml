@@ -71,3 +71,5 @@ fields:
     max: 
     labelField: 
   label: Gallery
+pages:
+- content/nosotros.md
