@@ -6,6 +6,8 @@ program:
 - label: label
   title: MÓDULO INTRODUCTORIO AL CURSO
   description: descripcion
+  lessons:
+  - title: 'Lección 1: Ejemplo de lección'
 - label: Labe
   title: MÓDULO 1.- FUNCIONES EJECUTIVAS.
   description: Descripción
