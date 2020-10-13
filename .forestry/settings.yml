@@ -14,6 +14,12 @@ sections:
   templates:
   - instructor
 - type: heading
+  label: Pages
+- type: document
+  path: content/nosotros.md
+  label: About us
+  match: "**/*"
+- type: heading
   label: eCommerce
 - type: directory
   path: content/courses
