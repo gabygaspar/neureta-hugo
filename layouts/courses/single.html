@@ -79,7 +79,7 @@
             <span class="block text-sm leading-5 font-semibold tracking-wider text-white text-opacity-50 uppercase">
               Duración
             </span>
-            {{ .duration.time }} {{ .duration.type }}
+            {{ .duration.time }} {{ i18n .duration.type .duration.time }}
           </p>
         </div>
         <div class="flex flex-col lg:flex-row">
@@ -225,9 +225,9 @@
         </div>
         {{- with $dates -}}
         {{- $dateCount := len (after 1 .) -}}
-        {{ $dateCount }}
         <span class="inline-block text-lg font-bold mb-4">Próximas fechas</span>
         {{- if eq $dateCount 0 -}}
+        <p class="py-3 px-4 leading-none bg-gray-50 rounded">No hay más fechas disponibles</p>
         {{- else -}}
         <div class="mb-10">
           <table class="m-0 w-full">

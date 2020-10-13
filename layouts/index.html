@@ -4,10 +4,10 @@
     <div class="grid lg:grid-cols-2 md:gap-5 lg:gap-10">
       <div class="lg:py-32">
         <h1 class="text-3xl md:text-4xl xl:text-5xl font-display font-bold leading-tight mb-4">
-          Formación y orientación para optimizar el futuro y autonomía infantil
+          {{ .Title }}
         </h1>
         <p class="text-gray-600 md:text-xl lg:text-lg xl:text-xl leading-relaxed md:w-full lg:w-4/5 mb-6">
-          Promovemos la formación del profesorado para una mejor evaluación e intervención en los efectos del desarrollo infantil.
+          {{ .Params.description }}
         </p>
         <div class="flex flex-col md:flex-row">
           <a href="/cursos" class="inline-flex items-center justify-center px-8 py-3 md:py-4 md:text-lg md:px-10 bg-primary-600 hover:bg-primary-700 text-white rounded mr-0 md:mr-2 md:w-56 mb-3 md:mb-0">

@@ -1,0 +1,15 @@
+[hour]
+  one = "Hora"
+  other = "Horas"
+
+[day]
+  one = "Día"
+  other = "Días"
+
+[week]
+  one = "Semana"
+  other = "Semanas"
+
+[month]
+  one = "Mes"
+  other = "Meses"
