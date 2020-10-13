@@ -3,11 +3,12 @@ title: FUNCIONES EJECUTIVAS
 description: '"Las Funciones Ejecutivas son la orquesta de la Cognición"'
 featured_image: "/uploads/children.jpg"
 program:
-- label: label
-  title: MÓDULO INTRODUCTORIO AL CURSO
+- label: Módulo 1
+  title: Introducción al curso
   description: descripcion
   lessons:
   - title: 'Lección 1: Ejemplo de lección'
+  - title: 'Lección 2: Ejemplo lección 2'
 - label: Labe
   title: MÓDULO 1.- FUNCIONES EJECUTIVAS.
   description: Descripción
@@ -30,13 +31,22 @@ whats_include:
 - title: Certificado de terminación
 - title: Videos e imágenes
 - title: Esquema de aprendizaje
+- title: Incluye también esto
 next_dates:
+- description: Apertura del 1ro de Enero
+  price: 5000
+  is_online: true
+  duration:
+    time: 2
+    type: week
+  start_date: 01/01/2021
+  stripe_id: price_1HbwqBKerLxqwoyWa9ub0Xtk
 - description: Apertura del 30 de Octubre
   price: 4500
   is_online: true
   duration:
-    time: 4
-    type: week
+    time: 2
+    type: month
   start_date: 10/30/2020
   stripe_id: price_1HbqxNKerLxqwoyW9uTx5FVk
 
