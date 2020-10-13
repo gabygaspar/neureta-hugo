@@ -8,6 +8,10 @@
 @import "tailwindcss/utilities";
 /* purgecss start ignore */
 @import "glider-js/glider.min.css";
+
+.glider-dots {
+  margin-top: theme('margin.3');
+}
 /* purgecss end ignore */
 
 @screen lg {
