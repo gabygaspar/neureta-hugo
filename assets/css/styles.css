@@ -6,7 +6,9 @@
 
 /* Utilities */
 @import "tailwindcss/utilities";
+/* purgecss start ignore */
 @import "glider-js/glider.min.css";
+/* purgecss end ignore */
 
 @screen lg {
   .image-1 { grid-area: 1 / 1 / 9 / 5; }
