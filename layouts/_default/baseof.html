@@ -2,15 +2,17 @@
 <html lang="ES-MX" class="font-rubik leading-normal antialiased border-t-4 border-primary-800 bg-primary-800">
   {{- partial "head.html" . -}}
   <body class="bg-white">
-    {{- partial "header.html" . -}}
-    <main>
-      {{- block "main" . -}}{{- end -}}
-    </main>
-    <svg class="fill-current text-primary-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1388.26 70.36">
-      <path d="M1388.26,70.36C1236.29,27.86,982.08,0,694.13,0S152,27.86,0,70.36Z"/>
-    </svg>
-    {{- partial "sections/cta-experience.html" . -}}
-    {{- partial "footer.html" . -}}
+    <div id="app">
+      {{- partial "header.html" . -}}
+      <main>
+        {{- block "main" . -}}{{- end -}}
+      </main>
+      <svg class="fill-current text-primary-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1388.26 70.36">
+        <path d="M1388.26,70.36C1236.29,27.86,982.08,0,694.13,0S152,27.86,0,70.36Z"/>
+      </svg>
+      {{- partial "sections/cta-experience.html" . -}}
+      {{- partial "footer.html" . -}}
+    </div>
     <script>
       WebFontConfig = {
         custom: {
@@ -26,5 +28,9 @@
          s.parentNode.insertBefore(wf, s);
       })(document);
     </script>
+    {{ .Scratch.Set "hash" (sha256 now.Unix) }}
+    <script type="text/javascript" src="/js/manifest.js?id={{ .Scratch.Get "hash" }}"></script>
+    <script type="text/javascript" src="/js/vendor.js?id={{ .Scratch.Get "hash" }}"></script>
+    {{- block "scripts" . -}}{{- end -}}
   </body>
 </html>
