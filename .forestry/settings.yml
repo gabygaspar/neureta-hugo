@@ -18,18 +18,15 @@ sections:
 - type: document
   path: content/_index.md
   label: Home
-  match: "**/*"
 - type: document
   path: content/courses/_index.md
   label: Courses
-  match: "**/*"
 - type: document
   path: content/nosotros.md
   label: About us
 - type: document
   path: content/tienda.md
   label: Store
-  match: "**/*"
 - type: heading
   label: eCommerce
 - type: directory

@@ -111,6 +111,19 @@ fields:
     max: 
     labelField: title
   label: Program
+- name: whats_include
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: true
+    label: Title
+  config:
+    min: 
+    max: 
+    labelField: title
+  label: Whats Include
 - name: next_dates
   type: field_group_list
   fields:
@@ -194,19 +207,6 @@ fields:
     max: 
     labelField: description
   label: Next Dates
-- name: whats_include
-  type: field_group_list
-  fields:
-  - name: title
-    type: text
-    config:
-      required: true
-    label: Title
-  config:
-    min: 
-    max: 
-    labelField: title
-  label: Whats Include
 pages:
 - content/courses/atencion-y-aprendizaje.md
 - content/courses/conciencia-fonologica.md
