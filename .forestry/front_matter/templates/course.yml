@@ -104,6 +104,18 @@ fields:
       max: 
       step: 
       required: true
+  - name: is_online
+    type: boolean
+    label: Is Online
+    default: true
+  - name: location
+    type: text
+    config:
+      required: false
+    label: Location
+    showOnly:
+      field: is_online
+      value: false
   - name: start_date
     type: datetime
     label: Start Date
