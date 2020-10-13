@@ -1,4 +1,6 @@
 {{- define "main" -}}
+{{- $allOpeningDates := index $.Site.Data "opening-dates" -}}
+{{- $dates := sort (where $allOpeningDates.openings "product" .File.Path) "start_date" "desc" -}}
 <section class="pb-10 md:py-10 lg:pt-10 lg:pb-20 border-b border-gray-300 border-opacity-50">
   <div class="container mx-auto px-6 md:px-8 lg:px-6 max-w-screen-xl">
     <div class="grid lg:grid-cols-10 xl:grid-cols-12 gap-6 md:gap-10">
@@ -14,43 +16,52 @@
             <h1 class="text-darken text-1.5xl md:text-3xl lg:text-2xl font-bold">{{ .Params.Title }}</h1>
             <p class="hidden md:flex text-gray-700 leading-relaxed mb-8">{{ .Params.Description }}</p>
             <div class="hidden md:flex items-center">
-              {{- $instructor := $.Site.GetPage .Params.Instructor -}}
-              <img src="{{ $instructor.Params.Avatar }}" class="w-12 h-12 rounded-full mr-4" alt="Avatar del Instructor" />
+              {{ $instructor := .Params.instructor }}
+              {{- with $.Site.GetPage "instructors" -}}
+              {{- with (index (.Resources.Match (index (last 1 (split $instructor "/")) 0)) 0) -}} <!-- instructors/{instructor}.md -->
+              <img src="{{ .Params.avatar }}" class="w-12 h-12 rounded-full mr-4" alt="{{ .Title }}" />
               <div class="flex flex-col">
                 <span class="inline-block text-sm text-primary-600 font-bold tracking-wider uppercase">Impartido por</span>
-                <span class="inline-block font-bold">{{ $instructor.Title }}</span>
+                <span class="inline-block font-bold">{{ .Title }}</span>
               </div>
+              {{- end -}}
+              {{- end -}}
             </div>
           </div>
         </div>
         <div class="block">
           <p class="flex md:hidden text-gray-700 leading-relaxed mb-4 md:mb-8">{{ .Params.Description }}</p>
           <div class="flex md:hidden items-center">
-            <img src="{{ $instructor.Params.Avatar }}" class="w-12 h-12 rounded-full mr-4" alt="Avatar del Instructor" />
+            {{- with $.Site.GetPage "instructors" -}}
+            {{- with (index (.Resources.Match (index (last 1 (split $instructor "/")) 0)) 0) -}} <!-- instructors/{instructor}.md -->
+            <img src="{{ .Params.Avatar }}" class="w-12 h-12 rounded-full mr-4" alt="{{ .Title }}" />
             <div class="flex flex-col">
               <span class="inline-block text-sm text-primary-600 font-bold tracking-wider uppercase">Impartido por</span>
-              <span class="inline-block font-bold">{{ $instructor.Title }}</span>
+              <span class="inline-block font-bold">{{ .Title }}</span>
             </div>
+            {{- end -}}
+            {{- end -}}
           </div>
         </div>
       </div>
       <div class="lg:col-span-4 xl:col-span-4 bg-primary-600 rounded p-6">
+        {{- range first 1 $dates -}}
         <span class="block text-center text-opacity-75 font-bold md:text-xl lg:text-normal xl:text-lg text-white">Únete a nuestro próximo curso</span>
-        <p class="text-center text-white text-2xl md:text-3xl font-bold mb-8">
-          $4,500.00 <span class="text-lg font-normal">MXN</span>
+        <p class="text-center text-white text-2xl md:text-3xl font-semibold mb-8">
+          ${{ .price }} <span class="text-lg font-normal">MXN</span>
         </p>
         <p class="leading-snug mb-6 text-white">
           <span class="block text-sm leading-5 font-semibold tracking-wider text-white text-opacity-50 uppercase">
             Ubicación
           </span>
-          Centro historico #45, Morelia, Michoacán, México
+          {{ .location }}
         </p>
         <div class="grid grid-cols-2 gap-10 mb-6">
           <p class="leading-snug text-white">
             <span class="block text-sm leading-5 font-semibold tracking-wider text-white text-opacity-50 uppercase">
               Fecha de inicio
             </span>
-            31/Diciembre/2020
+            {{ .start_date }}
           </p>
           <p class="leading-snug text-white">
             <span class="block text-sm leading-5 font-semibold tracking-wider text-white text-opacity-50 uppercase">
@@ -72,6 +83,7 @@
             <span class="lg:hidden">Agregar al carrito</span>
           </a>
         </div>
+        {{- end -}}
       </div>
     </div>
   </div>
@@ -197,20 +209,15 @@
               </tr>
             </thead>
             <tbody>
+              {{- range after 1 $dates -}}
               <tr class="text-base">
-                <td class="py-2 pr-3">31/Ene/2021</td>
-                <td class="py-2 pr-3">Online</td>
+                <td class="py-2 pr-3">{{ .start_date }}</td>
+                <td class="py-2 pr-3">{{ .mode }} </td>
                 <td class="py-2 ">
                   <button class="text-white w-full px-4 py-2 text-base rounded bg-primary-600">Inscribirme</button>
                 </td>
               </tr>
-              <tr class="text-base">
-                <td class="py-2 pr-3">31/Ago/2021</td>
-                <td class="py-2 pr-3">Presencial</td>
-                <td class="py-2 ">
-                  <button class="text-white w-full px-4 py-2 text-base rounded bg-primary-600">Inscribirme</button>
-                </td>
-              </tr>
+              {{- end -}}
             </tbody>
           </table>
         </div>
