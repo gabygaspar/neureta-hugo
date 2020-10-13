@@ -37,37 +37,32 @@ fields:
       file: 
       path: 
   label: Instructor
-- name: duration
+- name: extra
   type: field_group
   config: {}
   fields:
-  - name: time
+  - name: modality_info
+    type: text
+    config:
+      required: false
+    label: Modality Info
+  - name: duration_info
+    type: text
+    config:
+      required: false
+    label: Duration Info
+  - name: approximate_price
     type: number
-    label: Time
+    label: Approximate Price
     description: ''
     default: 0
     required: true
     config:
-      min: 1
+      min: 
       max: 
       step: 
       required: true
-  - name: type
-    type: select
-    default: []
-    config:
-      required: false
-      options:
-      - hour
-      - day
-      - month
-      source:
-        type: simple
-        section: 
-        file: 
-        path: 
-    label: Type
-  label: Duration
+  label: Extra
 - name: program
   type: field_group_list
   fields:
@@ -147,6 +142,37 @@ fields:
     showOnly:
       field: is_online
       value: false
+  - name: duration
+    type: field_group
+    config: {}
+    fields:
+    - name: time
+      type: number
+      label: Time
+      description: ''
+      default: 0
+      required: true
+      config:
+        min: 
+        max: 
+        step: 
+    - name: type
+      type: select
+      default: []
+      config:
+        required: false
+        options:
+        - hour
+        - day
+        - week
+        - month
+        source:
+          type: simple
+          section: 
+          file: 
+          path: 
+      label: Type
+    label: Duration
   - name: start_date
     type: datetime
     label: Start Date
