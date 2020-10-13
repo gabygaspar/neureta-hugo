@@ -25,6 +25,18 @@ fields:
   config:
     maxSize: 2
   label: Featured Image
+- name: instructor
+  type: select
+  default: []
+  config:
+    required: true
+    options: []
+    source:
+      type: pages
+      section: instructors
+      file: 
+      path: 
+  label: Instructor
 - name: program
   type: field_group_list
   fields:
@@ -73,18 +85,46 @@ fields:
     max: 
     labelField: title
   label: Program
-- name: instructor
-  type: select
-  default: []
-  config:
+- name: next_dates
+  type: field_group_list
+  fields:
+  - name: description
+    type: text
+    config:
+      required: false
+    label: Description
+  - name: price
+    type: number
+    label: Price
+    description: ''
+    default: 0
     required: true
-    options: []
-    source:
-      type: pages
-      section: instructors
-      file: 
-      path: 
-  label: Instructor
+    config:
+      min: 
+      max: 
+      step: 
+      required: true
+  - name: start_date
+    type: datetime
+    label: Start Date
+    description: ''
+    config:
+      required: true
+      date_format: MM/DD/YYYY
+      time_format: 
+      display_utc: false
+      export_format: MM/DD/YYYY
+    default: now
+  - name: stripe_id
+    type: text
+    config:
+      required: true
+    label: Stripe ID
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Next Dates
 pages:
 - content/courses/atencion-y-aprendizaje.md
 - content/courses/conciencia-fonologica.md
