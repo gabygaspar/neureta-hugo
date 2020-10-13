@@ -54,6 +54,20 @@ fields:
     label: Description
   label: Block Experience
 - name: gallery
-  type: image_gallery
-  config: {}
+  type: field_group_list
+  fields:
+  - name: alt
+    type: text
+    config:
+      required: true
+    label: Image Description
+  - name: image
+    type: file
+    config:
+      maxSize: 3
+    label: Image
+  config:
+    min: 
+    max: 
+    labelField: 
   label: Gallery
