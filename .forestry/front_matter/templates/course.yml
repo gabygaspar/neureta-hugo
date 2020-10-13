@@ -37,6 +37,37 @@ fields:
       file: 
       path: 
   label: Instructor
+- name: duration
+  type: field_group
+  config: {}
+  fields:
+  - name: time
+    type: number
+    label: Time
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 1
+      max: 
+      step: 
+      required: true
+  - name: type
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - hour
+      - day
+      - month
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Type
+  label: Duration
 - name: program
   type: field_group_list
   fields:
