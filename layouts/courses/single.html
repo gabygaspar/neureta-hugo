@@ -100,7 +100,44 @@
         </div>
         <div class="mb-4">
           <span class="inline-block font-bold tracking-wider uppercase text-base mb-4">Programa</span>
-          <ul></ul>
+          <ul>
+            {{- with .Params.program -}}
+            {{- range . -}}
+            <li class="border-2 border-primary-700 rounded px-8 py-4 mb-4 last:mb-0 shadow-md">
+              <div class="flex flex-col">
+                <p class="flex justify-between">
+                  <span class="inline-block text-gray-500 font-bold text-base tracking-wider uppercase">
+                    {{ .label }}
+                  </span>
+                  <span class="inline-flex items-center text-gray-500 font-bold text-base tracking-wider uppercase">
+                    <svg class="fill-current w-4 h-4 mr-2" viewBox="0 0 18 18">
+                      <path
+                        stroke="#868686"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        fill="none"
+                        d="M5.25 5.25h7.5m1.5 3H3.75h10.5zm0 0a1.5 1.5 0 011.5 1.5v4.5a1.5 1.5 0 01-1.5 1.5H3.75a1.5 1.5 0 01-1.5-1.5v-4.5a1.5 1.5 0 011.5-1.5h10.5zm0 0v-1.5a1.5 1.5 0 00-1.5-1.5l1.5 3zm-10.5 0v-1.5a1.5 1.5 0 011.5-1.5l-1.5 3zm1.5-3v-1.5a1.5 1.5 0 011.5-1.5h4.5a1.5 1.5 0 011.5 1.5v1.5h-7.5z"
+                      ></path>
+                    </svg>
+                    
+                    {{- with .lessons -}} {{ len . }} {{- end -}} Lecciones
+                  </span>
+                </p>
+                <span class="block text-primary-700 text-lg font-bold mb-1">{{ .title }}</span>
+                <p class="text-gray-600 leading-relaxed lg:mr-14 xl:mr-40 mb-6">{{ .description }}</p>
+                <ul>
+                  {{- with .lessons -}}
+                  {{- range . -}}
+                  <li class="font-bold pb-2 last:pb-0">{{ .title }}</li>
+                  {{- end -}}
+                  {{- end -}}
+                </ul>
+              </div>
+            </li>
+            {{- end -}}
+            {{- end -}}
+          </ul>
         </div>
         <p class="leading-relaxed">
           ¿Tienes dudas sobre el contenido del curso? <a class="font-bold underline" href="/">Escríbenos</a>
