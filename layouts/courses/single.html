@@ -21,7 +21,9 @@
               {{- with (index (.Resources.Match (index (last 1 (split $instructor "/")) 0)) 0) -}} <!-- instructors/{instructor}.md -->
               <img src="{{ .Params.avatar }}" class="w-12 h-12 rounded-full mr-4" alt="{{ .Title }}" />
               <div class="flex flex-col">
-                <span class="inline-block text-sm text-primary-600 font-bold tracking-wider uppercase">Impartido por</span>
+                <span class="inline-block text-sm text-primary-600 font-bold tracking-wider uppercase">
+                  Impartido por
+                </span>
                 <span class="inline-block font-bold">{{ .Title }}</span>
               </div>
               {{- end -}}
@@ -48,15 +50,24 @@
       <div class="lg:col-span-4 xl:col-span-4 bg-primary-600 rounded p-6">
         {{- range first 1 . -}}
         <span class="block text-center text-opacity-75 font-bold md:text-xl lg:text-normal xl:text-lg text-white">Únete a nuestro próximo curso</span>
-        <p class="text-center text-white text-2xl md:text-3xl font-semibold mb-8">
+        <p class="text-center text-white text-2xl md:text-4xl font-semibold mb-8">
           ${{ .price }} <span class="text-lg font-normal">MXN</span>
         </p>
+        {{- if eq .is_online "true" -}}
         <p class="leading-snug mb-6 text-white">
           <span class="block text-sm leading-5 font-semibold tracking-wider text-white text-opacity-50 uppercase">
             Ubicación
           </span>
           {{ .location }}
         </p>
+        {{- else -}}
+        <p class="leading-snug mb-6 text-white">
+          <span class="block text-sm leading-5 font-semibold tracking-wider text-white text-opacity-50 uppercase">
+            Modalidad
+          </span>
+          En línea
+        </p>
+        {{- end -}}
         <div class="grid grid-cols-2 gap-10 mb-6">
           <p class="leading-snug text-white">
             <span class="block text-sm leading-5 font-semibold tracking-wider text-white text-opacity-50 uppercase">
@@ -68,7 +79,7 @@
             <span class="block text-sm leading-5 font-semibold tracking-wider text-white text-opacity-50 uppercase">
               Duración
             </span>
-            4 semanas
+            {{ .duration.time }} {{ .duration.type }}
           </p>
         </div>
         <div class="flex flex-col lg:flex-row">
@@ -167,7 +178,9 @@
               </svg>
               Modalidad
             </p>
-            <p class="ml-8 leading-none">Presencial o en línea</p>
+            {{- with .Params.extra -}}
+            <p class="ml-8 leading-none">{{ .modality_info }}</p>
+            {{- end -}}
           </div>
           <div class="mb-4">
             <p class="inline-flex items-center font-bold">
@@ -185,13 +198,16 @@
               </svg>
               Duración del curso
             </p>
-            <p class="ml-8 leading-none mb-2">4 semanas (En línea)</p>
-            <p class="ml-8 leading-none">1 día (Presencial)</p>
+            {{- with .Params.extra -}}
+            <p class="ml-8 leading-relaxed mb-2">{{ .duration_info }}</p>
+            {{- end -}}
           </div>
         </div>
+        {{- with .Params.whats_include -}}
         <span class="inline-block text-lg font-bold mb-4">Que incluye el curso</span>
         <div class="mb-10 lg:mb-20">
           <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1">
+            {{- range . -}}
             <li class="inline-flex items-center md:items-start lg:items-center mr-4 last:mr-0 mb-3 last:mb-0">
               <svg class="fill-current w-4 md:mt-1 lg:mt-0 mr-2" viewBox="0 0 16 16">
                 <path
@@ -201,44 +217,18 @@
                   clip-rule="evenodd"
                 ></path>
               </svg>
-              <span class="leading-tight">Prácticas Garantizadas</span>
+              <span class="leading-tight">{{ .title }}</span>
             </li>
-            <li class="inline-flex items-start lg:items-center mr-4 last:mr-0 mb-3 last:mb-0">
-              <svg class="fill-current text-white w-4 md:mt-1 lg:mt-0 mr-2" viewBox="0 0 16 16">
-                <path
-                  fill="#2DA960"
-                  fill-rule="evenodd"
-                  d="M8 16A8 8 0 108-.001 8 8 0 008 16zm3.707-9.293a1 1 0 00-1.414-1.414L7 8.586 5.707 7.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-              <span class="leading-tight">Certificado de terminación</span>
-            </li>
-            <li class="inline-flex items-start lg:items-center mr-4 last:mr-0 mb-3 last:mb-0">
-              <svg class="fill-current w-4 md:mt-1 lg:mt-0 mr-2" viewBox="0 0 16 16">
-                <path
-                  fill="#2DA960"
-                  fill-rule="evenodd"
-                  d="M8 16A8 8 0 108-.001 8 8 0 008 16zm3.707-9.293a1 1 0 00-1.414-1.414L7 8.586 5.707 7.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-              <span class="leading-tight">Videos e imágenes</span>
-            </li>
-            <li class="inline-flex items-start lg:items-center mr-4 last:mr-0 mb-3 last:mb-0">
-              <svg class="fill-current w-4 md:mt-1 lg:mt-0 mr-2" viewBox="0 0 16 16">
-                <path
-                  fill="#2DA960"
-                  fill-rule="evenodd"
-                  d="M8 16A8 8 0 108-.001 8 8 0 008 16zm3.707-9.293a1 1 0 00-1.414-1.414L7 8.586 5.707 7.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-              <span class="leading-tight">Esquemas de aprendizaje</span>
-            </li>
+            {{- end -}}
           </ul>
+          {{- end -}}
         </div>
+        {{- with $dates -}}
+        {{- $dateCount := len (after 1 .) -}}
+        {{ $dateCount }}
         <span class="inline-block text-lg font-bold mb-4">Próximas fechas</span>
+        {{- if eq $dateCount 0 -}}
+        {{- else -}}
         <div class="mb-10">
           <table class="m-0 w-full">
             <thead class="border-b">
@@ -249,7 +239,6 @@
               </tr>
             </thead>
             <tbody>
-              {{- with $dates -}}
               {{- range after 1 . -}}
               <tr class="text-base">
                 <td class="py-2 pr-3">{{ .start_date }}</td>
@@ -259,10 +248,11 @@
                 </td>
               </tr>
               {{- end -}}
-              {{- end -}}
             </tbody>
           </table>
         </div>
+        {{- end -}}
+        {{- end -}}
       </aside>
     </div>
   </div>
