@@ -22,6 +22,15 @@ program:
 - label: label
   title: Módulo 2.- Bases anatómicas de las Funciones Ejecutivas.
   description: descripción
+  lessons:
+  - title: Lección 1.- Bases anatómicas de las funciones ejecutivas
+  - title: Lección 2.- Área Frontal
+  - title: Lección 3.-Área Prefrontal
+  - title: Lección 4.-Modelos del Funcionamiento Ejecutivo
+  - title: Lección 5.-Marcador Somático de Damasio
+  - title: Lección 6.-Memoria de Trabajo
+  - title: Lección 7.-Sistema Atencional Supervisor
+  - title: Lección 8.-Modelo integrador de Javier Tirapu
 - label: label
   title: Módulo 3.- Evaluación de las Funciones Ejecutivas
   description: descripción
