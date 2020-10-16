@@ -29,8 +29,8 @@ extra:
   duration_info: 4 semanas (en línea) y 1 día (presencial)
 whats_include:
 - title: Prácticas Garantizadas
+- title: Videos de cada una de las lecciones
 - title: Certificado de terminación
-- title: Videos e imágenes
 - title: Esquema de aprendizaje
 - title: Incluye también esto
 next_dates:
