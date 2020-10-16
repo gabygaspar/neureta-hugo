@@ -91,7 +91,7 @@ title = "Lección 7.-Planificación"
 [[program.lessons]]
 title = "Lección 8.-Flexibilidad Cognitiva."
 [[program.lessons]]
-title = "LECCIÓN 9.-Resolución de Problemas."
+title = "Lección 9.-Resolución de Problemas."
 [[program.lessons]]
 title = "LECCIÓN 10.-Autoregulación Emocional."
 
