@@ -96,15 +96,15 @@ title = "Lección 7.- Entrenamiento en Conciencia Fonológica."
 [[program.lessons]]
 title = "Lección 8.- Entrenamiento PROMELEC."
 [[whats_include]]
-title = "Certificado de Terminación"
+title = "Prácticas Garantizadas"
+[[whats_include]]
+title = "Videos explicativos de cada lección"
+[[whats_include]]
+title = "Imágenes y Esquemas de aprendizaje"
 [[whats_include]]
 title = "Material de Intervención descargable"
 [[whats_include]]
-title = "Prácticas Garantizadas"
-[[whats_include]]
-title = "Videos de cada lección"
-[[whats_include]]
-title = "Imágenes y Esquemas de aprendizaje"
+title = "Certificado de Terminación"
 
 +++
 Una buena habilidad de lectura y escritura es fundamental para el desarrollo educativo, personal, social y profesional. Por esta razón es de suma importancia que todos los profesores garanticen a todos los niños la oportunidad de trabajar, potencializar y desarrollar dicha habilidad. En un sistema alfabético como es el castellano, hablar del acceso al lenguaje escrito va ligado a hablar de la decodificación fonológica.
