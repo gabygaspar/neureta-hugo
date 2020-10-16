@@ -83,7 +83,7 @@ title = "Lección 3.-Atención."
 [[program.lessons]]
 title = "Lección 4.-Inhibición."
 [[program.lessons]]
-title = "LECCIÓN 5.- Memoria de Trabajo."
+title = "Lección 5.- Memoria de Trabajo."
 [[program.lessons]]
 title = "LECCIÓN 6.-Velocidad de Procesamiento."
 [[program.lessons]]
