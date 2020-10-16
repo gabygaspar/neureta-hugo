@@ -1,7 +1,7 @@
 +++
 description = "\"La Conciencia Fonológica es el estudio de los fonemas del habla\""
 draft = true
-featured_image = "/uploads/121700255_3448755398503742_8515217139948218734_o.jpg"
+featured_image = "/uploads/concincia.jpeg"
 instructor = "instructors/mtra.veronica-gabriela-gaspar.md"
 next_dates = []
 title = "Conciencia Fonológica"
