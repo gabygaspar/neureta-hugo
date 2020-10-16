@@ -96,6 +96,8 @@ title = "Lección 7.- Entrenamiento en Conciencia Fonológica."
 [[program.lessons]]
 title = "Lección 8.- Entrenamiento PROMELEC."
 [[whats_include]]
+title = "Material de Intervención descargable"
+[[whats_include]]
 title = "Prácticas Garantizadas"
 [[whats_include]]
 title = "Videos de cada lección"
