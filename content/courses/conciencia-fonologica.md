@@ -63,7 +63,7 @@ title = "Lección 11.- Conciencia Fonémica."
 [[program]]
 description = "descrpción"
 label = "label"
-title = "MÓDULO 3.- EVALUACÓN DE LA CONCIENCIA FONOLÓGICA."
+title = "Módulo 3.- Evaluación de la Conciencia Fonológica."
 [[program.lessons]]
 title = "Lección 1.- Evaluación de la Conciencia Fonológica."
 [[program.lessons]]
