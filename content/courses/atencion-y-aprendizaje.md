@@ -73,7 +73,7 @@ title = "Lección 8.- Evaluación de Anillas."
 [[program]]
 description = "DESCRIPCION"
 label = "LABEL"
-title = "MÓDULO 4.- REHABILITACIÓN NEUROPSICOLÓGICA DE LA ATENCIÓN."
+title = "Módulo 4.- Evaluación Neuropsicológica de la Atención."
 [[program.lessons]]
 title = "LECCIÓN 1.-Características de un entrenamiento en Funciones Ejecutivas."
 [[program.lessons]]
