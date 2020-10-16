@@ -75,7 +75,7 @@ description = "DESCRIPCION"
 label = "LABEL"
 title = "Módulo 4.- Evaluación Neuropsicológica de la Atención."
 [[program.lessons]]
-title = "LECCIÓN 1.-Características de un entrenamiento en Funciones Ejecutivas."
+title = "Lecciçon 1.-Características de un entrenamiento en Funciones Ejecutivas."
 [[program.lessons]]
 title = "LECCIÓN 2.-Capacidades que se tienen que trabajar en Funciones Ejecutivas."
 [[program.lessons]]
