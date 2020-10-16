@@ -68,11 +68,11 @@ whats_include:
 - title: Material de intervención descargable
 - title: Certificado de terminación
 next_dates:
-- description: Apertura del 1ro de Enero
-  price: 5000
+- description: Apertura Febrero
+  price: 1500
   is_online: true
   duration:
-    time: 2
+    time: 4
     type: week
   start_date: 01/01/2021
   stripe_id: price_1HbwqBKerLxqwoyWa9ub0Xtk
