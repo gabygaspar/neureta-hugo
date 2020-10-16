@@ -39,7 +39,7 @@ title = "Lección 11.- Atención y Planificación."
 [[program]]
 description = "descripción"
 label = "label"
-title = "MÓDULO 2.- BASES NEUROANATÓMICAS DE LA ATENCIÓN."
+title = "Módulo 2.-Bases Neuroanatómicas de la Atención."
 [[program.lessons]]
 title = "Lección 1.- Estructuras corticales y subcorticales."
 [[program.lessons]]
