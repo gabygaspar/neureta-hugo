@@ -79,7 +79,7 @@ title = "Lección 6.- Otras pruebas."
 [[program]]
 description = "descripcion"
 label = "label"
-title = "MÓDULO 4: ENTRENAMIENTO DE LA CONCIENCIA FONOLÓGICA."
+title = "Módulo 4.- Entrenamiento de la Conciencia Fonológica."
 [[program.lessons]]
 title = "Lección 8.- Entrenamiento PROMELEC."
 [[program.lessons]]
