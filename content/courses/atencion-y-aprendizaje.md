@@ -87,7 +87,7 @@ title = "Lección 5.- Memoria de Trabajo."
 [[program.lessons]]
 title = "Lección 6.-Velocidad de Procesamiento."
 [[program.lessons]]
-title = "LECCIÓN 7.-Planificación"
+title = "Lección 7.-Planificación"
 [[program.lessons]]
 title = "LECCIÓN 8.-Flexibilidad Cognitiva."
 [[program.lessons]]
