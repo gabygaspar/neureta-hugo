@@ -18,8 +18,9 @@ program:
 - label: label
   title: Módulo 3.- Evaluación de las Funciones Ejecutivas
   description: descripción
+  lessons: []
 - label: 'label '
-  title: MÓDULO 4.- REHABILITACIÓN DE LAS FUNCIONES EJECUTIVAS.
+  title: Módulo 4.- Reahabilitación de las Funciones Ejecutivas.
   description: descripcion
 instructor: instructors/mtra.veronica-gabriela-gaspar.md
 extra:
