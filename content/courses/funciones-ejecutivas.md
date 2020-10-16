@@ -30,7 +30,7 @@ extra:
 whats_include:
 - title: Prácticas Garantizadas
 - title: Videos explicativos de cada una de las lecciones
-- title: Imágenes y Esquema de aprendizaje
+- title: Imágenes y Esquema de Aprendizaje
 - title: Material de intervención descargable
 - title: Certificado de terminación
 next_dates:
