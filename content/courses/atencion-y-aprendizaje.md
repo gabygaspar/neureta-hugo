@@ -79,7 +79,7 @@ title = "Lección 1.-Características de un entrenamiento en Funciones Ejecutiva
 [[program.lessons]]
 title = "Lección 2.-Capacidades que se tienen que trabajar en Funciones Ejecutivas."
 [[program.lessons]]
-title = "LECCIÓN 3.-Atención."
+title = "Lección 3.-Atención."
 [[program.lessons]]
 title = "LECCIÓN 4.-Inhibición."
 [[program.lessons]]
