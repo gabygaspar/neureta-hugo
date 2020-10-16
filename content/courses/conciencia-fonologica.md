@@ -3,35 +3,41 @@ description = "\"La Conciencia Fonológica es el estudio de los fonemas del habl
 draft = true
 featured_image = ""
 instructor = "instructors/mtra.veronica-gabriela-gaspar.md"
+next_dates = []
 title = "CONCIENCIA FONOLÓGICA"
+whats_include = []
+[extra]
+approximate_price = -1
+duration_info = ""
+modality_info = ""
 [[program]]
 description = "descripción"
 label = "label"
-title = "MÓDULO 1: DESARROLLO DE LA LECTURA Y ESCRITURA."
+title = "Módulo 1.- Desarrollo de la Lectura y Escritura."
 [[program.lessons]]
-title = "Lección 10.- Etapas de aprendizaje de la lectura."
-[[program.lessons]]
-title = "Lección 9.- Rutas Lectoras Fonológica y Léxica."
-[[program.lessons]]
-title = "Lección 8.- Modelo Lingüístico de la doble ruta Hickok y Peple (2007)."
-[[program.lessons]]
-title = "Lección 7.- Ruta Fonológica- Ruta Léxica."
-[[program.lessons]]
-title = "Lección 6.- Circuitos cerebrales de la lectura y escritura."
-[[program.lessons]]
-title = "Lección 5.- Circuitos cerebrales del habla."
-[[program.lessons]]
-title = "Lección 4.- Lenguaje VS Lectura y Escritura."
-[[program.lessons]]
-title = "Lección 3.- Acceso a la lectura."
+title = "Lección 1.- Lectura y escritura."
 [[program.lessons]]
 title = "Lección 2.- Factores que intervienen para el aprendizaje de la lectura."
 [[program.lessons]]
-title = "Lección 1.- Lectura y escritura."
+title = "Lección 3.- Acceso a la lectura."
+[[program.lessons]]
+title = "Lección 4.- Lenguaje VS Lectura y Escritura."
+[[program.lessons]]
+title = "Lección 5.- Circuitos cerebrales del habla."
+[[program.lessons]]
+title = "Lección 6.- Circuitos cerebrales de la lectura y escritura."
+[[program.lessons]]
+title = "Lección 7.- Ruta Fonológica- Ruta Léxica."
+[[program.lessons]]
+title = "Lección 8.- Modelo Lingüístico de la doble ruta Hickok y Peple (2007)."
+[[program.lessons]]
+title = "Lección 9.- Rutas Lectoras Fonológica y Léxica."
+[[program.lessons]]
+title = "Lección 10.- Etapas de aprendizaje de la lectura."
 [[program]]
 description = "descripción"
 label = "label"
-title = "MÓDULO 2: CONCIENCIA FONOLÓGICA"
+title = "Módulo 2.- Conciencia Fonológica."
 [[program.lessons]]
 title = "Lección 1.- Concepto."
 [[program.lessons]]
