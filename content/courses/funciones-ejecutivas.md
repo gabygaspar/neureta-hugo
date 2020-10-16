@@ -12,6 +12,9 @@ program:
 - label: Labe
   title: Módulo 1.-  Funciones Ejecutivas
   description: Descripción
+  lessons:
+  - title: Lección 1.-Concepto
+  - title: 'Lección 2.- Los cuatro cerebros: reptiliano, emocional, racional y ejecutivo.'
 - label: label
   title: Módulo 2.- Bases anatómicas de las Funciones Ejecutivas.
   description: descripción
