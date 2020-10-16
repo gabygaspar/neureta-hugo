@@ -77,7 +77,7 @@ title = "Módulo 4.- Evaluación Neuropsicológica de la Atención."
 [[program.lessons]]
 title = "Lección 1.-Características de un entrenamiento en Funciones Ejecutivas."
 [[program.lessons]]
-title = "LECCIÓN 2.-Capacidades que se tienen que trabajar en Funciones Ejecutivas."
+title = "Lección 2.-Capacidades que se tienen que trabajar en Funciones Ejecutivas."
 [[program.lessons]]
 title = "LECCIÓN 3.-Atención."
 [[program.lessons]]
