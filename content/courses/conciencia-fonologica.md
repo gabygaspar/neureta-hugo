@@ -4,7 +4,7 @@ draft = true
 featured_image = ""
 instructor = "instructors/mtra.veronica-gabriela-gaspar.md"
 next_dates = []
-title = "CONCIENCIA FONOLÓGICA"
+title = "Conciencia Fonológica"
 whats_include = []
 [extra]
 approximate_price = -1
