@@ -89,7 +89,7 @@ title = "Lección 6.-Velocidad de Procesamiento."
 [[program.lessons]]
 title = "Lección 7.-Planificación"
 [[program.lessons]]
-title = "LECCIÓN 8.-Flexibilidad Cognitiva."
+title = "Lección 8.-Flexibilidad Cognitiva."
 [[program.lessons]]
 title = "LECCIÓN 9.-Resolución de Problemas."
 [[program.lessons]]
