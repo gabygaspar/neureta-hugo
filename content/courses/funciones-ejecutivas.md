@@ -74,7 +74,7 @@ next_dates:
   duration:
     time: 4
     type: week
-  start_date: 01/01/2021
+  start_date: 02/10/2020
   stripe_id: price_1HbwqBKerLxqwoyWa9ub0Xtk
 - description: Apertura del 30 de Octubre
   price: 4500
