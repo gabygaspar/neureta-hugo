@@ -93,7 +93,7 @@ title = "Lección 8.-Flexibilidad Cognitiva."
 [[program.lessons]]
 title = "Lección 9.-Resolución de Problemas."
 [[program.lessons]]
-title = "LECCIÓN 10.-Autoregulación Emocional."
+title = "Lección 10.-Autoregulación Emocional."
 
 +++
 La atención es una función neuropsicológica compleja y por ello difícil de definir. Una de las acciones más relevantes es seleccionar los estímulos del entorno que son relevantes para el estado cognitivo en curso y que sirve para llevar a cabo una acción y alcanzar unos objetivos. La atención debe considerarse como un sistema complejo de subprocesos específicos, a través de los cuales dirigimos la orientación, el procesamiento de la información, la toma de decisiones y la conducta.
