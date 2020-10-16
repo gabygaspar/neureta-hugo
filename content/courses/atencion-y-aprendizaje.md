@@ -81,7 +81,7 @@ title = "Lección 2.-Capacidades que se tienen que trabajar en Funciones Ejecuti
 [[program.lessons]]
 title = "Lección 3.-Atención."
 [[program.lessons]]
-title = "LECCIÓN 4.-Inhibición."
+title = "Lección 4.-Inhibición."
 [[program.lessons]]
 title = "LECCIÓN 5.- Memoria de Trabajo."
 [[program.lessons]]
