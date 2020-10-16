@@ -16,7 +16,7 @@ program:
   title: Módulo 2.- Bases anatómicas de las Funciones Ejecutivas.
   description: descripción
 - label: label
-  title: MÓDULO 3.- EVALUACIÓN DE LAS FUNCIONES EJECUTIVAS.
+  title: Módulo 3.- Evaluación de las Funciones Ejecutivas
   description: descripción
 - label: 'label '
   title: MÓDULO 4.- REHABILITACIÓN DE LAS FUNCIONES EJECUTIVAS.
