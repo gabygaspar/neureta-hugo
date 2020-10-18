@@ -33,7 +33,7 @@ fields:
       schema:
         format: markdown
     label: Description
-  label: Block Training
+  label: "[Block] Training"
 - name: experience
   type: field_group
   config: {}
@@ -52,7 +52,7 @@ fields:
       schema:
         format: markdown
     label: Description
-  label: Block Experience
+  label: "[Block] Experience"
 - name: gallery
   type: field_group_list
   fields:
