@@ -4,11 +4,11 @@ description: Promovemos la formación del profesorado para una mejor evaluación
   en los efectos del desarrollo infantil.
 hero_images:
 - image: "/uploads/la-rel-easter-kucglbxjh_o-unsplash.jpg"
-  alt_text: ''
+  alt_text: Construye tu conocimiento
 - image: "/uploads/aaron-burden-1zr3wnstnvy-unsplash.jpg"
-  alt_text: ''
+  alt_text: Estimula tu conocimiento
 - image: "/uploads/children.jpg"
-  alt_text: ''
+  alt_text: Diviertete y crea
 networking:
   title: Promueve la investigación y conecta con profesionales como tú
   description: |-
