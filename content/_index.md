@@ -15,5 +15,8 @@ networking:
   image:
   - {}
   - {}
+  block_images:
+  - image: "/uploads/product-school-wiiz3bhsmmq-unsplash.jpg"
+  - image: "/uploads/gautam-arora-ovdtguhupby-unsplash.jpg"
 
 ---
