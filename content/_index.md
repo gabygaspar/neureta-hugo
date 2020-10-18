@@ -4,8 +4,11 @@ description: Promovemos la formación del profesorado para una mejor evaluación
   en los efectos del desarrollo infantil.
 hero_images:
 - image: "/uploads/la-rel-easter-kucglbxjh_o-unsplash.jpg"
+  alt_text: ''
 - image: "/uploads/aaron-burden-1zr3wnstnvy-unsplash.jpg"
+  alt_text: ''
 - image: "/uploads/children.jpg"
+  alt_text: ''
 networking:
   title: Promueve la investigación y conecta con profesionales como tú
   description: |-
@@ -17,6 +20,8 @@ networking:
   - {}
   block_images:
   - image: "/uploads/product-school-wiiz3bhsmmq-unsplash.jpg"
+    alt_text: Conferencia sobre Neurociencia
   - image: "/uploads/gautam-arora-ovdtguhupby-unsplash.jpg"
+    alt_text: Estimula tu cerebro
 
 ---
