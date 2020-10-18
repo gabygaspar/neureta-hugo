@@ -48,13 +48,19 @@ fields:
         format: markdown
       min: 120
     label: Description
-  - name: image
+  - name: block_images
     type: field_group_list
+    fields:
+    - name: image
+      type: file
+      config:
+        maxSize: 3
+      label: Image
     config:
       min: 2
       max: 2
       labelField: 
-    label: Image
+    label: Block Images
   label: Connect And Learn / Block
 pages:
 - content/_index.md
