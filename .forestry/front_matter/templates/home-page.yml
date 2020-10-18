@@ -24,6 +24,11 @@ fields:
     config:
       maxSize: 3
     label: Image
+  - name: alt_text
+    type: text
+    config:
+      required: false
+    label: Alt Text
   config:
     min: 3
     max: 3
@@ -56,6 +61,11 @@ fields:
       config:
         maxSize: 3
       label: Image
+    - name: alt_text
+      type: text
+      config:
+        required: false
+      label: Alt Text
     config:
       min: 2
       max: 2
