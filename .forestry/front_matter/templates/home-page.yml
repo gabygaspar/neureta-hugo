@@ -71,6 +71,6 @@ fields:
       max: 2
       labelField: 
     label: Block Images
-  label: Connect And Learn / Block
+  label: "[Block] Connect And Learn"
 pages:
 - content/_index.md
