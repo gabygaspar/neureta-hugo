@@ -56,3 +56,5 @@ fields:
       labelField: 
     label: Image
   label: Connect And Learn / Block
+pages:
+- content/_index.md
