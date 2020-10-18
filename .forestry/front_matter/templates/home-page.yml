@@ -1,4 +1,58 @@
 ---
 label: Home Page
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+- name: hero_images
+  type: field_group_list
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 3
+    label: Image
+  config:
+    min: 3
+    max: 3
+    labelField: 
+  label: Hero Images
+- name: networking
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: true
+    label: Title
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: false
+      schema:
+        format: markdown
+      min: 120
+    label: Description
+  - name: image
+    type: field_group_list
+    config:
+      min: 2
+      max: 2
+      labelField: 
+    label: Image
+  label: Connect And Learn / Block
