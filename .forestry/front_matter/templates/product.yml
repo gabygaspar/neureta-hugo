@@ -53,3 +53,5 @@ fields:
   config:
     required: true
   label: Stripe Price ID
+pages:
+- content/store/estimular-la-orientacion-espacial-2.md
