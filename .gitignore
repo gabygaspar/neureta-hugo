@@ -7,3 +7,7 @@ yarn-error.log
 .DS_Store
 .vercel
 .env
+
+# Ignoring scripts 
+static/**/*.js
+static/mix-manifest.json

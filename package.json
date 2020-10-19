@@ -23,7 +23,9 @@
     "vue-template-compiler": "^2.6.12"
   },
   "dependencies": {
+    "@stripe/stripe-js": "^1.10.0",
     "glider-js": "^1.7.3",
-    "vue": "^2.6.12"
+    "vue": "^2.6.12",
+    "vue-cookies": "^1.7.4"
   }
 }

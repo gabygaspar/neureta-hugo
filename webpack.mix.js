@@ -22,4 +22,9 @@ mix.setPublicPath(publicPath);
 
 mix
   .js('assets/js/home.js', `${publicPath}/js`)
+  .js('assets/js/about.js', `${publicPath}/js`)
+  .js('assets/js/course.js', `${publicPath}/js`)
+  .js('assets/js/courses.js', `${publicPath}/js`)
+  .js('assets/js/store.js', `${publicPath}/js`)
+  .js('assets/js/404.js', `${publicPath}/js`)
   .extract();

@@ -21,6 +21,10 @@
   .image-4 { grid-area: 6 / 5 / 13 / 13; }
 }
 
+.force-block {
+  display: block !important;
+}
+
 /* Prose */
 .prose {
   line-height: theme('lineHeight.relaxed');

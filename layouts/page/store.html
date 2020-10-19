@@ -92,3 +92,7 @@
   </div>
 </section>
 {{- end -}}
+
+{{- define "scripts" -}}
+<script type="text/javascript" src="/js/store.js?id={{ .Scratch.Get "hash" }}"></script>
+{{- end -}}

@@ -1,16 +1,18 @@
+{{- $currentUrl:= urls.Parse (.Permalink | relURL) -}}
+{{- $currentPath:= index (split $currentUrl.Path "/") 1 -}}
 <nav class="px-4 ml-auto xl:ml-0 hidden md:block">
   <ul class="flex items-center justify-center">
     <li>
-      <a class="px-4 py-2 font-bold text-primary-600" href="/">Inicio</a>
+      <a class="px-4 py-2 font-bold {{ if .IsHome }} text-primary-600 {{ end }}" href="/">Inicio</a>
     </li>
     <li>
-      <a class="px-4 py-2 font-bold" href="/cursos">Cursos</a>
+      <a class="px-4 py-2 font-bold {{ if eq $currentPath "cursos" }} text-primary-600 {{ end }}" href="/cursos">Cursos</a>
     </li>
     <li>
-      <a class="px-4 py-2 font-bold" href="/tienda">Tienda</a>
+      <a class="px-4 py-2 font-bold {{ if eq $currentPath "tienda" }} text-primary-600 {{ end }}" href="/tienda">Tienda</a>
     </li>
     <li>
-      <a class="px-4 py-2 font-bold" href="/nosotros">Nosotros</a>
+      <a class="px-4 py-2 font-bold {{ if eq $currentPath "nosotros" }} text-primary-600 {{ end }}" href="/nosotros">Nosotros</a>
     </li>
   </ul>
 </nav>
