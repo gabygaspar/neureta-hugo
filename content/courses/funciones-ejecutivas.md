@@ -58,7 +58,7 @@ program:
   - title: Lección 10.-Autoregulación Emocional
 instructor: instructors/mtra.veronica-gabriela-gaspar.md
 extra:
-  approximate_price: 1500
+  approximate_price: 1250
   modality_info: En línea
   duration_info: '4 semanas (en línea) '
 whats_include:
@@ -86,8 +86,10 @@ next_dates:
   stripe_id: price_1HbqxNKerLxqwoyW9uTx5FVk
 
 ---
-El presente curso está dedicado al trabajo y análisis de las Funciones Ejecutivas, se encuentra dividido en 4 módulos donde en cada uno de ellos analizaremos contenidos necesarios para comprender diferentes aspectos que lo integran. Abordaremos este tema desde la parte neuropsicológica ubicando y nombrando partes cerebrales que participan, esto nos ayudará a comprender mejor el tema, por ende, podremos realizar una mejor evaluación e intervención en la práctica docente.
+El presente curso está dedicado al trabajo y análisis de las Funciones Ejecutivas, se encuentra dividido en 4 módulos donde en cada uno de ellos analizaremos contenidos necesarios para comprender diferentes aspectos que lo integran. Abordaremos éste tema desde la parte neuropsicológica ubicando y nombrando partes cerebrales que participan den cada uno de los procesos analizados.
 
-En el módulo de rehabilitación, se expondrán actividades ejemplificando cómo se deben realizar en sus rehabilitaciones e intervenciones, muchas de estas actividades las podrán poner en práctica ya que se les entregará un dossier de actividades personalizado, listo para ponerlo en práctica.
+En el módulo de rehabilitación, se expondrán actividades ejemplificando cómo se deben realizar en sus rehabilitaciones e intervenciones, muchas de estas actividades las podrán poner en práctica ya que se les entregará un dossier de actividades.
 
-Por último, en este curso se integraron, esquemas, videos, actividades e imágenes que nos ayudarán a comprender de una mejor forma todo el contenido; nuestro propósito es, que los participantes tenga las herramientas necesarias para interactuar de una forma diversificada con la información. Nos hemos propuesto que el tema quede claro en todos nuestros alumnos impactando en su nivel profesional y personal, sin duda alguna, sí será.
+Conoceremos evaluaciones que nos ayuden a valorar algunas capacidades de las Funciones Ejecutivas identificado si hay alguna alteración o dificultad para poder intervenir de una forma más eficaz.
+
+Por último, en este curso se integraron, esquemas, videos, actividades e imágenes que nos ayudarán a comprender de una mejor forma todo el contenido; nuestro propósito es que los participantes tenga las herramientas necesarias para interactuar de una forma diversificada con la información. Nos hemos propuesto que el tema quede claro en todos nuestros alumnos impactando en su nivel profesional y personal.
