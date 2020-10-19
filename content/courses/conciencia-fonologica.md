@@ -6,9 +6,9 @@ instructor = "instructors/mtra.veronica-gabriela-gaspar.md"
 next_dates = []
 title = "Conciencia Fonológica"
 [extra]
-approximate_price = -1
-duration_info = ""
-modality_info = ""
+approximate_price = 850
+duration_info = "4 semanas"
+modality_info = "Online"
 [[program]]
 description = "descripción"
 label = "label"
