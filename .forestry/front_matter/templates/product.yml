@@ -48,3 +48,8 @@ fields:
     step: 
     required: true
   label: Price
+- name: stripe_id
+  type: text
+  config:
+    required: true
+  label: Stripe Price ID
