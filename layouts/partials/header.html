@@ -16,11 +16,10 @@
           </svg>
           <span v-if="lineItems.length > 0" class="absolute right-0 mx-2 bg-red-500 w-2 h-2 rounded-full inline-flex justify-center align-middle text-sm"></span>
         </button>
-        <button v-on:click.prevent="toggleShow()" class="p-2 inline-block ml-auto md:hidden relative">
+        <button v-on:click.prevent="toggleMenu()" class="p-2 inline-block ml-auto md:hidden relative">
           <svg class="fill-current text-black w-6" viewBox="0 0 20 20">
             <path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clipRule="evenodd" />
           </svg>
-          <span v-if="lineItems.length > 0" class="absolute right-0 mx-2 bg-red-500 w-2 h-2 rounded-full inline-flex justify-center align-middle text-sm"></span>
         </button>
       </div>
     </div>
