@@ -6,9 +6,9 @@ instructor = "instructors/mtra.veronica-gabriela-gaspar.md"
 next_dates = []
 title = "Atención y Aprendizaje"
 [extra]
-approximate_price = -1
-duration_info = ""
-modality_info = ""
+approximate_price = 1100
+duration_info = "4 semanas (en línea)"
+modality_info = "En línea"
 [[program]]
 description = "descripción"
 label = "label"
@@ -111,4 +111,6 @@ En este taller se analizarán los diferentes conceptos de atención, así como s
 
 En la Neuropsicología, el conocer las **PARTES NEUROANATÓMICAS** que participan es fundamental para poder detectar específicamente estructuras que presenten alguna deficiencia, esto ayudará a intervenir de forma directa en la alteración que se tenga con actividades específicas y funcionales. Por esta razón, se dan a conocer las estructuras neuroanatómicas que rige la atención.
 
-Así mismo, se dará a conocer la **EVALUACIÓN** que se debe realizar ejemplificando algunas evaluaciones más utilizadas. Por último, analizaremos la **REHABILITACIÓN NEUROPSICOLÓGICA** (**intervención)** por medio de actividades trabajando la atención de forma clínica, observando las estructuras de las diferentes actividades y cómo deben ser trabajadas para obtener resultados funcionales a nivel cerebral del alumno.
+Se dará a conocer **EVALUACIONES** que se debe realizar ejemplificando algunas más utilizadas.
+
+Por último, analizaremos la **REHABILITACIÓN NEUROPSICOLÓGICA** (**intervención)** por medio de actividades trabajando la atención de forma clínica, observando las estructuras de las diferentes actividades y cómo deben ser trabajadas para obtener resultados funcionales a nivel cerebral.
