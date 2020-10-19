@@ -120,7 +120,7 @@ fields:
         type: text
         config:
           required: false
-          min: 90
+          min: 24
           max: 180
         label: Alt Text
       label: Block Image
