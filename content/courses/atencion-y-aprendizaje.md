@@ -1,14 +1,22 @@
 +++
 description = "\"La atención es el foco del aprendizaje\""
-draft = true
 featured_image = "/uploads/atencion.jpg"
 instructor = "instructors/mtra.veronica-gabriela-gaspar.md"
-next_dates = []
 title = "Atención y Aprendizaje"
 [extra]
 approximate_price = 1100
 duration_info = "4 semanas (en línea)"
 modality_info = "En línea"
+[[next_dates]]
+description = "Apertura del 27 de Febrero"
+is_online = true
+location = ""
+price = 1100
+start_date = "02/27/2021"
+stripe_id = "price_1He0eWKerLxqwoyWk8rL7mCZ"
+[next_dates.duration]
+time = 4
+type = "week"
 [[program]]
 description = "descripción"
 label = "label"
