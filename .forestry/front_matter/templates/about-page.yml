@@ -71,5 +71,60 @@ fields:
     max: 
     labelField: 
   label: Gallery
+- name: about
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: true
+    label: Title
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description
+  - name: team
+    type: field_group
+    config: {}
+    fields:
+    - name: title
+      type: text
+      config:
+        required: false
+      label: Title
+    - name: description
+      type: textarea
+      default: ''
+      config:
+        required: true
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Description
+    - name: block_image
+      type: field_group
+      config: {}
+      fields:
+      - name: image
+        type: file
+        config:
+          maxSize: 3
+        label: Image
+      - name: alt_text
+        type: text
+        config:
+          required: false
+          min: 90
+          max: 180
+        label: Alt Text
+      label: Block Image
+    label: Team
+  label: "[Block] About Neureta"
 pages:
 - content/nosotros.md
