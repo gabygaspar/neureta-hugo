@@ -6,6 +6,7 @@ export default {
     lineItems: [],
     $stripe: null,
     showCart: false,
+    showMenu: false,
   },
   created: async function() {
     this.$stripe = await loadStripe(window.skey);
@@ -29,6 +30,9 @@ export default {
   methods: {
     toggleShow: function() {
       this.showCart = !this.showCart; 
+    },
+    toggleMenu: function() {
+      this.showMenu = !this.showMenu;
     },
     add: function (data) {
       // Logic to set item
