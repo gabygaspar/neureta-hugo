@@ -3,6 +3,7 @@ description = "**Nº de páginas:** 216\n\n**Editorial:** OBELISCO\n\n**Idioma:*
 draft = true
 featured_image = "/uploads/121283076_3435846296461319_566248025433391710_n.jpg"
 price = 490
+stripe_id = "price_1HdspqKerLxqwoyWFllJjRqf"
 title = "Comprender mejor la dislexia"
 type = "book"
 
