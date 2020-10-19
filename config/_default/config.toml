@@ -8,3 +8,5 @@ author = "Javier Diaz"
 removePathAccents = true
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 enableGitInfo = true
+
+googleAnalytics= "UA-180854571-1"
