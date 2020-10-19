@@ -67,7 +67,15 @@ whats_include:
 - title: Imágenes y Esquema de Aprendizaje
 - title: Material de intervención descargable
 - title: Certificado de terminación
-next_dates: []
+next_dates:
+- description: Apertura del 13 de Febrero
+  price: 1200
+  is_online: true
+  duration:
+    time: 4
+    type: week
+  start_date: 02/13/2021
+  stripe_id: price_1He0adKerLxqwoyW1udXZQ1N
 
 ---
 El presente curso está dedicado al trabajo y análisis de las Funciones Ejecutivas, se encuentra dividido en 4 módulos donde en cada uno de ellos analizaremos contenidos necesarios para comprender diferentes aspectos que lo integran. Abordaremos éste tema desde la parte neuropsicológica ubicando y nombrando partes cerebrales que participan den cada uno de los procesos analizados.
