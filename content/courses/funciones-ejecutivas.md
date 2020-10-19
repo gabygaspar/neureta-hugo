@@ -68,14 +68,14 @@ whats_include:
 - title: Material de intervención descargable
 - title: Certificado de terminación
 next_dates:
-- description: Desarrollo
-  price: 100
+- description: Producción 10 pesitos
+  price: 10
   is_online: true
   duration:
     time: 2
     type: week
   start_date: 10/19/2020
-  stripe_id: price_1He48gKerLxqwoyWwVPvOXPn
+  stripe_id: price_1He4VXKerLxqwoyWZ7r9s5Fr
 - description: Apertura del 13 de Febrero
   price: 1200
   is_online: true
