@@ -45,6 +45,14 @@ export default {
         this.$set(this.cart, index, { ...element, quantity: element.quantity + 1});
       }
       this.$cookies.set('cart', JSON.stringify(this.cart));
+      this.toggleShow();
+    },
+    remove: function (identifier) {
+      const index = this.cart.findIndex(item => item.price === identifier);
+      if (index !== -1) {
+        this.$delete(this.cart, index);
+        this.$cookies.set('cart', JSON.stringify(this.cart));
+      }
     },
     buySingleCheckout: function() {},
     goToCheckout: async function () {
