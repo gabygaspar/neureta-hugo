@@ -1,3 +1,3 @@
 STRIPE_PUBLICKEY = "pk_test_51H4dXYKerLxqwoyWog0axDg7RJbvbHAHUzhbft84by1FM0GXwzeVcFylbewLZsL4rFRZKncFSQdYvwCTaRO3ZcFI003FYBgFbE"
-STRIPE_SUCCESS_URL = "http://localhost:1313/success"
-STRIPE_CANCEL_URL = "http://localhost:1313/"
+STRIPE_SUCCESS_URL = "https://neureta-hugo-git-develop.gabygaspar.vercel.app/success"
+STRIPE_CANCEL_URL = "https://neureta-hugo-git-develop.gabygaspar.vercel.app/"
