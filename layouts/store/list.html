@@ -28,8 +28,8 @@
 <section class="pt-10 pb-20">
   <div class="container mx-auto px-6 md:px-8 lg:px-6 max-w-screen-xl">
     <div class="mb-20">
-      <h2 class="text-xl font-display font-bold border-b mb-2 md:mx-3">Libros</h2>
-      <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-0 gap-y-0 md:gap-y-6 xl:gap-6 mb-12 -mx-3 md:mx-0">
+      <h2 class="text-xl font-display font-bold border-b mb-4 md:mx-3">Libros</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-0 gap-y-0 md:gap-y-6 xl:gap-x-6 mb-12 -mx-3 md:mx-0">
         {{- range $books -}}
         <article class="bg-white p-3 border-gray-200 rounded flex flex-row md:flex-col border-b last:border-b-0 md:border-none py-6 md:py-3">
           <div class="relative w-28 h-28 md:w-full md:h-40 mb-4 mr-4 md:mr-0 flex-shrink-0 overflow-hidden">
@@ -39,7 +39,7 @@
             <span class="block text-gray font-display font-bold tracking-wider text-base uppercase mb-1">
               Libro
             </span>
-            <p class="text-lg font-bold mb-2">{{ .Params.title }}</p>
+            <p class="text-lg font-bold mb-2 h-22">{{ .Params.title | truncate 80 }}</p>
             <div class="mb-4">
               <p class="flex items-center">
                 <span class="inline-block mr-1 leading-tight">MXN</span>
@@ -58,39 +58,9 @@
         </article>
         {{- end -}}
       </div>
-      <p class="text-center">
+      <p class="hidden text-center">
         <a class="inline-block text-center text-black hover:bg-gray-100 border-2 border-black px-4 py-3 w-64 rounded" href="/">Ver todos</a>
       </p>
-    </div>
-    <div>
-      <h2 class="text-xl font-display font-bold border-b mb-2 md:mx-3">Material Didáctico</h2>
-      <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-0 gap-y-0 md:gap-y-6 xl:gap-6 mb-12 -mx-3 md:mx-0">
-        <article class="bg-white p-3 border-gray-200 rounded flex flex-row md:flex-col border-b last:border-b-0 md:border-none py-6 md:py-3">
-          <div class="relative w-28 h-28 md:w-full md:h-full md:pb-40 mb-4 mr-4 md:mr-0 flex-shrink-0">
-            <img loading="lazy" class="relative md:absolute w-full h-full object-cover rounded" src="https://images.unsplash.com/photo-1518210777420-a2f84c71fffc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80&w=280" alt="cover demo" />
-          </div>
-          <div class="w-full">
-            <span class="block text-gray font-display font-bold tracking-wider text-base uppercase mb-1">
-              Libro
-            </span>
-            <p class="text-lg font-bold mb-2">Your soul is a river</p>
-            <div class="mb-4">
-              <p class="flex items-center">
-                <span class="inline-block mr-1 leading-tight">MXN</span>
-                <span class="inline-block text-lg font-bold leading-tight">$4,500</span>
-              </p>
-            </div>
-            <a href="/" class="inline-flex justify-center text-base md:text-normal text-white bg-primary-600 hover:bg-primary-700 px-4 py-3 w-full rounded">
-              <svg class="fill-current w-5 md:w-6 mr-2" viewBox="0 0 20 20">
-                <g>
-                  <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
-                </g>
-              </svg>
-              Agregar al carrito
-            </a>
-          </div>
-        </article>
-      </div>
     </div>
   </div>
 </section>

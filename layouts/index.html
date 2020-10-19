@@ -66,7 +66,7 @@
         {{- with .Site.GetPage "/courses" -}}
         {{- range first 3 .Pages -}}
         <glider-slide class="mr-3">
-          <div class="border last:mr-0 bg-white p-3 border-gray-200 rounded">
+          <article class="border last:mr-0 bg-white p-3 border-gray-200 rounded">
             <div class="relative pb-40 mb-4">
               <img loading="lazy" class="absolute w-full h-full object-cover rounded" src="{{ .Params.featured_image }} " alt="{{ .Params.Title }}" />
             </div>
@@ -80,17 +80,17 @@
                   <span class="bg-pink-100">psicología</span>
                 </li>
               </ul> -->
-              <!-- <div class="mb-4">
+              <div class="mb-4">
                 <p class="flex items-center">
                   <span class="inline-block mr-1 leading-tight">MXN</span>
-                  <span class="inline-block text-lg font-bold leading-tight">$4,500</span>
+                  <span class="inline-block text-lg font-semibold leading-tight">$4,500</span>
                 </p>
-              </div> -->
+              </div>
             </div>
             <a href="{{ .Permalink }}" class="inline-block text-center text-white bg-primary-600 hover:bg-primary-700 px-4 py-3 w-full rounded">
               Ver más
             </a>
-          </div>
+          </article>
         </glider-slide>
         {{- end -}}
         {{- end -}}
@@ -106,6 +106,7 @@
   <div class="container mx-auto px-6 md:px-8 lg:px-6 max-w-screen-xl">
     <div class="bg-yellow-50 px-6 py-4 md:px-12 md:py-8 xl:px-20 xl:py-12 rounded-lg">
       <div class="grid lg:grid-cols-2 gap-5 xl:gap-10">
+        {{- with .Params.networking -}}
         <div class="py-4">
           <span class="block text-black text-opacity-75 font-bold font-display uppercase tracking-wider mb-4">
             Conecta y aprende
@@ -113,21 +114,25 @@
           <h3 class="text-3xl md:text-4xl lg:text-3.5xl xl:text-4xl font-display font-bold leading-tight mb-4">
             Promueve la investigación y conecta con profesionales como tú
           </h3>
-          <p class="text-black text-opacity-75 text-lg xl:text-xl leading-relaxed mb-4">A través de nuestros cursos, podrás conectar con personas de muchas partes del mundo que comparten la misma pasión que tú por investigar, aprender y compartir conocimiento.</p>
-          <p class="text-black text-opacity-75 text-lg xl:text-xl leading-relaxed mb-8">Para lograrlo, promovemos la investigación interdiciplinaria proponiendo e innovando metodologías para posibilitar el optimo desarrollo infantil.</p>
+          <p class="prose text-opacity-75 text-lg xl:text-xl leading-relaxed mb-4">{{ .description }}</p>
           <p class="text-black text-opacity-75 text-lg xl:text-xl leading-relaxed mb-4">El cambio es siempre el resultado final de todo verdadero aprendizaje.</p>
           <p class="text-black text-opacity-75 text-lg xl:text-xl font-bold leading-relaxed">Leo Buscaglia.</p>
         </div>
         <div class="relative md:py-90">
           <ul class="flex flex-col md:flex-row">
+            {{- $firstImage := index .block_images 0 -}}
+            {{- $secondImage := index .block_images 1 -}}
             <li class="relative md:absolute top-0 mb-4 md:mb-0 right-0 md:mt-4 lg:mt-16">
-              <img class="rounded w-full md:w-110 lg:w-90 xl:w-120" src="/images/speaker.png" alt="Nos gusta hablar de Neurociencia y todo sobre el aprendizaje infantil" />
+              <div class="relative w-full md:w-110 lg:w-90 xl:w-120 pb-124 overflow-hidden">
+                <img class="rounded absolute object-cover w-full h-full" src="{{ $firstImage.image }}" alt="{{ $firstImage.alt_text }}" />
+              </div>
             </li>
             <li class="relative md:absolute bottom-0 mb-4 md:mb-8 lg:mb-0 lg:ml-2 xl:ml-5">
-              <img class="rounded w-full lg:w-77 xl:w-80" src="/images/online-calls.png" alt="Y también, compartir el conocimiento con profesionales como tú" />
+              <img class="rounded w-full lg:w-77 xl:w-80" src="{{ $secondImage.image }}" alt="{{ $secondImage.alt_text }}" />
             </li>
           </ul>
         </div>
+        {{- end -}}
       </div>
     </div>
   </div>

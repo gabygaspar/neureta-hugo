@@ -7,15 +7,17 @@
 <section class="pt-16 pb-2 md:pb-16 md:pt-28 lg:pb-32">
   <div class="container mx-auto px-6 md:px-8 lg:px-6 max-w-screen-xl">
     <div class="grid md:grid-cols-4 gap-10">
+      {{- with .Params.training -}}
       <div class="md:col-span-2 lg:mx-16">
-        <h2 class="text-3xl font-display font-bold mb-4">Promovemos la formación educativa</h2>
-        <p class="leading-relaxed text-lg">Nuestro objetivo es brindar recursos educativos que crubran las necesidades de los especialistas del desarrollo infantil, promoviendo una formación del profesorado por medio de diversos talleres y materiales.</p>
+        <h2 class="text-3xl font-display font-bold mb-4">{{ .title }}</h2>
+        <p class="leading-relaxed text-lg">{{ .description }}</p>
       </div>
       <div class="md:col-span-2 inline-flex justify-center">
         <div class="relative md:-mt-20 w-full md:w-90 pb-110">
           <img src="https://images.unsplash.com/photo-1583468991267-3f068b607ae1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1213&q=80" class="absolute object-cover w-full h-full rounded" alt="Como promovemos el aprendizaje" />
         </div>
       </div>
+      {{- end -}}
     </div>
   </div>
 </section>
@@ -24,26 +26,26 @@
     <div class="grid md:grid-cols-5">
       <div class="col-auto lg:col-span-2"></div>
       <div class="md:col-span-5 lg:col-span-3 md:mr-32 lg:mr-28 xl:mx-28">
-        <h2 class="text-3xl font-display font-bold mb-4">Experiencia y calidad a tu alcance</h2>
-        <p class="leading-relaxed text-lg mb-4">Nuestra experiencia en educación nos permite brindarte las herramientas adecuadas para tu aprendizaje, así como contenido de calidad al alcande de un clic.</p>
+        {{- with .Params.experience -}}
+        <h2 class="text-3xl font-display font-bold mb-4">{{ .title }}</h2>
+        <p class="leading-relaxed text-lg mb-4">{{ .description }}</p>
         <a href="/" class="inline-flex justify-center text-base md:text-normal text-white bg-primary-600 hover:bg-primary-700 px-10 py-3 rounded">
           Ver cursos
         </a>
+        {{- end -}}
       </div>
     </div>
     <div class="pt-20 pb-0 md:py-20 grid md:grid-cols-2 lg:grid-cols-12 lg:grid-rows-12 gap-4 lg:gap-8">
-      <div class="image-1 relative pb-56 lg:pb-124">
-        <img src="https://images.unsplash.com/photo-1540317580384-e5d43616b9aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" class="absolute object-cover w-full h-full rounded" alt="Imagen de Neureta" />
+      {{- with .Params.gallery -}}
+      {{- range $index, $element := . -}}
+      <div class="image-{{ add $index 1}} relative pb-56">
+        <img
+          class="absolute object-cover w-full h-full rounded"
+          src="{{ $element.image }}"
+          alt="{{ $element.alt }}" />
       </div>
-      <div class="image-2 relative pb-56 lg:pb-56">
-        <img src="https://images.unsplash.com/photo-1588075592446-265fd1e6e76f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80" class="absolute object-cover w-full h-full rounded" alt="Imagen de Neureta" />
-      </div>
-      <div class="image-3 relative pb-56 lg:pb-77">
-        <img src="https://images.unsplash.com/photo-1591115765373-5207764f72e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" class="absolute object-cover w-full h-full rounded" alt="Imagen de Neureta" />
-      </div>
-      <div class="image-4 relative pb-56 lg:pb-124">
-        <img src="https://images.unsplash.com/photo-1528605105345-5344ea20e269?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" class="absolute object-cover w-full h-full rounded" alt="Imagen de Neureta" />
-      </div>
+      {{- end -}}
+      {{- end -}}
     </div>
   </div>
 </section>
@@ -60,7 +62,9 @@
       <div class="grid lg:grid-cols-3 gap-5 mb-24">
         <div class="md:mx-8 lg:mx-0 bg-transparent rounded-lg">
           <div class="flex flex-col md:flex-row md:items-center mb-2 md:w-7/12 lg:w-auto">
-            <SvgIcon type="learningOnline" class="mb-2 md:mb-0 w-12 md:mr-6" viewBox="0 0 42 42" />
+            <svg class="mb-2 md:mb-0 w-12 md:mr-6" viewBox="0 0 48 48">
+              <path d="M12 17.618L18.342 14.447C18.8414 14.1993 19.2614 13.8167 19.5544 13.3425C19.8475 12.8682 20.0018 12.3214 20 11.764V6H36V25H38V6C38 5.46957 37.7893 4.96086 37.4142 4.58579C37.0391 4.21071 36.5304 4 36 4H18.465L10 16.7V42C10 42.5304 10.2107 43.0391 10.5858 43.4142C10.9609 43.7893 11.4696 44 12 44H31V42H12V17.618ZM17.447 12.658L13.921 14.421L18 8.3V11.761C18.0012 11.9473 17.9499 12.1302 17.8521 12.2888C17.7544 12.4474 17.614 12.5753 17.447 12.658ZM42 32C42 28.776 40.225 27 37 27C33.775 27 32 28.776 32 32C31.9466 33.1943 32.2991 34.3715 33 35.34V44H35.13L37 42.338L38.87 44H41V35.34C41.7009 34.3715 42.0533 33.1943 42 32ZM37 29C39.1 29 40 29.9 40 32C40 34.1 39.1 35 37 35C34.9 35 34 34.1 34 32C34 29.9 34.9 29 37 29ZM37 39.662L35 41.44V36.707C36.3047 37.0977 37.6953 37.0977 39 36.707V41.44L37 39.662ZM30 21H16V19H30V21ZM27 25H16V23H27V25ZM16 35H27V37H16V35Z" fill="black"/>
+            </svg>
             <span class="inline-block font-bold font-display w-full">
               Diplomas
             </span>
@@ -69,7 +73,9 @@
         </div>
         <div class="md:mx-8 lg:mx-0 bg-transparent rounded-lg">
           <div class="flex flex-col md:flex-row md:items-center mb-2 md:w-7/12 lg:w-auto">
-            <SvgIcon type="learningOnline" class="mb-2 md:mb-0 w-12 md:mr-6" viewBox="0 0 42 42" />
+            <svg class="mb-2 md:mb-0 w-12 md:mr-6" viewBox="0 0 48 48">
+              <path d="M13 12.0001C13.5334 12.0312 14.0674 11.949 14.5668 11.759C15.0662 11.569 15.5197 11.2754 15.8975 10.8976C16.2754 10.5198 16.5689 10.0663 16.7589 9.56686C16.949 9.06746 17.0311 8.53349 17 8.00007C17.0311 7.46665 16.949 6.93269 16.7589 6.43329C16.5689 5.93389 16.2754 5.48037 15.8975 5.10255C15.5197 4.72472 15.0662 4.43115 14.5668 4.24113C14.0674 4.05112 13.5334 3.96897 13 4.00007C12.4666 3.96897 11.9326 4.05112 11.4332 4.24113C10.9338 4.43115 10.4803 4.72472 10.1025 5.10255C9.72465 5.48037 9.43107 5.93389 9.24106 6.43329C9.05105 6.93269 8.96889 7.46665 9 8.00007C8.96889 8.53349 9.05105 9.06746 9.24106 9.56686C9.43107 10.0663 9.72465 10.5198 10.1025 10.8976C10.4803 11.2754 10.9338 11.569 11.4332 11.759C11.9326 11.949 12.4666 12.0312 13 12.0001V12.0001ZM13 6.00007C13.269 5.97439 13.5404 6.00848 13.7947 6.09991C14.0491 6.19133 14.28 6.33784 14.4711 6.52894C14.6622 6.72004 14.8087 6.95101 14.9002 7.20533C14.9916 7.45966 15.0257 7.73104 15 8.00007C15.0257 8.26911 14.9916 8.54049 14.9002 8.79481C14.8087 9.04914 14.6622 9.28011 14.4711 9.47121C14.28 9.66231 14.0491 9.80881 13.7947 9.90024C13.5404 9.99167 13.269 10.0258 13 10.0001C12.731 10.0258 12.4596 9.99167 12.2053 9.90024C11.9509 9.80881 11.72 9.66231 11.5289 9.47121C11.3378 9.28011 11.1913 9.04914 11.0998 8.79481C11.0084 8.54049 10.9743 8.26911 11 8.00007C10.9743 7.73104 11.0084 7.45966 11.0998 7.20533C11.1913 6.95101 11.3378 6.72004 11.5289 6.52894C11.72 6.33784 11.9509 6.19133 12.2053 6.09991C12.4596 6.00848 12.731 5.97439 13 6.00007V6.00007ZM28 18.1431V17.9741C25.439 17.7688 22.9168 17.2229 20.5 16.3511C18.4165 15.5665 16.2236 15.1107 14 15.0001C8 15.0001 8 18.0111 8 19.0001V27.0001H6V19.0001C6 16.7591 7.039 13.0001 14 13.0001C16.4281 13.1034 18.8245 13.5908 21.1 14.4441C23.6331 15.3821 26.3004 15.9074 29 16.0001H30V19.8471L29.164 19.9861C26.0392 20.5193 22.8526 20.5867 19.708 20.1861C19.098 20.1241 18.539 20.0681 18 20.0331V27.0001H16V18.0001H17C17.9721 18.0179 18.9426 18.0846 19.908 18.2001C22.5956 18.5449 25.3175 18.5257 28 18.1431V18.1431ZM40 8.00007H19V6.00007H42V27.0001H20V25.0001H40V8.00007ZM13.5 33.5001C13.527 33.0334 13.455 32.5663 13.2887 32.1294C13.1223 31.6925 12.8654 31.2957 12.5349 30.9652C12.2043 30.6346 11.8076 30.3777 11.3707 30.2114C10.9338 30.0451 10.4667 29.9731 10 30.0001C9.53331 29.9731 9.06618 30.0451 8.62929 30.2114C8.19241 30.3777 7.79566 30.6346 7.46511 30.9652C7.13455 31.2957 6.87767 31.6925 6.71134 32.1294C6.545 32.5663 6.47298 33.0334 6.5 33.5001C6.47298 33.9668 6.545 34.4339 6.71134 34.8708C6.87767 35.3077 7.13455 35.7044 7.46511 36.035C7.79566 36.3655 8.19241 36.6224 8.62929 36.7887C9.06618 36.9551 9.53331 37.0271 10 37.0001C10.4667 37.0271 10.9338 36.9551 11.3707 36.7887C11.8076 36.6224 12.2043 36.3655 12.5349 36.035C12.8654 35.7044 13.1223 35.3077 13.2887 34.8708C13.455 34.4339 13.527 33.9668 13.5 33.5001ZM8.5 33.5001C8.47468 33.297 8.49605 33.0909 8.56247 32.8974C8.6289 32.7039 8.73864 32.5281 8.88332 32.3834C9.02799 32.2387 9.20379 32.129 9.39731 32.0625C9.59083 31.9961 9.79697 31.9748 10 32.0001C10.3978 32.0001 10.7794 32.1581 11.0607 32.4394C11.342 32.7207 11.5 33.1022 11.5 33.5001C11.5 33.8979 11.342 34.2794 11.0607 34.5607C10.7794 34.842 10.3978 35.0001 10 35.0001C9.79697 35.0254 9.59083 35.004 9.39731 34.9376C9.20379 34.8712 9.02799 34.7614 8.88332 34.6168C8.73864 34.4721 8.6289 34.2963 8.56247 34.1028C8.49605 33.9092 8.47468 33.7031 8.5 33.5001V33.5001ZM16 43.0001V44.0001H14V43.0001C14 40.5211 11.825 40.0001 10 40.0001C8.175 40.0001 6 40.5211 6 43.0001V44.0001H4V43.0001C4 39.9161 6.3 38.0001 10 38.0001C13.7 38.0001 16 39.9161 16 43.0001ZM20.5 33.5001C20.473 33.9668 20.545 34.4339 20.7113 34.8708C20.8777 35.3077 21.1346 35.7044 21.4651 36.035C21.7957 36.3655 22.1924 36.6224 22.6293 36.7887C23.0662 36.9551 23.5333 37.0271 24 37.0001C24.4667 37.0271 24.9338 36.9551 25.3707 36.7887C25.8076 36.6224 26.2043 36.3655 26.5349 36.035C26.8654 35.7044 27.1223 35.3077 27.2887 34.8708C27.455 34.4339 27.527 33.9668 27.5 33.5001C27.527 33.0334 27.455 32.5663 27.2887 32.1294C27.1223 31.6925 26.8654 31.2957 26.5349 30.9652C26.2043 30.6346 25.8076 30.3777 25.3707 30.2114C24.9338 30.0451 24.4667 29.9731 24 30.0001C23.5333 29.9731 23.0662 30.0451 22.6293 30.2114C22.1924 30.3777 21.7957 30.6346 21.4651 30.9652C21.1346 31.2957 20.8777 31.6925 20.7113 32.1294C20.545 32.5663 20.473 33.0334 20.5 33.5001V33.5001ZM25.5 33.5001C25.5253 33.7031 25.504 33.9092 25.4375 34.1028C25.3711 34.2963 25.2614 34.4721 25.1167 34.6168C24.972 34.7614 24.7962 34.8712 24.6027 34.9376C24.4092 35.004 24.203 35.0254 24 35.0001C23.6022 35.0001 23.2206 34.842 22.9393 34.5607C22.658 34.2794 22.5 33.8979 22.5 33.5001C22.5 33.1022 22.658 32.7207 22.9393 32.4394C23.2206 32.1581 23.6022 32.0001 24 32.0001C24.203 31.9748 24.4092 31.9961 24.6027 32.0625C24.7962 32.129 24.972 32.2387 25.1167 32.3834C25.2614 32.5281 25.3711 32.7039 25.4375 32.8974C25.504 33.0909 25.5253 33.297 25.5 33.5001ZM30 43.0001V44.0001H28V43.0001C28 40.5211 25.825 40.0001 24 40.0001C22.175 40.0001 20 40.5211 20 43.0001V44.0001H18V43.0001C18 39.9161 20.3 38.0001 24 38.0001C27.7 38.0001 30 39.9161 30 43.0001ZM34.5 33.5001C34.473 33.9668 34.545 34.4339 34.7113 34.8708C34.8777 35.3077 35.1346 35.7044 35.4651 36.035C35.7957 36.3655 36.1924 36.6224 36.6293 36.7887C37.0662 36.9551 37.5333 37.0271 38 37.0001C38.4667 37.0271 38.9338 36.9551 39.3707 36.7887C39.8076 36.6224 40.2043 36.3655 40.5349 36.035C40.8654 35.7044 41.1223 35.3077 41.2887 34.8708C41.455 34.4339 41.527 33.9668 41.5 33.5001C41.527 33.0334 41.455 32.5663 41.2887 32.1294C41.1223 31.6925 40.8654 31.2957 40.5349 30.9652C40.2043 30.6346 39.8076 30.3777 39.3707 30.2114C38.9338 30.0451 38.4667 29.9731 38 30.0001C37.5333 29.9731 37.0662 30.0451 36.6293 30.2114C36.1924 30.3777 35.7957 30.6346 35.4651 30.9652C35.1346 31.2957 34.8777 31.6925 34.7113 32.1294C34.545 32.5663 34.473 33.0334 34.5 33.5001V33.5001ZM39.5 33.5001C39.5 33.7967 39.412 34.0868 39.2472 34.3334C39.0824 34.5801 38.8481 34.7724 38.574 34.8859C38.2999 34.9994 37.9983 35.0291 37.7074 34.9713C37.4164 34.9134 37.1491 34.7705 36.9393 34.5607C36.7296 34.351 36.5867 34.0837 36.5288 33.7927C36.4709 33.5017 36.5007 33.2001 36.6142 32.9261C36.7277 32.652 36.92 32.4177 37.1666 32.2529C37.4133 32.088 37.7033 32.0001 38 32.0001C38.203 31.9748 38.4092 31.9961 38.6027 32.0625C38.7962 32.129 38.972 32.2387 39.1167 32.3834C39.2614 32.5281 39.3711 32.7039 39.4375 32.8974C39.504 33.0909 39.5253 33.297 39.5 33.5001V33.5001ZM44 43.0001V44.0001H42V43.0001C42 40.5211 39.825 40.0001 38 40.0001C36.175 40.0001 34 40.5211 34 43.0001V44.0001H32V43.0001C32 39.9161 34.3 38.0001 38 38.0001C41.7 38.0001 44 39.9161 44 43.0001Z" fill="black"/>
+            </svg>
             <span class="inline-block font-bold font-display w-full">
               Cursos a tu medida
             </span>
@@ -78,7 +84,9 @@
         </div>
         <div class="md:mx-8 lg:mx-0 bg-transparent rounded-lg">
           <div class="flex flex-col md:flex-row md:items-center mb-2 md:w-7/12 lg:w-auto">
-            <SvgIcon type="learningOnline" class="mb-2 md:mb-0 w-12 md:mr-6" viewBox="0 0 42 42" />
+            <svg class="mb-2 md:mb-0 w-12 md:mr-6" viewBox="0 0 48 48">
+              <path d="M42 6H6C5.46957 6 4.96086 6.21071 4.58579 6.58579C4.21071 6.96086 4 7.46957 4 8V40C4 40.5304 4.21071 41.0391 4.58579 41.4142C4.96086 41.7893 5.46957 42 6 42H42C42.5304 42 43.0391 41.7893 43.4142 41.4142C43.7893 41.0391 44 40.5304 44 40V8C44 7.46957 43.7893 6.96086 43.4142 6.58579C43.0391 6.21071 42.5304 6 42 6V6ZM42 8V12H6V8H42ZM6 40V14H42V40H6ZM8 10C8 9.80222 8.05865 9.60888 8.16853 9.44443C8.27841 9.27998 8.43459 9.15181 8.61732 9.07612C8.80004 9.00043 9.00111 8.98063 9.19509 9.01921C9.38907 9.0578 9.56725 9.15304 9.70711 9.29289C9.84696 9.43275 9.9422 9.61093 9.98079 9.80491C10.0194 9.99889 9.99957 10.2 9.92388 10.3827C9.84819 10.5654 9.72002 10.7216 9.55557 10.8315C9.39112 10.9414 9.19778 11 9 11C8.73478 11 8.48043 10.8946 8.29289 10.7071C8.10536 10.5196 8 10.2652 8 10ZM12 10C12 9.80222 12.0586 9.60888 12.1685 9.44443C12.2784 9.27998 12.4346 9.15181 12.6173 9.07612C12.8 9.00043 13.0011 8.98063 13.1951 9.01921C13.3891 9.0578 13.5673 9.15304 13.7071 9.29289C13.847 9.43275 13.9422 9.61093 13.9808 9.80491C14.0194 9.99889 13.9996 10.2 13.9239 10.3827C13.8482 10.5654 13.72 10.7216 13.5556 10.8315C13.3911 10.9414 13.1978 11 13 11C12.7348 11 12.4804 10.8946 12.2929 10.7071C12.1054 10.5196 12 10.2652 12 10ZM15 27C15.5334 27.0311 16.0674 26.949 16.5668 26.7589C17.0662 26.5689 17.5197 26.2754 17.8975 25.8975C18.2754 25.5197 18.5689 25.0662 18.7589 24.5668C18.949 24.0674 19.0311 23.5334 19 23C19.0311 22.4666 18.949 21.9326 18.7589 21.4332C18.5689 20.9338 18.2754 20.4803 17.8975 20.1025C17.5197 19.7246 17.0662 19.4311 16.5668 19.2411C16.0674 19.051 15.5334 18.9689 15 19C14.4666 18.9689 13.9326 19.051 13.4332 19.2411C12.9338 19.4311 12.4803 19.7246 12.1025 20.1025C11.7246 20.4803 11.4311 20.9338 11.2411 21.4332C11.051 21.9326 10.9689 22.4666 11 23C10.9689 23.5334 11.051 24.0674 11.2411 24.5668C11.4311 25.0662 11.7246 25.5197 12.1025 25.8975C12.4803 26.2754 12.9338 26.5689 13.4332 26.7589C13.9326 26.949 14.4666 27.0311 15 27V27ZM15 21C15.269 20.9743 15.5404 21.0084 15.7947 21.0998C16.0491 21.1913 16.28 21.3378 16.4711 21.5289C16.6622 21.72 16.8087 21.9509 16.9002 22.2053C16.9916 22.4596 17.0257 22.731 17 23C17.0257 23.269 16.9916 23.5404 16.9002 23.7947C16.8087 24.0491 16.6622 24.28 16.4711 24.4711C16.28 24.6622 16.0491 24.8087 15.7947 24.9002C15.5404 24.9916 15.269 25.0257 15 25C14.731 25.0257 14.4596 24.9916 14.2053 24.9002C13.9509 24.8087 13.72 24.6622 13.5289 24.4711C13.3378 24.28 13.1913 24.0491 13.0998 23.7947C13.0084 23.5404 12.9743 23.269 13 23C12.9743 22.731 13.0084 22.4596 13.0998 22.2053C13.1913 21.9509 13.3378 21.72 13.5289 21.5289C13.72 21.3378 13.9509 21.1913 14.2053 21.0998C14.4596 21.0084 14.731 20.9743 15 21V21ZM23 17H38V19H23V17ZM23 21H38V23H23V21ZM26 27H23V25H26V27ZM28.382 25H32.153L31.99 26.142C31.127 32.182 27.239 35.642 21 35.974V38H19V34H20C25.441 34 28.732 31.646 29.8 27H29.607C26.507 32.728 23.016 31.761 19.638 30.825C18.1374 30.3376 16.5766 30.0599 15 30C11.654 30 11 31.467 11 34V38H9V34C9 31.424 9.622 28 15 28C16.757 28.0593 18.4973 28.3621 20.171 28.9C23.604 29.852 25.671 30.425 28.105 25.556L28.382 25Z" fill="black"/>
+            </svg>
             <span class="inline-block font-bold font-display w-full">
               Atención personalizada
             </span>
@@ -92,15 +100,14 @@
     </div>
   </div>
 </section>
-<section class="pt-16 md:t-32 pb-10">
+<section class="pt-16 md:t-32 pb-10 md:pb-42">
   <div class="container mx-auto px-6 md:px-8 lg:px-6 max-w-screen-xl">
     <div class="lg:mx-8 xl:mx-16">
       <div class="grid lg:grid-cols-2 gap-10">
+        {{- with .Params.about -}}
         <div class="lg:mr-8">
-          <h2 class="text-3xl md:text-4xl font-display font-bold lg:mr-40 mb-6 leading-tight">Como surge el proyecto Neureta</h2>
-          <p class="text-gray-600 leading-loose mb-4">
-            <span class="font-bold">NEUR</span>, proviene de neuronas, células encargadas de transmitir el aprendizaje, mientras que <span class="font-bold">ETA</span>, proviene de IRETA que en purépecha significa pueblo.
-          </p>
+          <h2 class="text-3xl md:text-4xl font-display font-bold lg:mr-40 mb-6 leading-tight">{{ .title }}</h2>
+          <p class="text-gray-600 leading-loose mb-4">{{ .description }}</p>
           <p class="text-gray-600 leading-loose mb-10">Por lo que, Neureta es un pueblo o sociedad de neuronas encargadas de transmitir conocimiento en el ser humano.</p>
           <span class="inline-block uppercase font-display font-bold tracking-wider mb-4">Nuestra visión</span>
           <p class="text-gray-600 leading-loose mb-8">Ser una plataforma que comple con las diferentes demandas en el ámbito del desarrollo infantil, donde todos los participantes tendrán la certeza de acudir a ella confiados en encontrar diversas soluciones a sus problemáticas profesionales.</p>
@@ -108,17 +115,20 @@
         <div class="hidden md:block relative w-full pb-90">
           <img src="https://images.unsplash.com/photo-1586694680938-9682c9e1f736?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" class="absolute object-cover w-full h-full rounded-lg xl:rounded-full" alt="Proyecto Neureta" />
         </div>
+        {{- end -}}
       </div>
     </div>
     <div class="pt-6 lg:pt-32 pb-0">
       <div class="flex flex-col-reverse md:flex-row lg:mx-8 xl:mx-16">
+        {{- with .Params.about.team -}}
         <div class="relative w-full h-105 pb-105 md:w-40 md:h-40 md:pb-40 lg:w-80 lg:h-105 lg:pb-105 flex-shrink-0 md:mr-6 lg:mr-10">
-          <img src="https://images.unsplash.com/photo-1526548185067-231ab81c7178?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" class="absolute object-cover w-full h-full rounded-lg" alt="Imagen de Gabriela Gaspar" />
+          <img src="{{ .block_image.image }}" class="absolute object-cover w-full h-full rounded-lg" alt="{{ .block_image.alt_text }}" />
         </div>
         <div class="flex flex-col justify-center">
-          <span class="inline-block font-display font-bold text-2xl md:text-3xl mb-4">Hola, soy Gabriela Gaspar</span>
-          <p class="leading-loose lg:text-lg xl:text-xl text-gray-600 mb-6 md:mb-0">Maestra de Educación Especial en México y fundadora de Neureta, actualmente me dedico a impartir talleres referentes a educación con diferentes temáticas desde el ámbito de las neurociencias. Considero que uno de los propósitos más fundamentales en todo profesor es el conocimiento del cerebro para poder comprender sus diferentes procesos y así, poder intervenir con mayor eficacia.</p>
+          <span class="inline-block font-display font-bold text-2xl md:text-3xl mb-4">{{ .title }}</span>
+          <p class="leading-loose lg:text-lg xl:text-xl text-gray-600 mb-6 md:mb-0">{{ .description }}</p>
         </div>
+        {{- end -}}
       </div>
     </div>
   </div>
