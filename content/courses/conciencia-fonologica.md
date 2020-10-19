@@ -7,8 +7,8 @@ next_dates = []
 title = "Conciencia Fonológica"
 [extra]
 approximate_price = 850
-duration_info = "4 semanas"
-modality_info = "Online"
+duration_info = "4 semanas (en línea)"
+modality_info = "En línea"
 [[program]]
 description = "descripción"
 label = "label"
