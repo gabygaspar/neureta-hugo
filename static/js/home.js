@@ -268,6 +268,17 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
       }
 
       this.$cookies.set('cart', JSON.stringify(this.cart));
+      this.toggleShow();
+    },
+    remove: function remove(identifier) {
+      var index = this.cart.findIndex(function (item) {
+        return item.price === identifier;
+      });
+
+      if (index !== -1) {
+        this.$delete(this.cart, index);
+        this.$cookies.set('cart', JSON.stringify(this.cart));
+      }
     },
     buySingleCheckout: function buySingleCheckout() {},
     goToCheckout: function () {
