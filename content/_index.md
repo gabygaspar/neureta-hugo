@@ -21,7 +21,7 @@ networking:
   block_images:
   - image: "/uploads/product-school-wiiz3bhsmmq-unsplash.jpg"
     alt_text: Conferencia sobre Neurociencia
-  - image: "/uploads/gautam-arora-ovdtguhupby-unsplash.jpg"
+  - image: "/uploads/thisisengineering-raeng-ftd-qk0om20-unsplash.jpg"
     alt_text: Estimula tu cerebro
 
 ---
