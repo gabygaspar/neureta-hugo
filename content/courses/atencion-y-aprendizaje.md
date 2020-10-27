@@ -1,6 +1,6 @@
 +++
 description = "\"La atención es el foco del aprendizaje\""
-featured_image = "/uploads/atencion.jpg"
+featured_image = "/uploads/neuroeducacion.jpg"
 instructor = "instructors/mtra.veronica-gabriela-gaspar.md"
 title = "Atención y Aprendizaje"
 [extra]
