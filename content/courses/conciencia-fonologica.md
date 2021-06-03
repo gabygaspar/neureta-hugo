@@ -1,6 +1,5 @@
 +++
 description = "\"La Conciencia Fonológica es el estudio de los fonemas del habla\""
-draft = true
 featured_image = "/uploads/cuando-asistir-a-terapia-del-lenguaje.jpg"
 instructor = "instructors/mtra.veronica-gabriela-gaspar.md"
 title = "Conciencia Fonológica"
