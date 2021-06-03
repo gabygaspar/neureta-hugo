@@ -8,11 +8,11 @@ approximate_price = 850
 duration_info = "4 semanas (en línea)"
 modality_info = "En línea"
 [[next_dates]]
-description = "Apertura del 20 de Febrero"
+description = "Apertura del 26 de Julio"
 is_online = true
 location = ""
-price = 800
-start_date = "02/20/2021"
+price = 1000
+start_date = "07/26/2021"
 stripe_id = "price_1He0cwKerLxqwoyWCbtONcKb"
 [next_dates.duration]
 time = 4
@@ -115,9 +115,9 @@ title = "Material de Intervención descargable"
 title = "Certificado de Terminación"
 
 +++
-Una buena habilidad de lectura y escritura es fundamental para el desarrollo educativo, personal, social y profesional. Por esta razón es de suma importancia que todos los profesores garanticen a todos los niños la oportunidad de trabajar, potencializar y desarrollar dicha habilidad. En un sistema alfabético como es el castellano, hablar del acceso al lenguaje escrito va ligado a hablar de la decodificación fonológica.
+Una buena habilidad de lectura y escritura es fundamental para el desarrollo educativo, personal, social y profesional. Por esta razón es de suma importancia que todos los instructores a todos los niños la oportunidad de trabajar, potencializar y desarrollar dicha habilidad. En un sistema alfabético como es el castellano, hablar del acceso al lenguaje escrito va ligado a hablar de la decodificación fonológica.
 
-Una de las causas más habituales de los problemas de comprensión lectora es la dificultad para decodificar de forma ágil y eficaz. Por esta razón en este taller de Conciencia Fonológica trabajaremos todo el proceso que se tiene que seguir para que os alumnos codifiquen de una forma eficaz los diferentes fonemas del habla.
+Una de las causas más habituales de los problemas de comprensión lectora es la dificultad para decodificar de forma ágil y eficaz. Por esta razón en este taller de Conciencia Fonológica trabajaremos todo el proceso que tiene que seguir para que los alumnos codifiquen de una forma eficaz los diferentes fonemas del habla.
 
 Presentaremos una evaluación donde los profesores se pueden basar para evaluar si el alumno no logra cumplir con los objetivos planeados (de la Conciencia Fonológica) y así analizar la probable existencia de una deficiencia lectora o posible dislexia.
 
