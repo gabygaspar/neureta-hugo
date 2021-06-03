@@ -1,7 +1,7 @@
 ---
 title: Funciones Ejecutivas
 description: '"Las Funciones Ejecutivas son la orquesta de la Cognición"'
-featured_image: "/uploads/cerebro.jpg"
+featured_image: "/uploads/michal-parzuchowski-gennfqfvw48-unsplash.jpg"
 program:
 - label: Módulo 1
   title: Introducción al curso
@@ -78,10 +78,10 @@ next_dates:
   stripe_id: price_1He0adKerLxqwoyW1udXZQ1N
 
 ---
-El presente curso está dedicado al trabajo y análisis de las Funciones Ejecutivas, se encuentra dividido en 4 módulos donde en cada uno de ellos analizaremos contenidos necesarios para comprender diferentes aspectos que lo integran. Abordaremos éste tema desde la parte neuropsicológica ubicando y nombrando partes cerebrales que participan den cada uno de los procesos analizados.
+El presente curso está dedicado al trabajo y análisis de las Funciones Ejecutivas, se encuentra dividido en 4 módulos donde en cada uno de ellos analizaremos contenidos necesarios para comprender diferentes aspectos que lo integran. Abordaremos éste tema desde la parte neuropsicológica ubicando y nombrando partes cerebrales que participan en cada uno de los procesos analizados.
 
-En el módulo de rehabilitación, se expondrán actividades ejemplificando cómo se deben realizar en sus rehabilitaciones e intervenciones, muchas de estas actividades las podrán poner en práctica ya que se les entregará un dossier de actividades.
+En el módulo de rehabilitación, se expondrán actividades ejemplificando cómo se deben realizar en sus rehabilitaciones e intervenciones, muchas de estas actividades podrán poner en práctica ya que se les entregará un dossier de actividades.
 
 Conoceremos evaluaciones que nos ayuden a valorar algunas capacidades de las Funciones Ejecutivas identificado si hay alguna alteración o dificultad para poder intervenir de una forma más eficaz.
 
-Por último, en este curso se integraron, esquemas, videos, actividades e imágenes que nos ayudarán a comprender de una mejor forma todo el contenido; nuestro propósito es que los participantes tenga las herramientas necesarias para interactuar de una forma diversificada con la información. Nos hemos propuesto que el tema quede claro en todos nuestros alumnos impactando en su nivel profesional y personal.
+Por último, en este curso se integraron, esquemas, videos, actividades e imágenes que nos ayudarán a comprender una mejor forma todo el contenido; nuestro propósito es que los participantes tenga las herramientas necesarias para interactuar de una forma diversificada con la información. Nos hemos propuesto que el tema quede claro en nuestros alumnos impactando en su nivel profesional y personal.
