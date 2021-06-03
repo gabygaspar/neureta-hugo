@@ -1,7 +1,7 @@
 +++
 description = "\"La Conciencia Fonológica es el estudio de los fonemas del habla\""
 draft = true
-featured_image = "/uploads/concincia.jpeg"
+featured_image = "/uploads/cuando-asistir-a-terapia-del-lenguaje.jpg"
 instructor = "instructors/mtra.veronica-gabriela-gaspar.md"
 title = "Conciencia Fonológica"
 [extra]
@@ -9,12 +9,12 @@ approximate_price = 850
 duration_info = "4 semanas (en línea)"
 modality_info = "En línea"
 [[next_dates]]
-description = "Apertura del 26 de Julio"
+description = "En línea"
 is_online = true
 location = ""
 price = 1000
 start_date = "07/26/2021"
-stripe_id = "price_1He0cwKerLxqwoyWCbtONcKb"
+stripe_id = "xx"
 [next_dates.duration]
 time = 4
 type = "week"
