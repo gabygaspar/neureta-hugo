@@ -15,8 +15,8 @@ price = 1000
 start_date = "07/26/2021"
 stripe_id = "bbbbbb"
 [next_dates.duration]
-time = 0
-type = []
+time = 4
+type = "week"
 [[program]]
 description = "descripción"
 label = "label"
