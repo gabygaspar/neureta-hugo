@@ -2,17 +2,17 @@
 description = "\"La atención es el foco del aprendizaje\""
 featured_image = "/uploads/neuroeducacion.jpg"
 instructor = "instructors/mtra.veronica-gabriela-gaspar.md"
-title = "Atención y Aprendizaje"
+title = "TDAH, procesos cognitivos e intervención."
 [extra]
 approximate_price = 1100
 duration_info = "4 semanas (en línea)"
 modality_info = "En línea"
 [[next_dates]]
-description = "Apertura del 27 de Febrero"
+description = "Apertura del 31 de Julio"
 is_online = true
 location = ""
-price = 1100
-start_date = "02/27/2021"
+price = 1200
+start_date = "07/31/2021"
 stripe_id = "price_1He0eWKerLxqwoyWk8rL7mCZ"
 [next_dates.duration]
 time = 4
@@ -117,8 +117,8 @@ La atención es una función neuropsicológica compleja y por ello difícil de d
 
 En este taller se analizarán los diferentes conceptos de atención, así como sus características y componentes. Uno de los aspectos más importantes es el analizar y comprender las diferentes relaciones que tienen con otros procesos cognitivos como: Funciones ejecutivas, Memoria de trabajo, Velocidad de Procesamiento, Inhibición, Flexibilidad Cognitiva y Planificación.
 
-En la Neuropsicología, el conocer las **PARTES NEUROANATÓMICAS** que participan es fundamental para poder detectar específicamente estructuras que presenten alguna deficiencia, esto ayudará a intervenir de forma directa en la alteración que se tenga con actividades específicas y funcionales. Por esta razón, se dan a conocer las estructuras neuroanatómicas que rige la atención.
+En la Neuropsicología, el conocer las **PARTES NEUROANATÓMICAS** que participan es fundamental para poder detectar específicamente estructuras que presentan alguna deficiencia, esto ayuda a intervenir de forma directa en la alteración que tenga con actividades específicas y funcionales. Por esta razón, se dan a conocer las estructuras neuroanatómicas que rige la atención.
 
 Se dará a conocer **EVALUACIONES** que se debe realizar ejemplificando algunas más utilizadas.
 
-Por último, analizaremos la **REHABILITACIÓN NEUROPSICOLÓGICA** (**intervención)** por medio de actividades trabajando la atención de forma clínica, observando las estructuras de las diferentes actividades y cómo deben ser trabajadas para obtener resultados funcionales a nivel cerebral.
+Por último, analizaremos la **REHABILITACIÓN NEUROPSICOLÓGICA** ( **intervención)** por medio de actividades trabajando la atención de forma clínica, observando las estructuras de las diferentes actividades y cómo deben ser trabajadas para obtener resultados funcionales a nivel cerebral.
