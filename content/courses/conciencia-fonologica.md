@@ -83,8 +83,6 @@ title = "Lección 4.- Entrenamiento de la Conciencia Silábica, Intrasilábica Y
 title = "Lección 5.-Videos de Intervención de la Conciencia Fonológica."
 [[program.lessons]]
 title = "Lección 7.- Entrenamiento en Conciencia Fonológica."
-[[program.lessons]]
-title = "Lección 8.- Entrenamiento PROMELEC."
 [[whats_include]]
 title = "Prácticas Garantizadas"
 [[whats_include]]
