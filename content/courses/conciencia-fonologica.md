@@ -44,7 +44,7 @@ title = "Lección 1.-Introducción. La Conciencia Fonológica."
 [[program.lessons]]
 title = "Lección 2.- ¿Qué es la Conciencia Fonológica?"
 [[program.lessons]]
-title = "Lección 3.- ¿Qué es la Fonología?"
+title = "Lección 3.- Conciencia Fonológica y aprendizaje de la lectura."
 [[program.lessons]]
 title = "Lección 4.- Hipótesis entre lectura y Conciencia Fonológica."
 [[program.lessons]]
