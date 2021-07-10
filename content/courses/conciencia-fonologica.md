@@ -42,7 +42,7 @@ title = "Módulo 2.- Conciencia Fonológica."
 [[program.lessons]]
 title = "Lección 1.-Introducción. La Conciencia Fonológica."
 [[program.lessons]]
-title = "Lección 2.- Evolución de la Conciencia Fonológica."
+title = "Lección 2.- ¿Qué es la Conciencia Fonológica?"
 [[program.lessons]]
 title = "Lección 3.- ¿Qué es la Fonología?"
 [[program.lessons]]
