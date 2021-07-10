@@ -34,7 +34,7 @@ title = "Lección 5.- Rutas cerebrales de la escritura."
 [[program.lessons]]
 title = "Lección 6.- Circuitos cerebrales de la lectura y escritura."
 [[program.lessons]]
-title = "Lección 9.-Etapas del aprendizaje Lector."
+title = "Lección 7.-Etapas del aprendizaje Lector."
 [[program]]
 description = "descripción"
 label = "label"
