@@ -24,7 +24,7 @@ title = "Módulo 1.- Desarrollo de la Lectura y Escritura."
 [[program.lessons]]
 title = "Lección 1.- Introducción. Desarrollo de la Lectura y Escritura."
 [[program.lessons]]
-title = "Lección 2.- Antecedentes de la Lectura y Escritura."
+title = "Lección 2.- Conciencia Fonológica y Aprendizaje de la Lectura."
 [[program.lessons]]
 title = "Lección 3.- Acceso a la lectura y escritura."
 [[program.lessons]]
