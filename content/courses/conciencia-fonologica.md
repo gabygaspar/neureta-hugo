@@ -56,7 +56,7 @@ description = "descrpción"
 label = "label"
 title = "Módulo 3.- Evaluación de la Conciencia Fonológica."
 [[program.lessons]]
-title = "Lección 1.- Evaluación de la Conciencia Fonológica."
+title = "Lección 1.- Introducción. Evaluación de la Conciencia Fonológica."
 [[program.lessons]]
 title = "Lección 2.-Actividades más utilizadas en la evaluación de la Conciencia Fonológica."
 [[program.lessons]]
