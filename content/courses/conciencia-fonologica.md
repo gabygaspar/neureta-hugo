@@ -22,7 +22,7 @@ description = "descripción"
 label = "label"
 title = "Módulo 1.- Desarrollo de la Lectura y Escritura."
 [[program.lessons]]
-title = "Lección 1.- Lectura y escritura."
+title = "Lección 1.- Introducción. Desarrollo de la Lectura y Escritura."
 [[program.lessons]]
 title = "Lección 2.- Factores que intervienen para el aprendizaje de la lectura."
 [[program.lessons]]
