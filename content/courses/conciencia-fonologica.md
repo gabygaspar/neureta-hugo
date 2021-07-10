@@ -34,13 +34,7 @@ title = "Lección 5.- Rutas cerebrales de la escritura."
 [[program.lessons]]
 title = "Lección 6.- Circuitos cerebrales de la lectura y escritura."
 [[program.lessons]]
-title = "Lección 7.- Ruta Fonológica- Ruta Léxica."
-[[program.lessons]]
-title = "Lección 8.- Modelo Lingüístico de la doble ruta Hickok y Peple (2007)."
-[[program.lessons]]
-title = "Lección 9.- Rutas Lectoras Fonológica y Léxica."
-[[program.lessons]]
-title = "Lección 10.- Etapas de aprendizaje de la lectura."
+title = "Lección 9.-Etapas del aprendizaje Lector."
 [[program]]
 description = "descripción"
 label = "label"
