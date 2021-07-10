@@ -30,7 +30,7 @@ title = "Lección 3.- Acceso a la lectura y escritura."
 [[program.lessons]]
 title = "Lección 4.- Ruta Léxica y Ruta Fonológica de la Lectura."
 [[program.lessons]]
-title = "Lección 5.- Circuitos cerebrales del habla."
+title = "Lección 5.- Rutas cerebrales de la escritura."
 [[program.lessons]]
 title = "Lección 6.- Circuitos cerebrales de la lectura y escritura."
 [[program.lessons]]
