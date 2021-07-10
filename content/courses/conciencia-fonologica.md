@@ -46,7 +46,7 @@ title = "Lección 2.- ¿Qué es la Conciencia Fonológica?"
 [[program.lessons]]
 title = "Lección 3.- Conciencia Fonológica y aprendizaje de la lectura."
 [[program.lessons]]
-title = "Lección 4.- Hipótesis entre lectura y Conciencia Fonológica."
+title = "Lección 4.- Desarrollo Evolutivo de la Conciencia Fonológica en el Ser Humano.."
 [[program.lessons]]
 title = "Lección 5.- Niveles de Conciencia Fonológica."
 [[program.lessons]]
