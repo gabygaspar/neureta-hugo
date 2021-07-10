@@ -28,7 +28,7 @@ title = "Lección 2.- Antecedentes de la Lectura y Escritura."
 [[program.lessons]]
 title = "Lección 3.- Acceso a la lectura y escritura."
 [[program.lessons]]
-title = "Lección 4.- Lenguaje VS Lectura y Escritura."
+title = "Lección 4.- Ruta Léxica y Ruta Fonológica de la Lectura."
 [[program.lessons]]
 title = "Lección 5.- Circuitos cerebrales del habla."
 [[program.lessons]]
