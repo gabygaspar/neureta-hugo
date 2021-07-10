@@ -74,7 +74,7 @@ title = "Módulo 4.- Entrenamiento de la Conciencia Fonológica."
 [[program.lessons]]
 title = "Lección 1.- Introducción. Estimulación de la Conciencia Fonológica."
 [[program.lessons]]
-title = "Lección 2.-Entrenamiento de la Conciencia Intrasilábica."
+title = "Lección 2.-Características de la Estimulación."
 [[program.lessons]]
 title = "Lección 3.- Entrenamiento de la Conciencia Fonémica."
 [[program.lessons]]
