@@ -60,7 +60,7 @@ title = "Lección 1.- Introducción. Evaluación de la Conciencia Fonológica."
 [[program.lessons]]
 title = "Lección 2.-Evaluación de la Conciencia Fonológica."
 [[program.lessons]]
-title = "Lección 3.- Actividades más utilizadas en la Conciencia Silábica."
+title = "Lección 3.- Evaluación de la Conciencia intrasilábica y Fonémica."
 [[program.lessons]]
 title = "Lección 4.- Actividades más utilizadas para la Conciencia Fonémica."
 [[program.lessons]]
