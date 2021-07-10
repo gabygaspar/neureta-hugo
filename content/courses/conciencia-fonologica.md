@@ -76,7 +76,7 @@ title = "Lección 1.- Introducción. Estimulación de la Conciencia Fonológica.
 [[program.lessons]]
 title = "Lección 2.-Características de la Estimulación."
 [[program.lessons]]
-title = "Lección 3.- Entrenamiento de la Conciencia Fonémica."
+title = "Lección 3.- Programas  de la Estimulación de la Conciencia Fonológica.."
 [[program.lessons]]
 title = "Lección 4.- Programas de entrenamiento."
 [[program.lessons]]
