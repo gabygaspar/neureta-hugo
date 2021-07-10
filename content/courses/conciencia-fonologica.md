@@ -80,7 +80,7 @@ title = "Lección 3.- Programas  de la Estimulación de la Conciencia Fonológic
 [[program.lessons]]
 title = "Lección 4.- Entrenamiento de la Conciencia Silábica, Intrasilábica Y Fonémica."
 [[program.lessons]]
-title = "Lección 6.- Programa Conciencia Fonológica y Aprendizaje de la Lectura."
+title = "Lección 5.-Videos de Intervención de la Conciencia Fonológica."
 [[program.lessons]]
 title = "Lección 7.- Entrenamiento en Conciencia Fonológica."
 [[program.lessons]]
