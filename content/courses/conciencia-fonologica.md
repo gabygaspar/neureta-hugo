@@ -78,9 +78,7 @@ title = "Lección 2.-Características de la Estimulación."
 [[program.lessons]]
 title = "Lección 3.- Programas  de la Estimulación de la Conciencia Fonológica.."
 [[program.lessons]]
-title = "Lección 4.- Programas de entrenamiento."
-[[program.lessons]]
-title = "Lección 5.- Programa LOLE"
+title = "Lección 4.- Entrenamiento de la Conciencia Silábica, Intrasilábica Y Fonémica."
 [[program.lessons]]
 title = "Lección 6.- Programa Conciencia Fonológica y Aprendizaje de la Lectura."
 [[program.lessons]]
