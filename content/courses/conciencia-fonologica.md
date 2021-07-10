@@ -40,7 +40,7 @@ description = "descripción"
 label = "label"
 title = "Módulo 2.- Conciencia Fonológica."
 [[program.lessons]]
-title = "Lección 1.- Concepto."
+title = "Lección 1.-Introducción. La Conciencia Fonológica."
 [[program.lessons]]
 title = "Lección 2.- Evolución de la Conciencia Fonológica."
 [[program.lessons]]
