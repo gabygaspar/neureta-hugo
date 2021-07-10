@@ -64,7 +64,7 @@ title = "Lección 3.- Evaluación de la Conciencia intrasilábica y Fonémica."
 [[program.lessons]]
 title = "Lección 4.- Clasificación de las Actividades de Evaluación."
 [[program.lessons]]
-title = "Lección 5.- Prueba ProLec"
+title = "Lección 5.- Diferentes Evaluaciones."
 [[program.lessons]]
 title = "Lección 6.- Otras pruebas."
 [[program]]
