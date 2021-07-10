@@ -50,17 +50,7 @@ title = "Lección 4.- Desarrollo Evolutivo de la Conciencia Fonológica en el Se
 [[program.lessons]]
 title = "Lección 5.- Niveles de Conciencia Fonológica."
 [[program.lessons]]
-title = "Lección 6.- Niveles de la Conciencia Fonológica."
-[[program.lessons]]
-title = "Lección 7.- Conciencia Silábica."
-[[program.lessons]]
-title = "Lección 8.- Conciencia Intrasilábica."
-[[program.lessons]]
-title = "Lección 9.- Conciencia Fonémica."
-[[program.lessons]]
-title = "Lección 10.- Conciencia Intrasilábica."
-[[program.lessons]]
-title = "Lección 11.- Conciencia Fonémica."
+title = "Lección 6.- Conciencia Intrasilábica y Fonémica."
 [[program]]
 description = "descrpción"
 label = "label"
