@@ -72,7 +72,7 @@ description = "descripcion"
 label = "label"
 title = "Módulo 4.- Entrenamiento de la Conciencia Fonológica."
 [[program.lessons]]
-title = "Lección 1.- Entrenamiento de la Conciencia Silábica."
+title = "Lección 1.- Introducción. Estimulación de la Conciencia Fonológica."
 [[program.lessons]]
 title = "Lección 2.-Entrenamiento de la Conciencia Intrasilábica."
 [[program.lessons]]
