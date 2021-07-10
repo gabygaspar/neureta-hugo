@@ -26,7 +26,7 @@ title = "Lección 1.- Introducción. Desarrollo de la Lectura y Escritura."
 [[program.lessons]]
 title = "Lección 2.- Antecedentes de la Lectura y Escritura."
 [[program.lessons]]
-title = "Lección 3.- Acceso a la lectura."
+title = "Lección 3.- Acceso a la lectura y escritura."
 [[program.lessons]]
 title = "Lección 4.- Lenguaje VS Lectura y Escritura."
 [[program.lessons]]
