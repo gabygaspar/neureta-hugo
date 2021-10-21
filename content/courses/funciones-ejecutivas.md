@@ -14,8 +14,6 @@ program:
   description: Descripción
   lessons:
   - title: Lección 1.-Concepto
-  - title: 'Lección 2.- Los cuatro cerebros: reptiliano, emocional, racional y ejecutivo'
-  - title: Lección 3.-Neuropsicología de las Funciones Ejecutivas
   - title: Lección 4.- Clasificación de las Funciones Ejecutivas
   - title: Lección 5.- Características de las Funciones Ejecutivas
   - title: 'Lección 6.-Desarrollo de las Funciones Ejecutivas: Evolutivo y Anatómico'
