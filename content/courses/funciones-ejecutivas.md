@@ -10,7 +10,7 @@ program:
   - title: 'Lección 1: Ejemplo de lección'
   - title: 'Lección 2: Ejemplo lección 2'
 - label: Labe
-  title: Módulo 1.-  Funciones Ejecutivas
+  title: Lección 2.-  Procesos que integran las Funciones Ejecutivas
   description: Descripción
   lessons:
   - title: 'Lección 1: Concepto del Funcionamiento Ejecutivo'
