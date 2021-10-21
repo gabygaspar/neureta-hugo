@@ -49,9 +49,8 @@ extra:
   duration_info: '4 semanas (en línea) '
 whats_include:
 - title: Prácticas Garantizadas
-- title: Videos explicativos de cada una de las lecciones
 - title: Imágenes y Esquema de Aprendizaje
-- title: Material de intervención descargable
+- title: Material de intervención para cada participante
 - title: Certificado de terminación
 next_dates:
 - description: Apertura del 13 de Febrero
