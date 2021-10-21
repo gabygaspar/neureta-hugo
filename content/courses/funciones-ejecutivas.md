@@ -50,7 +50,7 @@ extra:
 whats_include:
 - title: Prácticas Garantizadas
 - title: Imágenes y Esquema de Aprendizaje
-- title: Material de intervención para cada participante
+- title: Material de trabajo para cada participante
 - title: Certificado de terminación
 next_dates:
 - description: Apertura del 13 de Febrero
