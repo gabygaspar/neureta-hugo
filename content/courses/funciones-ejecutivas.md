@@ -4,7 +4,7 @@ description: '"Las Funciones Ejecutivas son la orquesta de la Cognición"'
 featured_image: "/uploads/michal-parzuchowski-gennfqfvw48-unsplash.jpg"
 program:
 - label: Lección 1
-  title: Concepto de Funciones Ejecutivas
+  title: 'Lección 1: Concepto de Funciones Ejecutivas'
   description: descripcion
   lessons:
   - title: 'Lección 1: Ejemplo de lección'
