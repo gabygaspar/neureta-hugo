@@ -13,10 +13,8 @@ program:
   title: Módulo 1.-  Funciones Ejecutivas
   description: Descripción
   lessons:
-  - title: Lección 1.-Concepto
-  - title: Lección 4.- Clasificación de las Funciones Ejecutivas
-  - title: Lección 5.- Características de las Funciones Ejecutivas
-  - title: 'Lección 6.-Desarrollo de las Funciones Ejecutivas: Evolutivo y Anatómico'
+  - title: 'Lección 1: Concepto de las Funciones Ejecutivas'
+  - title: 'Lección 2: Procesos del Funcionamiento Ejecutivo'
 - label: label
   title: Módulo 2.- Bases anatómicas de las Funciones Ejecutivas.
   description: descripción
