@@ -59,7 +59,7 @@ next_dates:
   duration:
     time: 8
     type: hour
-  start_date: 02/13/2021
+  start_date: 11/13/2021
   stripe_id: price_1He0adKerLxqwoyW1udXZQ1N
   location: Uruapan Michoacán México.
 
