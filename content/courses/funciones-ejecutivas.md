@@ -48,20 +48,20 @@ extra:
   modality_info: En línea
   duration_info: '4 semanas (en línea) '
 whats_include:
-- title: 'Coffe-Break durante la mañana '
 - title: Prácticas Garantizadas
-- title: Imágenes y Esquema de Aprendizaje
 - title: Material de trabajo para cada participante
+- title: 'Coffe-Break durante la mañana '
 - title: Certificado de terminación
 next_dates:
-- description: Apertura del 13 de Febrero
-  price: 1200
-  is_online: true
+- description: Apertura del 13 de Noviembre
+  price: 1300
+  is_online: false
   duration:
-    time: 4
-    type: week
+    time: 8
+    type: hour
   start_date: 02/13/2021
   stripe_id: price_1He0adKerLxqwoyW1udXZQ1N
+  location: Uruapan Michoacán México.
 
 ---
 El presente curso está dedicado al trabajo y análisis de las Funciones Ejecutivas, se encuentra dividido en 4 módulos donde en cada uno de ellos analizaremos contenidos necesarios para comprender diferentes aspectos que lo integran. Abordaremos éste tema desde la parte neuropsicológica ubicando y nombrando partes cerebrales que participan en cada uno de los procesos analizados.
