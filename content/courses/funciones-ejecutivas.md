@@ -48,6 +48,7 @@ extra:
   modality_info: En línea
   duration_info: '4 semanas (en línea) '
 whats_include:
+- title: 'Coffe-Break durante la mañana '
 - title: Prácticas Garantizadas
 - title: Imágenes y Esquema de Aprendizaje
 - title: Material de trabajo para cada participante
