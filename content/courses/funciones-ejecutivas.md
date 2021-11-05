@@ -16,7 +16,7 @@ program:
   - title: 'Lección 1: Procesos del Funcionamiento Ejecutivo'
   - title: 'Lección 2: Memoria de Trabajo'
   - title: 'Lección 3: SAS Sistema Atencional Supervisor'
-  - title: Lección 5 Marcador Somático
+  - title: 'Lección 4: Marcador Somático'
 - label: label
   title: Módulo 3.- Evaluación de las Funciones Ejecutivas
   description: descripción
