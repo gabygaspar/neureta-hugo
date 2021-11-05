@@ -88,7 +88,7 @@ title = "Prácticas Garantizadas"
 [[whats_include]]
 title = "Material de Trabajo para cada participante"
 [[whats_include]]
-title = "Material de Intervención descargable"
+title = "Coffe-Break durante la mañana"
 [[whats_include]]
 title = "Certificado de Terminación"
 
