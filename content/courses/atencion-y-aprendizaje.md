@@ -20,9 +20,9 @@ type = "hour"
 [[program]]
 description = "descripción"
 label = "label"
-title = "Módulo 1.- La Atención en el Aprendizaje"
+title = "Módulo 1.- Concepto de TDAH"
 [[program.lessons]]
-title = "Lección1.- Concepto."
+title = "Lección1: Concepto de TDAH"
 [[program.lessons]]
 title = "Lección 2.- Características de la Atención."
 [[program.lessons]]
