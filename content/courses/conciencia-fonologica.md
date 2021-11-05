@@ -66,7 +66,7 @@ title = "Lección 4.- Clasificación de las Actividades de Evaluación."
 [[program.lessons]]
 title = "Lección 5.- Diferentes Evaluaciones."
 [[program.lessons]]
-title = "Lección 6.- Otras pruebas."
+title = "Lección 6.- Diferentes Evaluaciones"
 [[program]]
 description = "descripcion"
 label = "label"
