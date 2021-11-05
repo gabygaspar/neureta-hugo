@@ -14,7 +14,7 @@ program:
   description: Descripción
   lessons:
   - title: 'Lección 1: Procesos del Funcionamiento Ejecutivo'
-  - title: 'Lección 3: Memoria de Trabajo'
+  - title: 'Lección 2: Memoria de Trabajo'
   - title: 'Lección 4: SAS Sistema Atencional Supervisor'
   - title: Lección 5 Marcador Somático
 - label: label
