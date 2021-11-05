@@ -4,9 +4,9 @@ featured_image = "/uploads/cuando-asistir-a-terapia-del-lenguaje.jpg"
 instructor = "instructors/mtra.veronica-gabriela-gaspar.md"
 title = "Conciencia Fonológica"
 [extra]
-approximate_price = 850
-duration_info = "4 semanas (en línea)"
-modality_info = "En línea"
+approximate_price = 1000
+duration_info = "8 Horas"
+modality_info = "Presencial"
 [[next_dates]]
 description = "Apertura 27 de Noviembre"
 is_online = false
