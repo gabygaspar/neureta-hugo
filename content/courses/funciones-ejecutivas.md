@@ -13,6 +13,7 @@ program:
   title: Lección 2.-  Procesos que integran las Funciones Ejecutivas
   description: Descripción
   lessons:
+  - title: Lección 5 Marcador Somático
   - title: 'Lección 1: Concepto del Funcionamiento Ejecutivo'
   - title: 'Lección 2: Procesos del Funcionamiento Ejecutivo'
   - title: 'Lección 3: Memoria de Trabajo'
