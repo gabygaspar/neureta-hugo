@@ -44,9 +44,9 @@ program:
   - title: Lección 10.-Autoregulación Emocional
 instructor: instructors/mtra.veronica-gabriela-gaspar.md
 extra:
-  approximate_price: 1250
-  modality_info: En línea
-  duration_info: '4 semanas (en línea) '
+  approximate_price: 1300
+  modality_info: Presencial
+  duration_info: 8 Horas
 whats_include:
 - title: Prácticas Garantizadas
 - title: Material de trabajo para cada participante
