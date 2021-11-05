@@ -15,7 +15,7 @@ program:
   lessons:
   - title: 'Lección 1: Concepto del Funcionamiento Ejecutivo'
   - title: 'Lección 2: Procesos del Funcionamiento Ejecutivo'
-  - title: 'Lección 3: Evaluación de las Funciones Ejecutivas'
+  - title: 'Lección 3: Memoria de Trabajo'
   - title: 'Lección 4: Intervención de las Funciones Ejecutivas'
 - label: label
   title: Módulo 3.- Evaluación de las Funciones Ejecutivas
