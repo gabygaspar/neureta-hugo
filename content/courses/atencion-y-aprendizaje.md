@@ -2,11 +2,11 @@
 description = "\"La atención es el foco del aprendizaje\""
 featured_image = "/uploads/tdah.jpg"
 instructor = "instructors/mtra.veronica-gabriela-gaspar.md"
-title = "TDAH, procesos cognitivos e intervención."
+title = "Trastorno de Atención con Hiperactividad TDAH"
 [extra]
-approximate_price = 1100
-duration_info = "4 semanas (en línea)"
-modality_info = "En línea"
+approximate_price = 1000
+duration_info = "8 Horas"
+modality_info = "Presencial"
 [[next_dates]]
 description = "Apertura del 31 de Julio"
 is_online = true
