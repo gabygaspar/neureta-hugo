@@ -30,6 +30,7 @@ program:
   title: Módulo 4.- Reahabilitación de las Funciones Ejecutivas.
   description: descripcion
   lessons:
+  - title: 'Lección 11: Modificación de Conductas'
   - title: Lección 1:Características de un entrenamiento en Funciones Ejecutivas
   - title: Lección 2:Capacidades que se tienen que trabajar en Funciones Ejecutivas
   - title: 'Lección 3: Atención'
