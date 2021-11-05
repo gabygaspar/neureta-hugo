@@ -12,7 +12,7 @@ program:
   - title: 'Lección 3: División Anatómica del Lóbulo Frontal'
   - title: 'Lección 4: Área Prefrontal'
   - title: 'Lección 5: Componentes Esenciales y Componentes auxiliares'
-  - title: 'Lección 6: Metáforas del Funcionamiento Ejecutivo'
+  - title: 'Lección 6: Metáforas del Funcionamiento Ejecutivo.'
 - label: Labe
   title: Lección 2.-  Procesos que integran las Funciones Ejecutivas
   description: Descripción
