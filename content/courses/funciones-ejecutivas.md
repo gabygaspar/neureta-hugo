@@ -7,7 +7,7 @@ program:
   title: 'Lección 1: Concepto de Funciones Ejecutivas'
   description: descripcion
   lessons:
-  - title: 'Lección 1: Ejemplo de lección'
+  - title: 'Lección 1: Concepto de Funciones Ejecutivas'
   - title: 'Lección 2: Ejemplo lección 2'
 - label: Labe
   title: Lección 2.-  Procesos que integran las Funciones Ejecutivas
