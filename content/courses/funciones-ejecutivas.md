@@ -22,7 +22,7 @@ program:
   description: descripción
   lessons:
   - title: Lección 1.- Concepto de Evaluación del Funcionamiento Ejecutivo.
-  - title: Lección 2.-Indicadores de posibles alteraciones en funciones ejecutivas
+  - title: Lección 2:Indicadores de posibles alteraciones en funciones ejecutivas
   - title: 'Lección 3: Principales pruebas para evaluar las Funciones Ejecutivas'
   - title: 'Lección 4: Prueba de ENFEN de José Antonio Portellano'
   - title: 'Lección 5: Prueba de STROOP'
