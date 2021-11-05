@@ -104,7 +104,7 @@ title = "Lección 10.-Autoregulación Emocional."
 [[whats_include]]
 title = "Prácticas Garantizadas"
 [[whats_include]]
-title = "Videos explicativos de cada lección"
+title = "Material de Trabajo para cada participante."
 [[whats_include]]
 title = "Imágenes y Esquemas de Aprendizaje"
 [[whats_include]]
