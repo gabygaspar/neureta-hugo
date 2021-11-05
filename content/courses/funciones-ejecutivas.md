@@ -25,7 +25,7 @@ program:
   - title: Lección 2.-Indicadores de posibles alteraciones en funciones ejecutivas
   - title: Lección 3.-Principales pruebas para evaluar las Funciones Ejecutivas
   - title: 'Lección 4: Prueba de ENFEN de José Antonio Portellano'
-  - title: Lección 6.- Prueba de STROOP
+  - title: 'Lección 5: Prueba de STROOP'
 - label: 'label '
   title: Módulo 4.- Reahabilitación de las Funciones Ejecutivas.
   description: descripcion
