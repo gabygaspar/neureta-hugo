@@ -55,7 +55,7 @@ whats_include:
 next_dates:
 - description: Apertura del 13 de Noviembre
   price: 1300
-  is_online: false
+  is_online: true
   duration:
     time: 8
     type: hour
