@@ -33,7 +33,7 @@ program:
   - title: Lección 1:Características de un entrenamiento en Funciones Ejecutivas
   - title: Lección 2:Capacidades que se tienen que trabajar en Funciones Ejecutivas
   - title: 'Lección 3: Atención'
-  - title: Lección 4.-Inhibición
+  - title: Lección 4:Inhibición
   - title: Lección 5.- Memoria de Trabajo
   - title: Lección 6.-Velocidad de Procesamiento
   - title: Lección 7.-Planificación
