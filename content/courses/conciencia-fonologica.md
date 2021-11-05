@@ -12,7 +12,7 @@ description = "Apertura 27 de Noviembre"
 is_online = false
 location = "Uruapan Michoacán México."
 price = 1000
-start_date = "07/26/2021"
+start_date = "11/27/2021"
 stripe_id = "bbbbbb"
 [next_dates.duration]
 time = 8
