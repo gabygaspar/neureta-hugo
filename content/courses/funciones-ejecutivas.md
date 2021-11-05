@@ -7,6 +7,7 @@ program:
   title: 'Lección 1: Concepto de Funciones Ejecutivas'
   description: descripcion
   lessons:
+  - title: 'Lección 4: Área Prefrontal'
   - title: 'Lección 3: División Anatómica del Lóbulo Frontal'
   - title: 'Lección 1: Concepto de Funciones Ejecutivas'
   - title: 'Lección 2: Características de las Funciones Ejecutivas'
