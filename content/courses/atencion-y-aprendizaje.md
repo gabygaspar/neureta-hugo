@@ -12,7 +12,7 @@ description = "Apertura 4 de Diciembre"
 is_online = false
 location = "Uruapan Michoacán México."
 price = 1000
-start_date = "07/31/2021"
+start_date = "12/04/2021"
 stripe_id = "price_1He0eWKerLxqwoyWk8rL7mCZ"
 [next_dates.duration]
 time = 8
