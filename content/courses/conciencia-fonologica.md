@@ -86,9 +86,7 @@ title = "Lección 7.- Entrenamiento en Conciencia Fonológica."
 [[whats_include]]
 title = "Prácticas Garantizadas"
 [[whats_include]]
-title = "Videos explicativos de cada lección"
-[[whats_include]]
-title = "Imágenes y Esquemas de aprendizaje"
+title = "Material de Trabajo para cada participante"
 [[whats_include]]
 title = "Material de Intervención descargable"
 [[whats_include]]
