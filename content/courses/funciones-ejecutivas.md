@@ -30,7 +30,6 @@ program:
   title: Módulo 4.- Reahabilitación de las Funciones Ejecutivas.
   description: descripcion
   lessons:
-  - title: 'Lección 11: Modificación de Conductas'
   - title: Lección 1:Características de un entrenamiento en Funciones Ejecutivas
   - title: Lección 2:Capacidades que se tienen que trabajar en Funciones Ejecutivas
   - title: 'Lección 3: Atención'
@@ -41,6 +40,7 @@ program:
   - title: 'Lección 8: Flexibilidad Cognitiva'
   - title: Lección 9:Autoregulación Emocional
   - title: 'Lección 10: Metodología TEEACH'
+  - title: 'Lección 11: Modificación de Conductas'
 instructor: instructors/mtra.veronica-gabriela-gaspar.md
 extra:
   approximate_price: 1300
