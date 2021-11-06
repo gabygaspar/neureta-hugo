@@ -2,7 +2,7 @@
 description = "\"La atención es el foco del aprendizaje\""
 featured_image = "/uploads/tdah.jpg"
 instructor = "instructors/mtra.veronica-gabriela-gaspar.md"
-title = "Trastorno de Atención con Hiperactividad TDAH"
+title = "Trastorno de Déficit de Atención/ Hiperactividad TDAH."
 [extra]
 approximate_price = 1000
 duration_info = "8 Horas"
