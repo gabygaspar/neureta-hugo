@@ -22,8 +22,6 @@ description = "descripción"
 label = "label"
 title = "Módulo 1.- Concepto del Trastorno de Déficit de Atención / hiperactividad. TDAH"
 [[program.lessons]]
-title = "Lección 7: Prevalencia en México del TDAH."
-[[program.lessons]]
 title = "Lección1: Concepto de TDAH"
 [[program.lessons]]
 title = "Lección 2: Características del TDAH según el DSM-5"
@@ -35,6 +33,8 @@ title = "Lección 4:Síntomas Diana-Inatención/Hiperactividad e impulsividad."
 title = "Lección 5: Niveles de TDAH."
 [[program.lessons]]
 title = "Lección 6: Factores de Riesgo del TDAH."
+[[program.lessons]]
+title = "Lección 7: Prevalencia en México del TDAH."
 [[program]]
 description = "descripción"
 label = "label"
