@@ -40,7 +40,7 @@ description = "descripción"
 label = "label"
 title = "Módulo 2.-Bases Neuroanatómicas del TDAH."
 [[program.lessons]]
-title = "Lección 1: Aspectos neuropsicológicos en Atención, Funciones Ejecutivas y Emocionales."
+title = "Lección 1: Aspectos neuropsicológicos en Atención, Funciones Ejecutivas y Emociones."
 [[program.lessons]]
 title = "Lección 2:  Estructuras corticales y subcorticales."
 [[program.lessons]]
