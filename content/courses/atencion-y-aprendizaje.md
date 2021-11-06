@@ -72,7 +72,7 @@ title = "Lección 6: Evaluación STROOP."
 [[program.lessons]]
 title = "Lección 7: Evaluación Test de los cinco dígitos."
 [[program.lessons]]
-title = "Lección 8.- Evaluación de Anillas."
+title = "Lección 8: Evaluación ENFEN."
 [[program]]
 description = "DESCRIPCION"
 label = "LABEL"
