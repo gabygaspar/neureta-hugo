@@ -36,8 +36,6 @@ title = "Lección 5.- Niveles de TDAH."
 [[program.lessons]]
 title = "Lección 6: Factores de Riesgo del TDAH."
 [[program.lessons]]
-title = "Lección 6.- Aspectos neuropsicológicos: Atención, Funciones Ejecutivas y Emocionales.."
-[[program.lessons]]
 title = "Lección 7.- Atención y Memoria de Trabajo."
 [[program.lessons]]
 title = "Lección 8.- Atención e Inhibición o control de la interferencia."
@@ -58,7 +56,7 @@ title = "Lección 2.- Estructuras corticales: Lóbulo Parietal y Lóbulo Frontal
 [[program.lessons]]
 title = "Lección 3:Diferencia Hemisférica en la Atención."
 [[program.lessons]]
-title = "Lección 4: Prevalencia en México del TDAH."
+title = "Lección 4: Atención y Memoria de Trabajo."
 [[program.lessons]]
 title = "Lección 5.- Factores de Riesgo en TDAH."
 [[program]]
