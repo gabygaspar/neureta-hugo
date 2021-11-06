@@ -40,6 +40,8 @@ description = "descripción"
 label = "label"
 title = "Módulo 2.-Bases Neuroanatómicas de la Atención."
 [[program.lessons]]
+title = "Lección 6: Atención y Flexibilidad Cognitiva."
+[[program.lessons]]
 title = "Lección 1: Aspectos neuropsicológicos en Atención, Funciones Ejecutivas y Emocionales."
 [[program.lessons]]
 title = "Lección 1.- Estructuras corticales y subcorticales."
