@@ -38,7 +38,7 @@ title = "Lección 7.- Atención y Memoria de Trabajo."
 [[program.lessons]]
 title = "Lección 8.- Atención e Inhibición o control de la interferencia."
 [[program.lessons]]
-title = "Lección 10.- Atención y Flexibilidad Cognitiva."
+title = "Lección 9.- Atención y Flexibilidad Cognitiva."
 [[program.lessons]]
 title = "Lección 11.- Atención y Planificación."
 [[program]]
