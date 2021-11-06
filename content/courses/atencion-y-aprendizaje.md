@@ -64,7 +64,7 @@ title = "Lección 1: Evaluación Psicopedagógica en TDAH."
 [[program.lessons]]
 title = "Lección 2: Puntos fuertes y Puntos débiles."
 [[program.lessons]]
-title = "Lección 2.- Elección de un modelo y protocolo de evaluación."
+title = "Lección 3: Signos de Sospecha del TDAH."
 [[program.lessons]]
 title = "Lección 5.- Evaluación Test de Atención D2."
 [[program.lessons]]
