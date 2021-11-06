@@ -76,7 +76,7 @@ title = "Lección 8: Evaluación ENFEN."
 [[program]]
 description = "DESCRIPCION"
 label = "LABEL"
-title = "Módulo 4.- Intervención y Tratamiento."
+title = "Módulo 4.- Intervención y Tratamiento del TDAH."
 [[program.lessons]]
 title = "Lección 1: Características de Entrenamiento en TDAH."
 [[program.lessons]]
