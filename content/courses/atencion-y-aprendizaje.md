@@ -28,7 +28,7 @@ title = "Lección 2.- Características del TDAH según el DSM-5"
 [[program.lessons]]
 title = "Lección 3.- Criterios Diagnósticos del TDAH."
 [[program.lessons]]
-title = "Lección 4.- Componentes de la Atención."
+title = "Lección 4.- Síntomas Diana-Inatención/Hiperactividad e impulsividad."
 [[program.lessons]]
 title = "Lección 5.- Atención, Memoria y Aprendizaje."
 [[program.lessons]]
