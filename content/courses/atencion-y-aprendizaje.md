@@ -66,9 +66,7 @@ title = "Lección 2: Puntos fuertes y Puntos débiles."
 [[program.lessons]]
 title = "Lección 3: Signos de Sospecha del TDAH."
 [[program.lessons]]
-title = "Lección 5.- ¿Qué debemos evaluar?"
-[[program.lessons]]
-title = "Lección 4.- Pruebas de evaluación Neuropsicológica."
+title = "Lección 5: ¿Qué debemos evaluar?"
 [[program.lessons]]
 title = "Lección 6.- Evaluación STROOP."
 [[program.lessons]]
