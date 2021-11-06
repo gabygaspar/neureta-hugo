@@ -22,7 +22,7 @@ description = "descripción"
 label = "label"
 title = "Módulo 1.- Concepto de TDAH"
 [[program.lessons]]
-title = "Lección 5: Factores de Riesgo del TDAH."
+title = "Lección 6: Factores de Riesgo del TDAH."
 [[program.lessons]]
 title = "Lección1: Concepto de TDAH"
 [[program.lessons]]
