@@ -36,8 +36,6 @@ title = "Lección 5.- Niveles de TDAH."
 [[program.lessons]]
 title = "Lección 6: Factores de Riesgo del TDAH."
 [[program.lessons]]
-title = "Lección 7.- Atención y Memoria de Trabajo."
-[[program.lessons]]
 title = "Lección 8.- Atención e Inhibición o control de la interferencia."
 [[program.lessons]]
 title = "Lección 9.- Atención y Flexibilidad Cognitiva."
@@ -58,7 +56,7 @@ title = "Lección 3:Diferencia Hemisférica en la Atención."
 [[program.lessons]]
 title = "Lección 4: Atención y Memoria de Trabajo."
 [[program.lessons]]
-title = "Lección 5.- Factores de Riesgo en TDAH."
+title = "Lección 5.- Atención e inhibición."
 [[program]]
 description = "DESCRIPCION"
 label = "LABEL"
