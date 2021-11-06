@@ -60,7 +60,7 @@ description = "DESCRIPCION"
 label = "LABEL"
 title = "Módulo 3.- Evaluación de la Atención."
 [[program.lessons]]
-title = "Lección 1.- Fundamentos de la evaluación Neuropsicológica."
+title = "Lección 1: Evaluación Psicopedagógica en TDAH."
 [[program.lessons]]
 title = "Lección 3.- Especificidad de las pruebas."
 [[program.lessons]]
