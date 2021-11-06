@@ -46,9 +46,9 @@ description = "descripción"
 label = "label"
 title = "Módulo 2.-Bases Neuroanatómicas de la Atención."
 [[program.lessons]]
-title = "Lección 1.- Estructuras corticales y subcorticales."
+title = "Lección 4: Prevalencia en México del TDAH."
 [[program.lessons]]
-title = "Lección 2.- Estructuras extracorticales."
+title = "Lección 1.- Estructuras corticales y subcorticales."
 [[program.lessons]]
 title = "Lección 3.- Estructuras corticales: Lóbulo Parietal y Lóbulo Frontal."
 [[program.lessons]]
