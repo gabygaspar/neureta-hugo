@@ -24,7 +24,7 @@ title = "Módulo 1.- Concepto de TDAH"
 [[program.lessons]]
 title = "Lección1: Concepto de TDAH"
 [[program.lessons]]
-title = "Lección 2.- Características de la Atención."
+title = "Lección 2.- Características del TDAH según el DSM-5"
 [[program.lessons]]
 title = "Lección 3.- Desarrollo de la Atención"
 [[program.lessons]]
