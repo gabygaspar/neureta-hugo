@@ -20,7 +20,7 @@ type = "hour"
 [[program]]
 description = "descripción"
 label = "label"
-title = "Módulo 1.- Concepto de TDAH"
+title = "Módulo 1.- Concepto del Trastorno de Déficit de Atención / hiperactividad. TDAH"
 [[program.lessons]]
 title = "Lección 7: Prevalencia en México del TDAH."
 [[program.lessons]]
