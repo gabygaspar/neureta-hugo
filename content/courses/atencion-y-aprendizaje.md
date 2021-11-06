@@ -58,7 +58,7 @@ title = "Lección 8: Atención y planificación."
 [[program]]
 description = "DESCRIPCION"
 label = "LABEL"
-title = "Módulo 3.- Evaluación de la Atención."
+title = "Módulo 3.- Evaluaciones Psicopedagógicas del TDAH.."
 [[program.lessons]]
 title = "Lección 1: Evaluación Psicopedagógica en TDAH."
 [[program.lessons]]
