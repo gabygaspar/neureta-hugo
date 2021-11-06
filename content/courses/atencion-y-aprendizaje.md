@@ -88,7 +88,7 @@ title = "Lección 5: Intervención en Memoria de Trabajo."
 [[program.lessons]]
 title = "Lección 6: Intervención en Velocidad de Procesamiento."
 [[program.lessons]]
-title = "Lección 8: Intervención en Flexibilidad Cognitiva."
+title = "Lección 7: Intervención en Flexibilidad Cognitiva."
 [[program.lessons]]
 title = "Lección 10.-Autoregulación Emocional."
 [[whats_include]]
