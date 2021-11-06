@@ -38,7 +38,7 @@ title = "Lección 6: Factores de Riesgo del TDAH."
 [[program]]
 description = "descripción"
 label = "label"
-title = "Módulo 2.-Bases Neuroanatómicas de la Atención."
+title = "Módulo 2.-Bases Neuroanatómicas del TDAH."
 [[program.lessons]]
 title = "Lección 1: Aspectos neuropsicológicos en Atención, Funciones Ejecutivas y Emocionales."
 [[program.lessons]]
