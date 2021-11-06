@@ -44,7 +44,7 @@ title = "Lección 1: Aspectos neuropsicológicos en Atención, Funciones Ejecuti
 [[program.lessons]]
 title = "Lección 2:  Estructuras corticales y subcorticales."
 [[program.lessons]]
-title = "Lección 2.- Estructuras corticales: Lóbulo Parietal y Lóbulo Frontal."
+title = "Lección 3: Estructuras corticales: Lóbulo Parietal y Lóbulo Frontal."
 [[program.lessons]]
 title = "Lección 3:Diferencia Hemisférica en la Atención."
 [[program.lessons]]
