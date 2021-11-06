@@ -32,7 +32,7 @@ title = "Lección 4.- Síntomas Diana-Inatención/Hiperactividad e impulsividad.
 [[program.lessons]]
 title = "Lección 5.- Niveles de TDAH."
 [[program.lessons]]
-title = "Lección 6.- Atención y Funciones Ejecutivas."
+title = "Lección 6.- Aspectos neuropsicológicos: Atención, Funciones Ejecutivas y Emocionales.."
 [[program.lessons]]
 title = "Lección 7.- Atención y Velocidad de Procesamiento."
 [[program.lessons]]
