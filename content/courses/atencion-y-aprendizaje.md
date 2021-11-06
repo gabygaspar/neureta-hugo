@@ -62,7 +62,7 @@ title = "Módulo 3.- Evaluación de la Atención."
 [[program.lessons]]
 title = "Lección 1: Evaluación Psicopedagógica en TDAH."
 [[program.lessons]]
-title = "Lección 3.- Especificidad de las pruebas."
+title = "Lección 2: Puntos fuertes y Puntos débiles."
 [[program.lessons]]
 title = "Lección 2.- Elección de un modelo y protocolo de evaluación."
 [[program.lessons]]
