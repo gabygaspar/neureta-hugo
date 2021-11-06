@@ -101,12 +101,14 @@ title = "Coffe-Break durante la mañana"
 title = "Certificado de Terminación"
 
 +++
-La atención es una función neuropsicológica compleja y por ello difícil de definir. Una de las acciones más relevantes es seleccionar los estímulos del entorno que son relevantes para el estado cognitivo en curso y que sirve para llevar a cabo una acción y alcanzar unos objetivos. La atención debe considerarse como un sistema complejo de subprocesos específicos, a través de los cuales dirigimos la orientación, el procesamiento de la información, la toma de decisiones y la conducta.
+El trastorno de déficit de atención/hiperactividad TDAH, es un trastorno del neurodesarrollo muy frecuente en la infancia y adolescencia. Se manifiesta con síntomas de inatención, hiperactividad/impulsividad o una combinación de ambos. La atención es una función neuropsicológica compleja y por ello difícil de definir. 
 
-En este taller se analizarán los diferentes conceptos de atención, así como sus características y componentes. Uno de los aspectos más importantes es el analizar y comprender las diferentes relaciones que tienen con otros procesos cognitivos como: Funciones ejecutivas, Memoria de trabajo, Velocidad de Procesamiento, Inhibición, Flexibilidad Cognitiva y Planificación.
+Es importante tener en cuenta no solo el impacto inmediato que tiene esta sintomatología en la infancia, sino el impacto secundario de estos síntomas en el futuro y las consecuencias en el entorno familiar, social y académico.
 
-En la Neuropsicología, el conocer las **PARTES NEUROANATÓMICAS** que participan es fundamental para poder detectar específicamente estructuras que presentan alguna deficiencia, esto ayuda a intervenir de forma directa en la alteración que tenga con actividades específicas y funcionales. Por esta razón, se dan a conocer las estructuras neuroanatómicas que rige la atención.
+En este taller se analizarán el concepto del TDAH, las diferentes características que lo definen y características neuroanatómicas. Uno de los aspectos más importantes es el analizar y comprender las diferentes relaciones que tienen con otros procesos cognitivos como: Funciones ejecutivas, Memoria de trabajo, Velocidad de Procesamiento, Inhibición, Flexibilidad Cognitiva y Planificación.
 
-Se dará a conocer **EVALUACIONES** que se debe realizar ejemplificando algunas más utilizadas.
+En la Neuropsicología, el conocer las **PARTES NEUROANATÓMICAS** que participan es fundamental para poder detectar específicamente estructuras que presentan alguna debilidad o fortaleza, esto ayuda a intervenir de forma directa en la alteración que tenga con actividades específicas y funcionales. Por esta razón, se dan a conocer las estructuras neuroanatómicas que se encuentran en el TDAH.
 
-Por último, analizaremos la **REHABILITACIÓN NEUROPSICOLÓGICA** ( **intervención)** por medio de actividades trabajando la atención de forma clínica, observando las estructuras de las diferentes actividades y cómo deben ser trabajadas para obtener resultados funcionales a nivel cerebral.
+Se dará a conocer **EVALUACIONES** psicopedagógicas que se debe realizar ejemplificando algunas más utilizadas.
+
+Por último, analizaremos la **REHABILITACIÓN NEUROPSICOLÓGICA** ( **intervención)** en TDAH por medio de actividades que trabajen la atención de forma clínica, observando las estructuras de las diferentes actividades y cómo deben ser ejecutadas para obtener resultados funcionales a nivel cerebral en TDAH.
