@@ -54,7 +54,7 @@ title = "Lección 6: Atención e Inhibición, Control a la Interferencia."
 [[program.lessons]]
 title = "Lección 7: Atención y Flexibilidad Cognitiva."
 [[program.lessons]]
-title = "Lección 8: Atención y planificación."
+title = "Lección 8: Atención y Planificación."
 [[program]]
 description = "DESCRIPCION"
 label = "LABEL"
