@@ -22,7 +22,7 @@ description = "descripción"
 label = "label"
 title = "Módulo 1.- Concepto de TDAH"
 [[program.lessons]]
-title = "Lección 6: Factores de Riesgo del TDAH."
+title = "Lección 7: Prevalencia en México del TDAH."
 [[program.lessons]]
 title = "Lección1: Concepto de TDAH"
 [[program.lessons]]
@@ -33,6 +33,8 @@ title = "Lección 3.- Criterios Diagnósticos del TDAH."
 title = "Lección 4.- Síntomas Diana-Inatención/Hiperactividad e impulsividad."
 [[program.lessons]]
 title = "Lección 5.- Niveles de TDAH."
+[[program.lessons]]
+title = "Lección 6: Factores de Riesgo del TDAH."
 [[program.lessons]]
 title = "Lección 6.- Aspectos neuropsicológicos: Atención, Funciones Ejecutivas y Emocionales.."
 [[program.lessons]]
