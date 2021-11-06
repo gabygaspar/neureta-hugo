@@ -1,5 +1,5 @@
 +++
-description = "\"La atención es el foco del aprendizaje\""
+description = "\"El TDAH es un trastorno del neurodesarrollo muy frecuente en la infancia y adolescencia\""
 featured_image = "/uploads/tdah.jpg"
 instructor = "instructors/mtra.veronica-gabriela-gaspar.md"
 title = "Trastorno de Déficit de Atención/ Hiperactividad TDAH."
