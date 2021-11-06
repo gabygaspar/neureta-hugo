@@ -70,7 +70,7 @@ title = "Lección 5: ¿Qué debemos evaluar?"
 [[program.lessons]]
 title = "Lección 6: Evaluación STROOP."
 [[program.lessons]]
-title = "Lección 7.- Evaluación Test de los cinco dígitos."
+title = "Lección 7: Evaluación Test de los cinco dígitos."
 [[program.lessons]]
 title = "Lección 8.- Evaluación de Anillas."
 [[program]]
