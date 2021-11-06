@@ -80,7 +80,7 @@ title = "Módulo 4.- Intervención y Tratamiento."
 [[program.lessons]]
 title = "Lección 1: Características de Entrenamiento en TDAH."
 [[program.lessons]]
-title = "Lección 2.-Capacidades que se tienen que trabajar en Funciones Ejecutivas."
+title = "Lección 2: Capacidades que se tienen que trabajar en Funciones Ejecutivas."
 [[program.lessons]]
 title = "Lección 3.-Atención."
 [[program.lessons]]
