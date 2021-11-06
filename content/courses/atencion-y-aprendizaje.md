@@ -48,7 +48,7 @@ title = "Lección 3: Estructuras corticales: Lóbulo Parietal y Lóbulo Frontal.
 [[program.lessons]]
 title = "Lección 4:Diferencia Hemisférica en la Atención."
 [[program.lessons]]
-title = "Lección 4: Atención y Memoria de Trabajo."
+title = "Lección 5: Atención y Memoria de Trabajo."
 [[program.lessons]]
 title = "Lección 5.- Atención e inhibición, control a la interferencia."
 [[program.lessons]]
