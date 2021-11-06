@@ -32,7 +32,7 @@ title = "Lección 3: Criterios Diagnósticos del TDAH."
 [[program.lessons]]
 title = "Lección 4:Síntomas Diana-Inatención/Hiperactividad e impulsividad."
 [[program.lessons]]
-title = "Lección 5.- Niveles de TDAH."
+title = "Lección 5: Niveles de TDAH."
 [[program.lessons]]
 title = "Lección 6: Factores de Riesgo del TDAH."
 [[program]]
