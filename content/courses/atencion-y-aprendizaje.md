@@ -34,9 +34,7 @@ title = "Lección 5.- Niveles de TDAH."
 [[program.lessons]]
 title = "Lección 6.- Aspectos neuropsicológicos: Atención, Funciones Ejecutivas y Emocionales.."
 [[program.lessons]]
-title = "Lección 7.- Atención y Velocidad de Procesamiento."
-[[program.lessons]]
-title = "Lección 8.- Atención y Memoria de Trabajo."
+title = "Lección 7.- Atención y Memoria de Trabajo."
 [[program.lessons]]
 title = "Lección 9.- Atención e Inhibición o control de la interferencia."
 [[program.lessons]]
