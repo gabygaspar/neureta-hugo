@@ -90,7 +90,7 @@ title = "Lección 6: Intervención en Velocidad de Procesamiento."
 [[program.lessons]]
 title = "Lección 7: Intervención en Flexibilidad Cognitiva."
 [[program.lessons]]
-title = "Lección 9: Intervención en Autoregulación Emocional."
+title = "Lección 8: Intervención en Autoregulación Emocional."
 [[whats_include]]
 title = "Prácticas Garantizadas"
 [[whats_include]]
