@@ -50,7 +50,7 @@ title = "Lección 4:Diferencia Hemisférica en la Atención."
 [[program.lessons]]
 title = "Lección 5: Atención y Memoria de Trabajo."
 [[program.lessons]]
-title = "Lección 6: Atención e inhibición, control a la interferencia."
+title = "Lección 6: Atención e Inhibición, Control a la Interferencia."
 [[program.lessons]]
 title = "Lección 7: Atención y Flexibilidad Cognitiva."
 [[program.lessons]]
