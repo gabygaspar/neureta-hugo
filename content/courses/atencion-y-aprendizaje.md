@@ -101,14 +101,14 @@ title = "Coffe-Break durante la mañana"
 title = "Certificado de Terminación"
 
 +++
-El trastorno de déficit de atención/hiperactividad TDAH, es un trastorno del neurodesarrollo muy frecuente en la infancia y adolescencia. Se manifiesta con síntomas de inatención, hiperactividad/impulsividad o una combinación de ambos. La atención es una función neuropsicológica compleja y por ello difícil de definir. 
+El trastorno de déficit de atención/hiperactividad (TDAH), es un trastorno del neurodesarrollo muy frecuente en la infancia y adolescencia. Se manifiesta con síntomas de inatención, hiperactividad/impulsividad o una combinación de ambos. 
 
-Es importante tener en cuenta no solo el impacto inmediato que tiene esta sintomatología en la infancia, sino el impacto secundario de estos síntomas en el futuro y las consecuencias en el entorno familiar, social y académico.
+Es importante tener en cuenta no solo el impacto inmediato del TDAH en la infancia, sino el impacto secundario de este trastorno en el futuro en los ámbitos: familiar, social y académico de la persona.
 
 En este taller se analizarán el concepto del TDAH, las diferentes características que lo definen y características neuroanatómicas. Uno de los aspectos más importantes es el analizar y comprender las diferentes relaciones que tienen con otros procesos cognitivos como: Funciones ejecutivas, Memoria de trabajo, Velocidad de Procesamiento, Inhibición, Flexibilidad Cognitiva y Planificación.
 
-En la Neuropsicología, el conocer las **PARTES NEUROANATÓMICAS** que participan es fundamental para poder detectar específicamente estructuras que presentan alguna debilidad o fortaleza, esto ayuda a intervenir de forma directa en la alteración que tenga con actividades específicas y funcionales. Por esta razón, se dan a conocer las estructuras neuroanatómicas que se encuentran en el TDAH.
+En la Neuropsicología, el conocer las **PARTES NEUROANATÓMICAS** que participan, es fundamental para poder detectar específicamente estructuras que presentan alguna debilidad o fortaleza, esto ayuda a intervenir de forma directa en las alteraciones con actividades específicas y funcionales. Por esta razón, se dan a conocer las estructuras neuroanatómicas que podrían participar en el TDAH.
 
-Se dará a conocer **EVALUACIONES** psicopedagógicas que se debe realizar ejemplificando algunas más utilizadas.
+Se dará a conocer **EVALUACIONES** **PSICOPEDAGÓGICAS** que se pueden elaborar para su diagnóstico e intervención educativa.
 
 Por último, analizaremos la **REHABILITACIÓN NEUROPSICOLÓGICA** ( **intervención)** en TDAH por medio de actividades que trabajen la atención de forma clínica, observando las estructuras de las diferentes actividades y cómo deben ser ejecutadas para obtener resultados funcionales a nivel cerebral en TDAH.
