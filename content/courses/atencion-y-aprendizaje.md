@@ -68,7 +68,7 @@ title = "Lección 3: Signos de Sospecha del TDAH."
 [[program.lessons]]
 title = "Lección 5: ¿Qué debemos evaluar?"
 [[program.lessons]]
-title = "Lección 6.- Evaluación STROOP."
+title = "Lección 6: Evaluación STROOP."
 [[program.lessons]]
 title = "Lección 7.- Evaluación Test de los cinco dígitos."
 [[program.lessons]]
