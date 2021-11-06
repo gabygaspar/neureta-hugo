@@ -82,7 +82,7 @@ title = "Lección 1: Características de Entrenamiento en TDAH."
 [[program.lessons]]
 title = "Lección 2: Estimulación de los diferentes niveles de Atención.."
 [[program.lessons]]
-title = "Lección 3: Inhibición."
+title = "Lección 3: Intervención en Inhibición."
 [[program.lessons]]
 title = "Lección 5.- Memoria de Trabajo."
 [[program.lessons]]
