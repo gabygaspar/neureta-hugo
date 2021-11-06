@@ -22,6 +22,8 @@ description = "descripción"
 label = "label"
 title = "Módulo 1.- Concepto de TDAH"
 [[program.lessons]]
+title = "Lección 5: Factores de Riesgo del TDAH."
+[[program.lessons]]
 title = "Lección1: Concepto de TDAH"
 [[program.lessons]]
 title = "Lección 2.- Características del TDAH según el DSM-5"
@@ -46,13 +48,13 @@ description = "descripción"
 label = "label"
 title = "Módulo 2.-Bases Neuroanatómicas de la Atención."
 [[program.lessons]]
-title = "Lección 4: Prevalencia en México del TDAH."
-[[program.lessons]]
 title = "Lección 1.- Estructuras corticales y subcorticales."
 [[program.lessons]]
 title = "Lección 2.- Estructuras corticales: Lóbulo Parietal y Lóbulo Frontal."
 [[program.lessons]]
 title = "Lección 3:Diferencia Hemisférica en la Atención."
+[[program.lessons]]
+title = "Lección 4: Prevalencia en México del TDAH."
 [[program.lessons]]
 title = "Lección 5.- Factores de Riesgo en TDAH."
 [[program]]
