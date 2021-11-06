@@ -50,7 +50,7 @@ title = "Lección 4: Prevalencia en México del TDAH."
 [[program.lessons]]
 title = "Lección 1.- Estructuras corticales y subcorticales."
 [[program.lessons]]
-title = "Lección 3.- Estructuras corticales: Lóbulo Parietal y Lóbulo Frontal."
+title = "Lección 2.- Estructuras corticales: Lóbulo Parietal y Lóbulo Frontal."
 [[program.lessons]]
 title = "Lección 4.-Diferencia Hemisférica en la Atención."
 [[program.lessons]]
