@@ -76,9 +76,9 @@ title = "Lección 8: Evaluación ENFEN."
 [[program]]
 description = "DESCRIPCION"
 label = "LABEL"
-title = "Módulo 4.- Evaluación Neuropsicológica de la Atención."
+title = "Módulo 4.- Intervención y Tratamiento."
 [[program.lessons]]
-title = "Lección 1.-Características de un entrenamiento en Funciones Ejecutivas."
+title = "Lección 1.-Características de Entrenamiento en TDAH."
 [[program.lessons]]
 title = "Lección 2.-Capacidades que se tienen que trabajar en Funciones Ejecutivas."
 [[program.lessons]]
