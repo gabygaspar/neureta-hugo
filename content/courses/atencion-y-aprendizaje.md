@@ -36,7 +36,7 @@ title = "Lección 6.- Aspectos neuropsicológicos: Atención, Funciones Ejecutiv
 [[program.lessons]]
 title = "Lección 7.- Atención y Memoria de Trabajo."
 [[program.lessons]]
-title = "Lección 9.- Atención e Inhibición o control de la interferencia."
+title = "Lección 8.- Atención e Inhibición o control de la interferencia."
 [[program.lessons]]
 title = "Lección 10.- Atención y Flexibilidad Cognitiva."
 [[program.lessons]]
