@@ -1,5 +1,6 @@
 +++
 description = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore deleniti magni, accusamus eos officia corrupti rerum aliquid nihil non, deserunt quidem sequi."
+draft = true
 featured_image = "/uploads/cerebro.jpg"
 instructor = "instructors/mtra.veronica-gabriela-gaspar.md"
 title = "Evaluaciones Neuropsicologicas"
