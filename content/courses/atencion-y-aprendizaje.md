@@ -8,11 +8,11 @@ approximate_price = 1000
 duration_info = "8 Horas"
 modality_info = "Presencial"
 [[next_dates]]
-description = "Apertura 4 de Diciembre"
+description = "Apertura 12 de Marzo"
 is_online = false
 location = "Uruapan Michoacán México."
-price = 1000
-start_date = "12/04/2021"
+price = 1100
+start_date = "03/12/2022"
 stripe_id = "price_1He0eWKerLxqwoyWk8rL7mCZ"
 [next_dates.duration]
 time = 8
