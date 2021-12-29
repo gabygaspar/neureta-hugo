@@ -4,7 +4,7 @@ featured_image = "/uploads/sentido-de-la-vista-entrada.jpg"
 instructor = "instructors/mtra.veronica-gabriela-gaspar.md"
 title = "Trastorno de Déficit de Atención/ Hiperactividad TDAH."
 [extra]
-approximate_price = 1000
+approximate_price = 1100
 duration_info = "8 Horas"
 modality_info = "Presencial"
 [[next_dates]]
