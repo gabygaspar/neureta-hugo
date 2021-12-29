@@ -31,8 +31,6 @@ title = "Lección 3.- Ruta Léxica y Ruta Fonológica de la Lectura."
 title = "Lección 4.- Rutas cerebrales de la escritura."
 [[program.lessons]]
 title = "Lección 5.- Circuitos cerebrales de la lectura y escritura."
-[[program.lessons]]
-title = "Lección 7.-Etapas del aprendizaje Lector."
 [[program]]
 description = "descripción"
 label = "label"
