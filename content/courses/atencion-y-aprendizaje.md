@@ -80,7 +80,7 @@ title = "Lección 2: Estimulación de los diferentes niveles de Atención.."
 [[program.lessons]]
 title = "Lección 3.- Intervención en el aula y casa."
 [[program.lessons]]
-title = "Lección 3: Intervención en Inhibición."
+title = "Lección 4: Intervención en Inhibición."
 [[program.lessons]]
 title = "Lección 4: Intervención en Memoria de Trabajo."
 [[program.lessons]]
