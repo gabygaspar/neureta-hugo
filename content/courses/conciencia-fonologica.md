@@ -78,7 +78,7 @@ title = "Lección 4.- Entrenamiento de la Conciencia Silábica, Intrasilábica Y
 [[program.lessons]]
 title = "Lección 5.-Videos de Intervención de la Conciencia Fonológica."
 [[program.lessons]]
-title = "Lección 7.- Entrenamiento en Conciencia Fonológica."
+title = "Lección 6.- Entrenamiento en Conciencia Fonológica."
 [[whats_include]]
 title = "Prácticas Garantizadas"
 [[whats_include]]
