@@ -39,10 +39,8 @@ program:
   - title: 'Lección 3: Atención'
   - title: Lección 4:Inhibición
   - title: 'Lección 5: Memoria de Trabajo'
-  - title: Lección 6:Velocidad de Procesamiento
-  - title: Lección 7:Planificación
+  - title: Lección 6:Planificación
   - title: 'Lección 8: Flexibilidad Cognitiva'
-  - title: Lección 9:Autoregulación Emocional
   - title: 'Lección 10: Metodología TEEACH'
   - title: 'Lección 11: Modificación de Conductas'
 instructor: instructors/mtra.veronica-gabriela-gaspar.md
