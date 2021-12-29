@@ -28,7 +28,7 @@ title = "Lección 2.- Conciencia Fonológica y Aprendizaje de la Lectura."
 [[program.lessons]]
 title = "Lección 3.- Ruta Léxica y Ruta Fonológica de la Lectura."
 [[program.lessons]]
-title = "Lección 5.- Rutas cerebrales de la escritura."
+title = "Lección 4.- Rutas cerebrales de la escritura."
 [[program.lessons]]
 title = "Lección 6.- Circuitos cerebrales de la lectura y escritura."
 [[program.lessons]]
