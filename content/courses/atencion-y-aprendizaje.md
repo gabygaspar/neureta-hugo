@@ -74,6 +74,8 @@ description = "DESCRIPCION"
 label = "LABEL"
 title = "Módulo 4.- Intervención y Tratamiento del TDAH."
 [[program.lessons]]
+title = "Lección 4.- Intervención en el aula y casa."
+[[program.lessons]]
 title = "Lección 1: Características de Entrenamiento en TDAH."
 [[program.lessons]]
 title = "Lección 2: Estimulación de los diferentes niveles de Atención.."
@@ -82,11 +84,7 @@ title = "Lección 3: Intervención en Inhibición."
 [[program.lessons]]
 title = "Lección 5: Intervención en Memoria de Trabajo."
 [[program.lessons]]
-title = "Lección 6: Intervención en Velocidad de Procesamiento."
-[[program.lessons]]
 title = "Lección 7: Intervención en Flexibilidad Cognitiva."
-[[program.lessons]]
-title = "Lección 8: Intervención en Autoregulación Emocional."
 [[whats_include]]
 title = "Prácticas Garantizadas"
 [[whats_include]]
