@@ -82,7 +82,7 @@ title = "Lección 3.- Intervención en el aula y casa."
 [[program.lessons]]
 title = "Lección 3: Intervención en Inhibición."
 [[program.lessons]]
-title = "Lección 5: Intervención en Memoria de Trabajo."
+title = "Lección 4: Intervención en Memoria de Trabajo."
 [[program.lessons]]
 title = "Lección 7: Intervención en Flexibilidad Cognitiva."
 [[whats_include]]
