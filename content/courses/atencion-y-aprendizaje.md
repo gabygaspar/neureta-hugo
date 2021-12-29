@@ -1,6 +1,6 @@
 +++
 description = "\"El TDAH es un trastorno del neurodesarrollo muy frecuente en la infancia y adolescencia\""
-featured_image = "/uploads/tdah.jpg"
+featured_image = "/uploads/sentido-de-la-vista-entrada.jpg"
 instructor = "instructors/mtra.veronica-gabriela-gaspar.md"
 title = "Trastorno de Déficit de Atención/ Hiperactividad TDAH."
 [extra]
