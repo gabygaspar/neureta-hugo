@@ -74,11 +74,11 @@ description = "DESCRIPCION"
 label = "LABEL"
 title = "Módulo 4.- Intervención y Tratamiento del TDAH."
 [[program.lessons]]
-title = "Lección 4.- Intervención en el aula y casa."
-[[program.lessons]]
 title = "Lección 1: Características de Entrenamiento en TDAH."
 [[program.lessons]]
 title = "Lección 2: Estimulación de los diferentes niveles de Atención.."
+[[program.lessons]]
+title = "Lección 3.- Intervención en el aula y casa."
 [[program.lessons]]
 title = "Lección 3: Intervención en Inhibición."
 [[program.lessons]]
