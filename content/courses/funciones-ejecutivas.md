@@ -56,13 +56,13 @@ whats_include:
 - title: 'Coffe-Break durante la mañana '
 - title: Certificado de terminación
 next_dates:
-- description: Apertura del 13 de Noviembre
+- description: Apertura del 26 de Febrero.
   price: 1300
   is_online: true
   duration:
     time: 8
     type: hour
-  start_date: 11/13/2021
+  start_date: 02/26/2022
   stripe_id: price_1He0adKerLxqwoyW1udXZQ1N
   location: Uruapan Michoacán México.
 
