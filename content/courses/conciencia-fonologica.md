@@ -26,9 +26,7 @@ title = "Lección 1.- Introducción. Desarrollo de la Lectura y Escritura."
 [[program.lessons]]
 title = "Lección 2.- Conciencia Fonológica y Aprendizaje de la Lectura."
 [[program.lessons]]
-title = "Lección 3.- Acceso a la lectura y escritura."
-[[program.lessons]]
-title = "Lección 4.- Ruta Léxica y Ruta Fonológica de la Lectura."
+title = "Lección 3.- Ruta Léxica y Ruta Fonológica de la Lectura."
 [[program.lessons]]
 title = "Lección 5.- Rutas cerebrales de la escritura."
 [[program.lessons]]
