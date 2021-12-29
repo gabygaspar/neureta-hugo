@@ -42,7 +42,7 @@ program:
   - title: Lección 6:Planificación
   - title: 'Lección 7: Flexibilidad Cognitiva'
   - title: 'Lección 8: Metodología TEEACH'
-  - title: 'Lección 11: Modificación de Conductas'
+  - title: 'Lección 9: Modificación de Conductas'
 instructor: instructors/mtra.veronica-gabriela-gaspar.md
 extra:
   approximate_price: 1300
