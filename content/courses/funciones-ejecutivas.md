@@ -41,7 +41,7 @@ program:
   - title: 'Lección 5: Memoria de Trabajo'
   - title: Lección 6:Planificación
   - title: 'Lección 7: Flexibilidad Cognitiva'
-  - title: 'Lección 10: Metodología TEEACH'
+  - title: 'Lección 8: Metodología TEEACH'
   - title: 'Lección 11: Modificación de Conductas'
 instructor: instructors/mtra.veronica-gabriela-gaspar.md
 extra:
