@@ -48,10 +48,23 @@ title = "3.-Dislexia, disortografía y discalculia."
 [[program.lessons]]
 title = "3.-Adquisición de la lectura y la conciencia fonológica."
 [[program]]
-description = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore deleniti magni, accusamus eos officia corrupti rerum aliquid nihil non, deserunt quidem sequi."
-label = "Parte 2"
-lessons = []
-title = "Diagnóstico"
+description = "La evaluación es la base de la intervención."
+label = "Módulo 3.-"
+title = "Evaluación y diagnóstico de la Dislexia."
+[[program.lessons]]
+title = "1.-Anamnesis"
+[[program.lessons]]
+title = "2.-Evaluaciones de Inteligencia"
+[[program.lessons]]
+title = "3.-Evaluación de la lateralidad"
+[[program.lessons]]
+title = "4.- Evaluación de la visopercepción"
+[[program.lessons]]
+title = "5.-Evaluación de la lectura"
+[[program.lessons]]
+title = "6.-Habilidades metafonológicas"
+[[program.lessons]]
+title = "7.-Evaluación de la dislexia"
 
 +++
 El siguiente taller de Dislexia, es un acercamiento a lo que es este trastorno del neurodesarrollo que en la actualidad padecen un gran porcentaje de nuestra población. Durante el recorrido de este camino podrás conocer el concepto de la dislexia basándonos en el DSM5 y otros investigadores que se han dedicado a este campo de la investigación. De igual manera, se conocerán los diferentes tipos de dislexia que hay y los aspectos que intervienen en su origen, evaluación e intervención educativa.
