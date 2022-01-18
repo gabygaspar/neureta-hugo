@@ -10,7 +10,7 @@ modality_info = "Presencial"
 [[next_dates]]
 description = ""
 is_online = true
-location = "Morelia, Michoacan"
+location = "Uruapan, Michoacan"
 price = 1100
 start_date = "03/05/2022"
 stripe_id = "SINIDENTIFICADOR"
