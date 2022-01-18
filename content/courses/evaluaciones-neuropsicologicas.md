@@ -22,7 +22,7 @@ type = "hour"
 [[program]]
 description = "Introducción a la Dislexia."
 label = "  Módulo 1.- "
-title = "Concepto y los diferentes tipos de Dislexia."
+title = "Módulo 1.-Concepto y los diferentes tipos de Dislexia."
 [[program.lessons]]
 title = "1.-¿Qué es la dislexia?"
 [[program.lessons]]
@@ -38,7 +38,7 @@ title = "6.-Signos de alarma."
 [[program]]
 description = "Desarrollo anatómico de la Dislexia."
 label = "Módulo 2"
-title = "Partes anatómicas que intervienen en la Dislexia."
+title = "Módulo 2.-Partes anatómicas que intervienen en la Dislexia."
 [[program.lessons]]
 title = "1.-Partes cerebrales que intervienen en la Dislexia."
 [[program.lessons]]
@@ -50,7 +50,7 @@ title = "3.-Adquisición de la lectura y la conciencia fonológica."
 [[program]]
 description = "La evaluación es la base de la intervención."
 label = "Módulo 3.-"
-title = "Evaluación y diagnóstico de la Dislexia."
+title = "Módulo 3.-Evaluación y diagnóstico de la Dislexia."
 [[program.lessons]]
 title = "1.-Anamnesis"
 [[program.lessons]]
@@ -68,7 +68,7 @@ title = "7.-Evaluación de la dislexia"
 [[program]]
 description = "Modificación cerebral específica."
 label = "Módulo 4"
-title = "Rehabilitación de la Dislexia."
+title = "Módulo 4.-Rehabilitación de la Dislexia."
 [[program.lessons]]
 title = "1.-¿Cuál es el procedimiento general de la intervención?"
 [[program.lessons]]
