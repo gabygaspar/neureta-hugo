@@ -1,7 +1,7 @@
 +++
 description = "El trastorno específico del aprendizaje de la lectura es la Dislexia."
 draft = true
-featured_image = "/uploads/cerebro.jpg"
+featured_image = "/uploads/l1.jpg"
 instructor = "instructors/mtra.veronica-gabriela-gaspar.md"
 title = "LA DISLEXIA. Origen, diagnóstico e intervención."
 [extra]
