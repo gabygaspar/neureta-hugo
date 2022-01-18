@@ -4,7 +4,6 @@ draft = true
 featured_image = "/uploads/cerebro.jpg"
 instructor = "instructors/mtra.veronica-gabriela-gaspar.md"
 title = "LA DISLEXIA. Origen, diagnóstico e intervención."
-whats_include = []
 [extra]
 approximate_price = 99999
 duration_info = "8 horas"
@@ -83,6 +82,14 @@ title = "5.-Ejercicios de Conciencia Fonológica."
 title = "6.-Ejercicios de Lectura y escritura."
 [[program.lessons]]
 title = "7.-Libros de intervención."
+[[whats_include]]
+title = "Prácticas garantizadas."
+[[whats_include]]
+title = "Material de trabajo para cada participante."
+[[whats_include]]
+title = "Coffe-Break durante la mañana."
+[[whats_include]]
+title = "Certificado al terminar."
 
 +++
 El siguiente taller de Dislexia, es un acercamiento a lo que es este trastorno del neurodesarrollo que en la actualidad padecen un gran porcentaje de nuestra población. Durante el recorrido de este camino podrás conocer el concepto de la dislexia basándonos en el DSM5 y otros investigadores que se han dedicado a este campo de la investigación. De igual manera, se conocerán los diferentes tipos de dislexia que hay y los aspectos que intervienen en su origen, evaluación e intervención educativa.
