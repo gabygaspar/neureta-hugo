@@ -8,11 +8,11 @@ approximate_price = 99999
 duration_info = "8 horas"
 modality_info = "Presencial"
 [[next_dates]]
-description = "Fecha del 09 de Noviembre"
-is_online = false
+description = ""
+is_online = true
 location = "Morelia, Michoacan"
-price = 99999
-start_date = "11/09/2021"
+price = 1100
+start_date = "03/05/2022"
 stripe_id = "SINIDENTIFICADOR"
 [next_dates.duration]
 time = 8
