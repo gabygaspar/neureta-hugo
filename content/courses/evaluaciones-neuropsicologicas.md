@@ -29,6 +29,10 @@ title = "1.-¿Qué es la dislexia?"
 title = "2.-Criterios diagnóstico según el DSM-5."
 [[program.lessons]]
 title = "3.-Dislexia, disortografía y discalculia."
+[[program.lessons]]
+title = "4.-Diferentes tipos de dislexia."
+[[program.lessons]]
+title = "5.-Especificidad de la gravedad."
 [[program]]
 description = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore deleniti magni, accusamus eos officia corrupti rerum aliquid nihil non, deserunt quidem sequi."
 label = "Parte 2"
