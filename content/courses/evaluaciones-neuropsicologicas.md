@@ -36,11 +36,11 @@ title = "5.-Especificidad de la gravedad."
 [[program.lessons]]
 title = "6.-Signos de alarma."
 [[program]]
-description = "1.-¿Qué es la dislexia?"
-label = "Módulo 1"
-title = "Concepto y los diferentes tipos de Dislexia."
+description = "Desarrollo anatómico de la Dislexia."
+label = "Módulo 2"
+title = "Partes anatómicas que intervienen en la Dislexia."
 [[program.lessons]]
-title = "1.-¿Qué es la dislexia?"
+title = "1.-Partes cerebrales que intervienen en la Dislexia."
 [[program.lessons]]
 title = "2.-Criterios diagnóstico según el DSM-5."
 [[program.lessons]]
