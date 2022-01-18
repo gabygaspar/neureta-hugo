@@ -20,6 +20,22 @@ stripe_id = "SINIDENTIFICADOR"
 time = 8
 type = "hour"
 [[program]]
+description = "Introducción a la Dislexia."
+label = "  Módulo 1.- "
+title = "Concepto y los diferentes tipos de Dislexia."
+[[program.lessons]]
+title = "1.-¿Qué es la dislexia?"
+[[program.lessons]]
+title = "2.-Criterios diagnóstico según el DSM-5."
+[[program.lessons]]
+title = "3.-Dislexia, disortografía y discalculia."
+[[program.lessons]]
+title = "4.-Diferentes tipos de dislexia."
+[[program.lessons]]
+title = "5.-Especificidad de la gravedad."
+[[program.lessons]]
+title = "6.-Signos de alarma."
+[[program]]
 description = "1.-¿Qué es la dislexia?"
 label = "Módulo 1"
 title = "Concepto y los diferentes tipos de Dislexia."
