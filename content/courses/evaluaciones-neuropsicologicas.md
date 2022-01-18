@@ -65,6 +65,24 @@ title = "5.-Evaluación de la lectura"
 title = "6.-Habilidades metafonológicas"
 [[program.lessons]]
 title = "7.-Evaluación de la dislexia"
+[[program]]
+description = "Modificación cerebral específica."
+label = "Módulo 4"
+title = "Rehabilitación de la Dislexia."
+[[program.lessons]]
+title = "1.-¿Cuál es el procedimiento general de la intervención?"
+[[program.lessons]]
+title = "2.-Objetivos por edad."
+[[program.lessons]]
+title = "3.-Ejercicios de Atención y memoria."
+[[program.lessons]]
+title = "4.- Ejercicios perceptivos – motrices."
+[[program.lessons]]
+title = "5.-Ejercicios de Conciencia Fonológica."
+[[program.lessons]]
+title = "6.-Ejercicios de Lectura y escritura."
+[[program.lessons]]
+title = "7.-Libros de intervención."
 
 +++
 El siguiente taller de Dislexia, es un acercamiento a lo que es este trastorno del neurodesarrollo que en la actualidad padecen un gran porcentaje de nuestra población. Durante el recorrido de este camino podrás conocer el concepto de la dislexia basándonos en el DSM5 y otros investigadores que se han dedicado a este campo de la investigación. De igual manera, se conocerán los diferentes tipos de dislexia que hay y los aspectos que intervienen en su origen, evaluación e intervención educativa.
