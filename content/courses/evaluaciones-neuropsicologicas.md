@@ -45,6 +45,8 @@ title = "1.-Partes cerebrales que intervienen en la Dislexia."
 title = "2.-La Conciencia Fonológica y la dislexia."
 [[program.lessons]]
 title = "3.-Dislexia, disortografía y discalculia."
+[[program.lessons]]
+title = "3.-Adquisición de la lectura y la conciencia fonológica."
 [[program]]
 description = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore deleniti magni, accusamus eos officia corrupti rerum aliquid nihil non, deserunt quidem sequi."
 label = "Parte 2"
