@@ -9,7 +9,7 @@ duration_info = "8 Horas"
 modality_info = "Presencial"
 [[next_dates]]
 description = "Apertura 3 de Septiembre"
-is_online = true
+is_online = false
 location = "Uruapan Michoacán México."
 price = 1100
 start_date = "03/09/2022"
