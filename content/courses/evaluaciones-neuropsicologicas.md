@@ -72,7 +72,7 @@ title = "1.-¿Cuál es el procedimiento general de la intervención?"
 [[program.lessons]]
 title = "2.-Ejercicios de Conciencia Fonológica."
 [[program.lessons]]
-title = "6.-Ejercicios de Lectura y escritura."
+title = "3.-Ejercicios de Lectura y escritura."
 [[program.lessons]]
 title = "7.-Libros de intervención."
 [[whats_include]]
