@@ -70,13 +70,7 @@ title = "Módulo 4.-Rehabilitación de la Dislexia."
 [[program.lessons]]
 title = "1.-¿Cuál es el procedimiento general de la intervención?"
 [[program.lessons]]
-title = "2.-Objetivos por edad."
-[[program.lessons]]
-title = "3.-Ejercicios de Atención y memoria."
-[[program.lessons]]
-title = "4.- Ejercicios perceptivos – motrices."
-[[program.lessons]]
-title = "5.-Ejercicios de Conciencia Fonológica."
+title = "2.-Ejercicios de Conciencia Fonológica."
 [[program.lessons]]
 title = "6.-Ejercicios de Lectura y escritura."
 [[program.lessons]]
