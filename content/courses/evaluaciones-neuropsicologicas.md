@@ -58,7 +58,7 @@ title = "3.- Evaluación de dislexia PROLEXIA."
 [[program.lessons]]
 title = "4.-Evaluación de los procesos lectores PROLEC-R"
 [[program.lessons]]
-title = "7.-Evaluación de la escritura PROESC"
+title = "6.-Evaluación de la escritura PROESC"
 [[program]]
 description = "Modificación cerebral específica."
 label = "Módulo 4"
