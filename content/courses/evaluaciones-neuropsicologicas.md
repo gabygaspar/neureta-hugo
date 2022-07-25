@@ -56,7 +56,7 @@ title = "2.-Evaluaciones de Inteligencia"
 [[program.lessons]]
 title = "3.- Evaluación de dislexia PROLEXIA."
 [[program.lessons]]
-title = "4.-Evaluación de los procesos lectores PROLEC-R"
+title = "4.-Evaluación de los procesos lectores PROLEC-R "
 [[program.lessons]]
 title = "5.-Evaluación de los procesos de escritura PROESC"
 [[program]]
