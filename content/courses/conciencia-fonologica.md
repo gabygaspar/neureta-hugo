@@ -12,7 +12,7 @@ description = "Apertura 3 de Septiembre"
 is_online = true
 location = "Uruapan Michoacán México."
 price = 1100
-start_date = "09/03/2022"
+start_date = "03/09/2022"
 stripe_id = "bbbbbb"
 [next_dates.duration]
 time = 8
