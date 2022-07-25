@@ -74,7 +74,7 @@ title = "1.-¿Cuál es el procedimiento general de la intervención?"
 [[program.lessons]]
 title = "2.-Ejercicios de Conciencia Fonológica."
 [[program.lessons]]
-title = "4.- Adecuaciones Curriculares del Profesor."
+title = "4.- Adecuaciones Curriculares del Profesor"
 [[program.lessons]]
 title = "5.-Programa de Intervención implementado por Verónica Gabriela Gaspar Villegas."
 [[whats_include]]
