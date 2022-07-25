@@ -10,7 +10,7 @@ modality_info = "Presencial"
 [[next_dates]]
 description = ""
 is_online = false
-location = "Uruapan, Michoacán, México."
+location = "Uruapan, Michoacán, México"
 price = 1100
 start_date = "08/27/2022"
 stripe_id = "SINIDENTIFICADOR"
