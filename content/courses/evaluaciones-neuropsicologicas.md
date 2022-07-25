@@ -68,8 +68,6 @@ description = "Modificación cerebral específica."
 label = "Módulo 4"
 title = "Módulo 4.-Rehabilitación de la Dislexia."
 [[program.lessons]]
-title = "5.-Programa de Intervención empleado por Verónica Gabriela Gaspar Villegas."
-[[program.lessons]]
 title = "1.-¿Cuál es el procedimiento general de la intervención?"
 [[program.lessons]]
 title = "2.-Ejercicios de Conciencia Fonológica."
