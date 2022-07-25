@@ -54,7 +54,7 @@ title = "1.-Anamnesis"
 [[program.lessons]]
 title = "2.-Evaluaciones de Inteligencia"
 [[program.lessons]]
-title = "4.- Evaluación de la visopercepción"
+title = "4.- Evaluación de dislexia PROLEXIA."
 [[program.lessons]]
 title = "6.-Habilidades metafonológicas"
 [[program.lessons]]
