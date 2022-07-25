@@ -1,5 +1,5 @@
 +++
-description = "El trastorno específico del aprendizaje de la lectura es la Dislexia."
+description = "El trastorno específico del aprendizaje de la lectura es la dislexia."
 featured_image = "/uploads/concincia.jpeg"
 instructor = "instructors/mtra.veronica-gabriela-gaspar.md"
 title = "LA DISLEXIA. Origen, diagnóstico e intervención."
@@ -9,10 +9,10 @@ duration_info = "8 horas"
 modality_info = "Presencial"
 [[next_dates]]
 description = ""
-is_online = true
-location = "Uruapan, Michoacan"
+is_online = false
+location = "Uruapan, Michoacán, México."
 price = 1100
-start_date = "03/05/2022"
+start_date = "08/27/2022"
 stripe_id = "SINIDENTIFICADOR"
 [next_dates.duration]
 time = 8
@@ -91,12 +91,12 @@ title = "Coffe-Break durante la mañana."
 title = "Certificado al terminar."
 
 +++
-El siguiente taller de Dislexia, es un acercamiento a lo que es este trastorno del neurodesarrollo que en la actualidad padecen un gran porcentaje de nuestra población. Durante el recorrido de este camino podrás conocer el concepto de la dislexia basándonos en el DSM5 y otros investigadores que se han dedicado a este campo de la investigación. De igual manera, se conocerán los diferentes tipos de dislexia que hay y los aspectos que intervienen en su origen, evaluación e intervención educativa.
+El siguiente taller de Dislexia, es un acercamiento a lo que es este trastorno del neurodesarrollo que en la actualidad padecen un gran porcentaje de nuestra población. Durante el recorrido de este camino podrá conocer el concepto de la dislexia basándonos en el DSM5 y otros investigadores que se han dedicado a este campo de la investigación. De igual manera, se conocerán los diferentes tipos de dislexia que hay y los aspectos que intervienen en su origen, evaluación e intervención educativa.
 
-Este taller integra las diferentes partes anatómicas que durante la historia y hasta en la actualidad se han señalado como los responsables en este trastorno, podrán conocer, identificar y ubicar partes cerebrales primarias y secundarias que las señalan como causantes.
+Este taller integra las diferentes partes anatómicas que durante la historia y hasta en la actualidad se han señalado como los responsables en este trastorno, podrá conocer, identificar y ubicar partes cerebrales primarias y secundarias que las señalan como causantes.
 
-La evaluación de la dislexia es otro de los apartados donde podrán conocer el proceso que se debe seguir para saber si un niño es disléxico, así mismo, conocerán las evaluaciones que en la actualidad se emplean y su forma de ponerlas en práctica.
+La evaluación de la dislexia es otro de los apartados donde podrá conocer el proceso que se debe seguir para saber si un niño es disléxico, así mismo, conocerán las evaluaciones que en la actualidad se utilizan y su forma de ponerlas en la práctica.
 
-La intervención y rehabilitación será el último apartado que analizaremos, en él se dará a conocer el proceso de rehabilitación que se debe seguir y los diferentes ejercicios que se deberán poner en práctica para poder rehabilitar partes cerebrales que presenten una dificultad.
+La intervención y rehabilitación será el último apartado que analizaremos, en él se dará a conocer el proceso de rehabilitación que se debe seguir y los diferentes ejercicios que se deben poner en práctica para poder rehabilitar partes cerebrales que presenten una dificultad.
 
 Bienvenidos al taller de Dislexia, nos será muy grato contar con su asistencia.
