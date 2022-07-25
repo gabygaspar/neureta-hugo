@@ -56,7 +56,7 @@ title = "2.-Evaluaciones de Inteligencia"
 [[program.lessons]]
 title = "4.- Evaluación de dislexia PROLEXIA."
 [[program.lessons]]
-title = "6.-Habilidades metafonológicas"
+title = "6.-Evaluación PROLEC-R"
 [[program.lessons]]
 title = "7.-Evaluación de la dislexia"
 [[program]]
