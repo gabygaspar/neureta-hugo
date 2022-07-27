@@ -57,16 +57,16 @@
         {{- if eq .is_online true -}}
         <p class="leading-snug mb-6 text-white">
           <span class="block text-sm leading-5 font-semibold tracking-wider text-white text-opacity-50 uppercase">
-            Ubicación
+            Modalidad
           </span>
-          {{ .location }}
+          En línea
         </p>
         {{- else -}}
         <p class="leading-snug mb-6 text-white">
           <span class="block text-sm leading-5 font-semibold tracking-wider text-white text-opacity-50 uppercase">
-            Modalidad
+            Ubicación
           </span>
-          En línea
+          {{ .location }}
         </p>
         {{- end -}}
         <div class="grid grid-cols-2 gap-10 mb-6">
@@ -84,26 +84,9 @@
           </p>
         </div>
         <div class="flex flex-col lg:flex-row">
-          <a class="inline-flex items-center justify-center px-8 py-3 md:py-4 md:px-8 bg-white hover:shadow-md text-black hover:text-primary-700 rounded w-full mr-3 mb-2 lg:mb-0 transition delay-100 duration-200" href="/">
-            Comprar ahora
+          <a class="inline-flex items-center justify-center px-8 py-3 md:py-4 md:px-8 bg-white hover:shadow-md text-black hover:text-primary-700 rounded w-full mr-3 mb-2 lg:mb-0 transition delay-100 duration-200" href="https://wa.me/5214521127809">
+            Obtener información
           </a>
-          <button
-            class="inline-flex justify-center w-full lg:w-32 px-8 py-3 md:py-4 md:px-8 bg-white bg-opacity-20 border border-white text-white border-opacity-10 hover:bg-opacity-30 rounded hover:shadow-md transition delay-100 duration-300"
-            v-on:click.prevent='add({
-              "featured_image": "{{ $page.Params.featured_image }}",
-              "name": "{{ $page.Params.Title }}",
-              "type": "course",
-              "price": "{{ .stripe_id }}",
-              "quantity": 1,
-            })'
-            aria-label="Agregar al carrito">
-            <svg class="fill-current text-white w-6 h-6 mr-2 lg:mr-0" viewBox="0 0 20 20">
-              <g>
-                <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
-              </g>
-            </svg>
-            <span class="lg:hidden">Agregar al carrito</span>
-          </button>
         </div>
         {{- end -}}
       </div>
